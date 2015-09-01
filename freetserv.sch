@@ -8256,48 +8256,36 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="C7" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="SV2" library="con-lstb" deviceset="MA05-1" device=""/>
 <part name="DRIVER0B" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device=""/>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
 <part name="C1" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="C22" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="SL2" library="con-lstb" deviceset="MA05-1" device=""/>
 <part name="C23" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="C24" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
 <part name="C25" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="GND36" library="supply1" deviceset="GND" device=""/>
-<part name="GND37" library="supply1" deviceset="GND" device=""/>
-<part name="SV3" library="con-lstb" deviceset="MA05-1" device=""/>
 <part name="DRIVER0B1" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="C26" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="C27" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="SL3" library="con-lstb" deviceset="MA05-1" device=""/>
 <part name="C28" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="C29" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
 <part name="C30" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
-<part name="GND42" library="supply1" deviceset="GND" device=""/>
-<part name="GND43" library="supply1" deviceset="GND" device=""/>
-<part name="SV4" library="con-lstb" deviceset="MA05-1" device=""/>
 <part name="DRIVER0B2" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device=""/>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="C31" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="C32" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="SL4" library="con-lstb" deviceset="MA05-1" device=""/>
 <part name="C33" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="C34" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="C35" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
-<part name="GND48" library="supply1" deviceset="GND" device=""/>
-<part name="GND49" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8383,48 +8371,36 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="C7" gate="G$1" x="-53.34" y="228.6"/>
 <instance part="GND9" gate="1" x="114.3" y="88.9"/>
 <instance part="GND11" gate="1" x="187.96" y="96.52"/>
-<instance part="SV2" gate="G$1" x="231.14" y="68.58" rot="R180"/>
 <instance part="DRIVER0B" gate="A" x="269.24" y="71.12"/>
 <instance part="GND12" gate="1" x="248.92" y="48.26" rot="R270"/>
 <instance part="C1" gate="G$1" x="243.84" y="66.04" rot="R90"/>
 <instance part="C22" gate="G$1" x="243.84" y="58.42" rot="R90"/>
-<instance part="SL2" gate="G$1" x="304.8" y="76.2" rot="R180"/>
 <instance part="C23" gate="G$1" x="246.38" y="86.36" rot="R90"/>
 <instance part="C24" gate="G$1" x="246.38" y="50.8" rot="R90"/>
 <instance part="GND13" gate="1" x="241.3" y="50.8" rot="R270"/>
 <instance part="GND25" gate="1" x="241.3" y="86.36" rot="R270"/>
 <instance part="C25" gate="G$1" x="236.22" y="83.82" rot="R180"/>
 <instance part="GND27" gate="1" x="236.22" y="78.74"/>
-<instance part="GND36" gate="1" x="223.52" y="60.96"/>
-<instance part="GND37" gate="1" x="297.18" y="68.58"/>
-<instance part="SV3" gate="G$1" x="335.28" y="33.02" rot="R180"/>
 <instance part="DRIVER0B1" gate="A" x="373.38" y="35.56"/>
 <instance part="GND38" gate="1" x="353.06" y="12.7" rot="R270"/>
 <instance part="C26" gate="G$1" x="347.98" y="30.48" rot="R90"/>
 <instance part="C27" gate="G$1" x="347.98" y="22.86" rot="R90"/>
-<instance part="SL3" gate="G$1" x="408.94" y="40.64" rot="R180"/>
 <instance part="C28" gate="G$1" x="350.52" y="50.8" rot="R90"/>
 <instance part="C29" gate="G$1" x="350.52" y="15.24" rot="R90"/>
 <instance part="GND39" gate="1" x="345.44" y="15.24" rot="R270"/>
 <instance part="GND40" gate="1" x="345.44" y="50.8" rot="R270"/>
 <instance part="C30" gate="G$1" x="340.36" y="48.26" rot="R180"/>
 <instance part="GND41" gate="1" x="340.36" y="43.18"/>
-<instance part="GND42" gate="1" x="327.66" y="25.4"/>
-<instance part="GND43" gate="1" x="401.32" y="33.02"/>
-<instance part="SV4" gate="G$1" x="408.94" y="-17.78" rot="R180"/>
 <instance part="DRIVER0B2" gate="A" x="447.04" y="-15.24"/>
 <instance part="GND44" gate="1" x="426.72" y="-38.1" rot="R270"/>
 <instance part="C31" gate="G$1" x="421.64" y="-20.32" rot="R90"/>
 <instance part="C32" gate="G$1" x="421.64" y="-27.94" rot="R90"/>
-<instance part="SL4" gate="G$1" x="482.6" y="-10.16" rot="R180"/>
 <instance part="C33" gate="G$1" x="424.18" y="0" rot="R90"/>
 <instance part="C34" gate="G$1" x="424.18" y="-35.56" rot="R90"/>
 <instance part="GND45" gate="1" x="419.1" y="-35.56" rot="R270"/>
 <instance part="GND46" gate="1" x="419.1" y="0" rot="R270"/>
 <instance part="C35" gate="G$1" x="414.02" y="-2.54" rot="R180"/>
 <instance part="GND47" gate="1" x="414.02" y="-7.62"/>
-<instance part="GND48" gate="1" x="401.32" y="-25.4"/>
-<instance part="GND49" gate="1" x="474.98" y="-17.78"/>
 </instances>
 <busses>
 </busses>
@@ -8647,14 +8623,6 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SV2" gate="G$1" pin="5"/>
-<pinref part="GND36" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SL2" gate="G$1" pin="5"/>
-<pinref part="GND37" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="DRIVER0B1" gate="A" pin="GND"/>
 <pinref part="GND38" gate="1" pin="GND"/>
 </segment>
@@ -8671,14 +8639,6 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="GND41" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="SV3" gate="G$1" pin="5"/>
-<pinref part="GND42" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SL3" gate="G$1" pin="5"/>
-<pinref part="GND43" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="DRIVER0B2" gate="A" pin="GND"/>
 <pinref part="GND44" gate="1" pin="GND"/>
 </segment>
@@ -8693,14 +8653,6 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <segment>
 <pinref part="C35" gate="G$1" pin="1"/>
 <pinref part="GND47" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SV4" gate="G$1" pin="5"/>
-<pinref part="GND48" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SL4" gate="G$1" pin="5"/>
-<pinref part="GND49" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -9203,10 +9155,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <net name="N$23" class="0">
 <segment>
 <pinref part="DRIVER0B" gate="A" pin="DIN1"/>
-<wire x1="251.46" y1="73.66" x2="223.52" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="SV2" gate="G$1" pin="1"/>
-<junction x="223.52" y="73.66"/>
-<wire x1="223.52" y1="73.66" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="73.66" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="73.66" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="127" y1="68.58" x2="127" y2="73.66" width="0.1524" layer="91"/>
@@ -9221,22 +9170,12 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <wire x1="289.56" y1="88.9" x2="289.56" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="101.6" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="101.6" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="SV2" gate="G$1" pin="2"/>
-<wire x1="223.52" y1="71.12" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
-<junction x="218.44" y="71.12"/>
 <wire x1="218.44" y1="71.12" x2="177.8" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="71.12" x2="177.8" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="177.8" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="66.04" x2="124.46" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="SERIAL0" gate="B" pin="DB1/RXD"/>
 <wire x1="124.46" y1="71.12" x2="99.06" y2="71.12" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$25" class="0">
-<segment>
-<pinref part="DRIVER0B" gate="A" pin="DOUT1"/>
-<pinref part="SL2" gate="G$1" pin="1"/>
-<wire x1="287.02" y1="81.28" x2="297.18" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$26" class="0">
@@ -9251,26 +9190,12 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="C24" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$41" class="0">
-<segment>
-<pinref part="DRIVER0B" gate="A" pin="RIN1"/>
-<wire x1="251.46" y1="81.28" x2="238.76" y2="81.28" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="81.28" x2="238.76" y2="96.52" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="96.52" x2="294.64" y2="96.52" width="0.1524" layer="91"/>
-<pinref part="SL2" gate="G$1" pin="2"/>
-<wire x1="297.18" y1="78.74" x2="294.64" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="294.64" y1="78.74" x2="294.64" y2="96.52" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$47" class="0">
 <segment>
-<pinref part="SV2" gate="G$1" pin="3"/>
-<wire x1="223.52" y1="68.58" x2="236.22" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="68.58" x2="236.22" y2="71.12" width="0.1524" layer="91"/>
 <pinref part="DRIVER0B" gate="A" pin="DIN2"/>
 <wire x1="236.22" y1="71.12" x2="251.46" y2="71.12" width="0.1524" layer="91"/>
-<junction x="223.52" y="68.58"/>
-<wire x1="223.52" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="236.22" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="68.58" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="63.5" x2="121.92" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="63.5" x2="121.92" y2="68.58" width="0.1524" layer="91"/>
@@ -9280,46 +9205,17 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$48" class="0">
 <segment>
-<pinref part="SV2" gate="G$1" pin="4"/>
 <pinref part="DRIVER0B" gate="A" pin="ROUT2"/>
-<wire x1="215.9" y1="66.04" x2="223.52" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="287.02" y1="86.36" x2="292.1" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="86.36" x2="292.1" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="104.14" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
-<junction x="215.9" y="66.04"/>
 <wire x1="215.9" y1="66.04" x2="182.88" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="66.04" x2="182.88" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="60.96" x2="116.84" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="60.96" x2="116.84" y2="66.04" width="0.1524" layer="91"/>
 <pinref part="SERIAL0" gate="B" pin="DB3/CTS"/>
 <wire x1="116.84" y1="66.04" x2="99.06" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$49" class="0">
-<segment>
-<pinref part="DRIVER0B" gate="A" pin="DOUT2"/>
-<wire x1="287.02" y1="78.74" x2="292.1" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="292.1" y1="78.74" x2="292.1" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="SL2" gate="G$1" pin="3"/>
-<wire x1="292.1" y1="76.2" x2="297.18" y2="76.2" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$50" class="0">
-<segment>
-<pinref part="DRIVER0B" gate="A" pin="RIN2"/>
-<wire x1="251.46" y1="78.74" x2="238.76" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="78.74" x2="238.76" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="238.76" y1="76.2" x2="233.68" y2="76.2" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="76.2" x2="233.68" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="233.68" y1="78.74" x2="226.06" y2="78.74" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="78.74" x2="226.06" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="226.06" y1="99.06" x2="312.42" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="99.06" x2="312.42" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="312.42" y1="60.96" x2="287.02" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="287.02" y1="60.96" x2="287.02" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="SL2" gate="G$1" pin="4"/>
-<wire x1="287.02" y1="73.66" x2="297.18" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$51" class="0">
@@ -9355,10 +9251,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <net name="N$55" class="0">
 <segment>
 <pinref part="DRIVER0B1" gate="A" pin="DIN1"/>
-<wire x1="355.6" y1="38.1" x2="327.66" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="SV3" gate="G$1" pin="1"/>
-<junction x="327.66" y="38.1"/>
-<wire x1="327.66" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="355.6" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="38.1" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SERIAL0" gate="C" pin="DB0/TXD"/>
 <wire x1="119.38" y1="45.72" x2="99.06" y2="45.72" width="0.1524" layer="91"/>
@@ -9371,22 +9264,10 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <wire x1="393.7" y1="53.34" x2="393.7" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="66.04" x2="322.58" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="66.04" x2="322.58" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="SV3" gate="G$1" pin="2"/>
-<wire x1="327.66" y1="35.56" x2="322.58" y2="35.56" width="0.1524" layer="91"/>
-<junction x="322.58" y="35.56"/>
-<wire x1="322.58" y1="35.56" x2="284.48" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="SERIAL0" gate="C" pin="DB1/RXD"/>
-<wire x1="284.48" y1="35.56" x2="281.94" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="43.18" x2="116.84" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="43.18" x2="116.84" y2="35.56" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="35.56" x2="281.94" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$57" class="0">
-<segment>
-<pinref part="DRIVER0B1" gate="A" pin="DOUT1"/>
-<pinref part="SL3" gate="G$1" pin="1"/>
-<wire x1="391.16" y1="45.72" x2="401.32" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="116.84" y1="35.56" x2="322.58" y2="35.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$58" class="0">
@@ -9401,75 +9282,28 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="C29" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$60" class="0">
-<segment>
-<pinref part="DRIVER0B1" gate="A" pin="RIN1"/>
-<wire x1="355.6" y1="45.72" x2="342.9" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="45.72" x2="342.9" y2="60.96" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="60.96" x2="398.78" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="SL3" gate="G$1" pin="2"/>
-<wire x1="401.32" y1="43.18" x2="398.78" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="398.78" y1="43.18" x2="398.78" y2="60.96" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$61" class="0">
 <segment>
-<pinref part="SV3" gate="G$1" pin="3"/>
-<wire x1="327.66" y1="33.02" x2="340.36" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="340.36" y1="33.02" x2="340.36" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="DRIVER0B1" gate="A" pin="DIN2"/>
 <wire x1="340.36" y1="35.56" x2="355.6" y2="35.56" width="0.1524" layer="91"/>
-<junction x="327.66" y="33.02"/>
-<wire x1="327.66" y1="33.02" x2="289.56" y2="33.02" width="0.1524" layer="91"/>
 <pinref part="SERIAL0" gate="C" pin="DB2/RTS"/>
-<wire x1="289.56" y1="33.02" x2="284.48" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="40.64" x2="114.3" y2="40.64" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="40.64" x2="114.3" y2="33.02" width="0.1524" layer="91"/>
-<wire x1="114.3" y1="33.02" x2="284.48" y2="33.02" width="0.1524" layer="91"/>
+<wire x1="114.3" y1="33.02" x2="340.36" y2="33.02" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$62" class="0">
 <segment>
-<pinref part="SV3" gate="G$1" pin="4"/>
 <pinref part="DRIVER0B1" gate="A" pin="ROUT2"/>
-<wire x1="320.04" y1="30.48" x2="327.66" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="50.8" x2="396.24" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="50.8" x2="396.24" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="68.58" x2="320.04" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="68.58" x2="320.04" y2="30.48" width="0.1524" layer="91"/>
-<junction x="320.04" y="30.48"/>
-<wire x1="320.04" y1="30.48" x2="297.18" y2="30.48" width="0.1524" layer="91"/>
 <pinref part="SERIAL0" gate="C" pin="DB3/CTS"/>
-<wire x1="297.18" y1="30.48" x2="287.02" y2="30.48" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="38.1" x2="111.76" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="38.1" x2="111.76" y2="30.48" width="0.1524" layer="91"/>
-<wire x1="111.76" y1="30.48" x2="287.02" y2="30.48" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$63" class="0">
-<segment>
-<pinref part="DRIVER0B1" gate="A" pin="DOUT2"/>
-<wire x1="391.16" y1="43.18" x2="396.24" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="43.18" x2="396.24" y2="40.64" width="0.1524" layer="91"/>
-<pinref part="SL3" gate="G$1" pin="3"/>
-<wire x1="396.24" y1="40.64" x2="401.32" y2="40.64" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$64" class="0">
-<segment>
-<pinref part="DRIVER0B1" gate="A" pin="RIN2"/>
-<wire x1="355.6" y1="43.18" x2="342.9" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="43.18" x2="342.9" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="342.9" y1="40.64" x2="337.82" y2="40.64" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="40.64" x2="337.82" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="337.82" y1="43.18" x2="330.2" y2="43.18" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="43.18" x2="330.2" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="330.2" y1="63.5" x2="416.56" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="63.5" x2="416.56" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="25.4" x2="391.16" y2="25.4" width="0.1524" layer="91"/>
-<wire x1="391.16" y1="25.4" x2="391.16" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="SL3" gate="G$1" pin="4"/>
-<wire x1="391.16" y1="38.1" x2="401.32" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="111.76" y1="30.48" x2="320.04" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$65" class="0">
@@ -9505,10 +9339,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <net name="N$69" class="0">
 <segment>
 <pinref part="DRIVER0B2" gate="A" pin="DIN1"/>
-<wire x1="429.26" y1="-12.7" x2="401.32" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="SV4" gate="G$1" pin="1"/>
-<junction x="401.32" y="-12.7"/>
-<wire x1="401.32" y1="-12.7" x2="127" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="429.26" y1="-12.7" x2="127" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="127" y1="-12.7" x2="127" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="127" y1="17.78" x2="96.52" y2="17.78" width="0.1524" layer="91"/>
 </segment>
@@ -9520,22 +9351,10 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <wire x1="467.36" y1="2.54" x2="467.36" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="467.36" y1="15.24" x2="396.24" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="15.24" x2="396.24" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="SV4" gate="G$1" pin="2"/>
-<wire x1="401.32" y1="-15.24" x2="396.24" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="396.24" y="-15.24"/>
-<wire x1="396.24" y1="-15.24" x2="358.14" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="SERIAL0" gate="D" pin="DB1/RXD"/>
-<wire x1="358.14" y1="-15.24" x2="355.6" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="15.24" x2="124.46" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="124.46" y1="15.24" x2="124.46" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="-15.24" x2="355.6" y2="-15.24" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$71" class="0">
-<segment>
-<pinref part="DRIVER0B2" gate="A" pin="DOUT1"/>
-<pinref part="SL4" gate="G$1" pin="1"/>
-<wire x1="464.82" y1="-5.08" x2="474.98" y2="-5.08" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="-15.24" x2="396.24" y2="-15.24" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$72" class="0">
@@ -9550,26 +9369,12 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="C34" gate="G$1" pin="2"/>
 </segment>
 </net>
-<net name="N$74" class="0">
-<segment>
-<pinref part="DRIVER0B2" gate="A" pin="RIN1"/>
-<wire x1="429.26" y1="-5.08" x2="416.56" y2="-5.08" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="-5.08" x2="416.56" y2="10.16" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="10.16" x2="472.44" y2="10.16" width="0.1524" layer="91"/>
-<pinref part="SL4" gate="G$1" pin="2"/>
-<wire x1="474.98" y1="-7.62" x2="472.44" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="472.44" y1="-7.62" x2="472.44" y2="10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
 <net name="N$75" class="0">
 <segment>
-<pinref part="SV4" gate="G$1" pin="3"/>
-<wire x1="401.32" y1="-17.78" x2="414.02" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="-17.78" x2="414.02" y2="-15.24" width="0.1524" layer="91"/>
 <pinref part="DRIVER0B2" gate="A" pin="DIN2"/>
 <wire x1="414.02" y1="-15.24" x2="429.26" y2="-15.24" width="0.1524" layer="91"/>
-<junction x="401.32" y="-17.78"/>
-<wire x1="401.32" y1="-17.78" x2="121.92" y2="-17.78" width="0.1524" layer="91"/>
+<wire x1="414.02" y1="-17.78" x2="121.92" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-17.78" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
 <pinref part="SERIAL0" gate="D" pin="DB2/RTS"/>
 <wire x1="121.92" y1="12.7" x2="99.06" y2="12.7" width="0.1524" layer="91"/>
@@ -9577,46 +9382,15 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$76" class="0">
 <segment>
-<pinref part="SV4" gate="G$1" pin="4"/>
 <pinref part="DRIVER0B2" gate="A" pin="ROUT2"/>
-<wire x1="393.7" y1="-20.32" x2="401.32" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="464.82" y1="0" x2="469.9" y2="0" width="0.1524" layer="91"/>
 <wire x1="469.9" y1="0" x2="469.9" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="469.9" y1="17.78" x2="393.7" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="17.78" x2="393.7" y2="-20.32" width="0.1524" layer="91"/>
-<junction x="393.7" y="-20.32"/>
-<wire x1="393.7" y1="-20.32" x2="368.3" y2="-20.32" width="0.1524" layer="91"/>
 <pinref part="SERIAL0" gate="D" pin="DB3/CTS"/>
-<wire x1="368.3" y1="-20.32" x2="360.68" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="10.16" x2="119.38" y2="10.16" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="10.16" x2="119.38" y2="-20.32" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="-20.32" x2="360.68" y2="-20.32" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$77" class="0">
-<segment>
-<pinref part="DRIVER0B2" gate="A" pin="DOUT2"/>
-<wire x1="464.82" y1="-7.62" x2="469.9" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="469.9" y1="-7.62" x2="469.9" y2="-10.16" width="0.1524" layer="91"/>
-<pinref part="SL4" gate="G$1" pin="3"/>
-<wire x1="469.9" y1="-10.16" x2="474.98" y2="-10.16" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$78" class="0">
-<segment>
-<pinref part="DRIVER0B2" gate="A" pin="RIN2"/>
-<wire x1="429.26" y1="-7.62" x2="416.56" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="-7.62" x2="416.56" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="416.56" y1="-10.16" x2="411.48" y2="-10.16" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="-10.16" x2="411.48" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="411.48" y1="-7.62" x2="403.86" y2="-7.62" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="-7.62" x2="403.86" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="403.86" y1="12.7" x2="490.22" y2="12.7" width="0.1524" layer="91"/>
-<wire x1="490.22" y1="12.7" x2="490.22" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="490.22" y1="-25.4" x2="464.82" y2="-25.4" width="0.1524" layer="91"/>
-<wire x1="464.82" y1="-25.4" x2="464.82" y2="-12.7" width="0.1524" layer="91"/>
-<pinref part="SL4" gate="G$1" pin="4"/>
-<wire x1="464.82" y1="-12.7" x2="474.98" y2="-12.7" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="-20.32" x2="393.7" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

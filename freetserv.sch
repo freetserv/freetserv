@@ -8173,6 +8173,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="USB_IN" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
+<part name="C36" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="GND42" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8290,6 +8292,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="GND36" gate="1" x="-2.54" y="175.26" rot="R270"/>
 <instance part="USB_IN" gate="G$1" x="108.458" y="194.31" rot="MR0"/>
 <instance part="GND37" gate="1" x="104.14" y="190.5" rot="R270"/>
+<instance part="C36" gate="G$1" x="-2.54" y="228.6"/>
+<instance part="GND42" gate="1" x="-2.54" y="233.68" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -8553,6 +8557,10 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <wire x1="108.458" y1="190.5" x2="109.22" y2="190.5" width="0.1524" layer="91"/>
 <junction x="108.458" y="190.5"/>
 </segment>
+<segment>
+<pinref part="C36" gate="G$1" pin="1"/>
+<pinref part="GND42" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="USB0_DM_P" class="0">
 <segment>
@@ -8811,9 +8819,10 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="HUB0" gate="A" pin="VCC_2"/>
 <wire x1="0" y1="223.52" x2="0" y2="220.98" width="0.1524" layer="91"/>
 <junction x="0" y="223.52"/>
-<wire x1="-7.62" y1="223.52" x2="0" y2="223.52" width="0.1524" layer="91"/>
+<wire x1="-7.62" y1="223.52" x2="-2.54" y2="223.52" width="0.1524" layer="91"/>
 <junction x="-7.62" y="223.52"/>
 <pinref part="HUB0" gate="A" pin="~EXTMEM"/>
+<wire x1="-2.54" y1="223.52" x2="0" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="0" y1="193.04" x2="-7.62" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="193.04" x2="-7.62" y2="223.52" width="0.1524" layer="91"/>
 <wire x1="-25.4" y1="223.52" x2="-7.62" y2="223.52" width="0.1524" layer="91"/>
@@ -8845,6 +8854,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="HUB0" gate="A" pin="~OVRCUR3"/>
 <junction x="0" y="205.74"/>
 <wire x1="0" y1="205.74" x2="0" y2="203.2" width="0.1524" layer="91"/>
+<pinref part="C36" gate="G$1" pin="2"/>
+<junction x="-2.54" y="223.52"/>
 </segment>
 <segment>
 <pinref part="SERIAL0" gate="CORE" pin="VREGIN"/>

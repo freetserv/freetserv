@@ -2667,15 +2667,14 @@ Covered vias can be set in Masks (Limit).
 <contactref element="HUB0" pad="27"/>
 <contactref element="HUB0" pad="7"/>
 <contactref element="HUB0" pad="28"/>
-<via x="57.15" y="73.914" extent="1-16" drill="0.3"/>
-<wire x1="54.225" y1="74.605" x2="57.15" y2="74.605" width="0.254" layer="1"/>
-<wire x1="57.15" y1="74.605" x2="57.15" y2="73.914" width="0.254" layer="1"/>
+<via x="57.15" y="74.676" extent="1-16" drill="0.3"/>
+<wire x1="57.15" y1="74.605" x2="57.15" y2="74.676" width="0.254" layer="1"/>
 <wire x1="54.225" y1="75.905" x2="57.15" y2="75.905" width="0.254" layer="1"/>
-<wire x1="57.15" y1="75.905" x2="57.15" y2="73.914" width="0.254" layer="1"/>
+<wire x1="57.15" y1="75.905" x2="57.15" y2="75.255" width="0.254" layer="1"/>
 <wire x1="60.075" y1="73.955" x2="57.15" y2="73.955" width="0.254" layer="1"/>
-<wire x1="57.15" y1="73.955" x2="57.15" y2="73.914" width="0.254" layer="1"/>
+<wire x1="57.15" y1="73.955" x2="57.15" y2="74.676" width="0.254" layer="1"/>
 <wire x1="60.075" y1="75.255" x2="57.15" y2="75.255" width="0.254" layer="1"/>
-<wire x1="57.15" y1="75.255" x2="57.15" y2="73.914" width="0.254" layer="1"/>
+<wire x1="57.15" y1="75.255" x2="57.15" y2="74.676" width="0.254" layer="1"/>
 <via x="50.8" y="76.2" extent="1-16" drill="0.3"/>
 <wire x1="50.8" y1="76.2" x2="50.77" y2="76.2" width="0.254" layer="1"/>
 <wire x1="50.77" y1="76.2" x2="50.77" y2="78.15" width="0.254" layer="1"/>
@@ -2697,16 +2696,20 @@ Covered vias can be set in Masks (Limit).
 <wire x1="77.724" y1="75.6666" x2="77.724" y2="72.898" width="0.254" layer="1"/>
 <via x="81.28" y="79.756" extent="1-16" drill="0.3"/>
 <wire x1="81.28" y1="79.756" x2="81.28" y2="78.166" width="0.254" layer="1"/>
-<via x="62.23" y="76.2" extent="1-16" drill="0.3"/>
+<via x="61.468" y="76.708" extent="1-16" drill="0.3"/>
 <contactref element="USB_IN" pad="GND"/>
-<wire x1="62.23" y1="76.2" x2="62.2" y2="76.2" width="0.15" layer="1"/>
-<wire x1="62.2" y1="76.2" x2="62.2" y2="78.15" width="0.15" layer="1"/>
+<wire x1="61.468" y1="76.708" x2="62.2" y2="76.708" width="0.15" layer="1"/>
+<wire x1="62.2" y1="76.708" x2="62.2" y2="78.15" width="0.15" layer="1"/>
 <via x="82.296" y="69.85" extent="1-16" drill="0.3"/>
-<wire x1="9.906" y1="34.29" x2="9.459" y2="38.1" width="0" layer="19" extent="1-1"/>
-<wire x1="5.05" y1="78.15" x2="16.48" y2="78.15" width="0" layer="19" extent="1-1"/>
 <wire x1="82.296" y1="69.85" x2="83.82" y2="69.85" width="0.254" layer="1"/>
 <wire x1="83.82" y1="69.85" x2="83.82" y2="70.17" width="0.254" layer="1"/>
+<via x="52.832" y="74.676" extent="1-16" drill="0.3"/>
+<wire x1="54.225" y1="74.605" x2="52.832" y2="74.605" width="0.254" layer="1"/>
+<wire x1="52.832" y1="74.605" x2="52.832" y2="74.676" width="0.254" layer="1"/>
+<wire x1="16.48" y1="78.15" x2="5.05" y2="78.15" width="0" layer="19" extent="1-1"/>
+<wire x1="54.225" y1="75.905" x2="54.225" y2="74.605" width="0" layer="19" extent="1-1"/>
 <wire x1="33.8" y1="76.495" x2="33.8" y2="78.445" width="0" layer="19" extent="1-1"/>
+<wire x1="9.906" y1="34.29" x2="9.459" y2="38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="USB0_DM_P">
 <contactref element="USB_RASPI_DATA" pad="D+"/>
@@ -3494,13 +3497,24 @@ Covered vias can be set in Masks (Limit).
 <contactref element="HUB0" pad="12"/>
 <contactref element="USB_IN" pad="D+"/>
 <wire x1="70.7136" y1="74.0664" x2="63.5" y2="74.0664" width="0.254" layer="1"/>
-<wire x1="63.5" y1="74.0664" x2="63.5" y2="78.15" width="0.254" layer="1"/>
+<wire x1="63.5" y1="74.605" x2="63.5" y2="78.15" width="0.254" layer="1"/>
+<contactref element="IC2" pad="6"/>
+<wire x1="60.075" y1="74.605" x2="63.5" y2="74.605" width="0.254" layer="1"/>
+<wire x1="63.5" y1="74.605" x2="63.5" y2="74.0664" width="0.254" layer="1"/>
 </signal>
 <signal name="N$2">
 <contactref element="HUB0" pad="11"/>
 <contactref element="USB_IN" pad="D-"/>
-<wire x1="70.7136" y1="74.8538" x2="64.14" y2="74.8538" width="0.254" layer="1"/>
+<wire x1="70.7136" y1="74.8538" x2="65.278" y2="74.8538" width="0.254" layer="1"/>
+<wire x1="65.278" y1="74.8538" x2="64.14" y2="74.8538" width="0.254" layer="1"/>
 <wire x1="64.14" y1="74.8538" x2="64.14" y2="78.15" width="0.254" layer="1"/>
+<contactref element="IC2" pad="8"/>
+<wire x1="60.075" y1="75.905" x2="61.214" y2="75.905" width="0.254" layer="1"/>
+<wire x1="61.214" y1="75.905" x2="61.214" y2="75.946" width="0.254" layer="1"/>
+<via x="61.214" y="75.946" extent="1-16" drill="0.3"/>
+<wire x1="61.214" y1="75.946" x2="65.278" y2="75.946" width="0.254" layer="16"/>
+<via x="65.278" y="75.946" extent="1-16" drill="0.3"/>
+<wire x1="65.278" y1="75.946" x2="65.278" y2="74.8538" width="0.254" layer="1"/>
 </signal>
 </signals>
 <errors>

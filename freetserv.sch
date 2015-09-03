@@ -8558,8 +8558,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <segment>
 <pinref part="USB_RASPI_DATA" gate="G$1" pin="D+"/>
 <pinref part="HUB0" gate="A" pin="DP0"/>
-<wire x1="50.8" y1="200.66" x2="88.9" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="200.66" x2="88.9" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="200.66" x2="78.74" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="78.74" y1="200.66" x2="88.9" y2="248.92" width="0.1524" layer="91"/>
 <label x="68.58" y="200.66" size="1.778" layer="95"/>
 <pinref part="IC2" gate="G$1" pin="D"/>
 <wire x1="88.9" y1="248.92" x2="88.9" y2="258.318" width="0.1524" layer="91"/>
@@ -9293,9 +9293,14 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <wire x1="108.458" y1="195.58" x2="96.52" y2="195.58" width="0.1524" layer="91"/>
 <wire x1="96.52" y1="195.58" x2="96.52" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="HUB0" gate="A" pin="DP1"/>
-<wire x1="96.52" y1="198.12" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="96.52" y1="198.12" x2="88.9" y2="198.12" width="0.1524" layer="91"/>
 <pinref part="USB_IN" gate="G$1" pin="D+"/>
 <junction x="108.458" y="195.58"/>
+<pinref part="IC2" gate="G$1" pin="B"/>
+<wire x1="88.9" y1="198.12" x2="50.8" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="243.84" x2="88.9" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="243.84" x2="88.9" y2="198.12" width="0.1524" layer="91"/>
+<junction x="88.9" y="198.12"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9307,6 +9312,11 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <wire x1="101.6" y1="182.88" x2="50.8" y2="182.88" width="0.1524" layer="91"/>
 <pinref part="USB_IN" gate="G$1" pin="D-"/>
 <junction x="108.458" y="198.12"/>
+<wire x1="101.6" y1="198.12" x2="101.6" y2="236.22" width="0.1524" layer="91"/>
+<pinref part="IC2" gate="G$1" pin="A"/>
+<wire x1="91.44" y1="241.3" x2="91.44" y2="236.22" width="0.1524" layer="91"/>
+<wire x1="91.44" y1="236.22" x2="101.6" y2="236.22" width="0.1524" layer="91"/>
+<junction x="101.6" y="198.12"/>
 </segment>
 </net>
 </nets>

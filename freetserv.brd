@@ -2720,6 +2720,18 @@ design rules under a new name.</description>
 <via x="9.398" y="35.052" extent="1-16" drill="0.3048"/>
 <wire x1="9.398" y1="35.052" x2="9.398" y2="34.29" width="0.254" layer="1"/>
 <wire x1="9.398" y1="34.29" x2="10.988" y2="34.29" width="0.254" layer="1"/>
+<polygon width="0.254" layer="1">
+<vertex x="80.518" y="81.28"/>
+<vertex x="90.17" y="81.28"/>
+<vertex x="90.17" y="66.04"/>
+<vertex x="80.518" y="66.04"/>
+</polygon>
+<polygon width="0.254" layer="1">
+<vertex x="19.558" y="65.786"/>
+<vertex x="29.21" y="65.786"/>
+<vertex x="29.21" y="50.8"/>
+<vertex x="19.558" y="50.8"/>
+</polygon>
 </signal>
 <signal name="USB0_DM_P">
 <contactref element="USB_RASPI_DATA" pad="D+"/>

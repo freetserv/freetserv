@@ -8062,7 +8062,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <class number="1" name="USB" width="0.2" drill="0">
 <clearance class="1" value="0.2"/>
 </class>
-<class number="2" name="power" width="1.143" drill="0">
+<class number="2" name="power" width="0.4064" drill="0">
 </class>
 </classes>
 <parts>
@@ -8175,6 +8175,9 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="C36" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
+<part name="GND43" library="supply1" deviceset="GND" device=""/>
+<part name="GND48" library="supply1" deviceset="GND" device=""/>
+<part name="GND49" library="supply1" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8294,6 +8297,9 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="GND37" gate="1" x="104.14" y="190.5" rot="R270"/>
 <instance part="C36" gate="G$1" x="-2.54" y="228.6"/>
 <instance part="GND42" gate="1" x="-2.54" y="233.68" rot="R180"/>
+<instance part="GND43" gate="1" x="119.38" y="248.92" rot="R90"/>
+<instance part="GND48" gate="1" x="119.38" y="246.38" rot="R90"/>
+<instance part="GND49" gate="1" x="119.38" y="243.84" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8313,15 +8319,6 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <segment>
 <pinref part="IC2" gate="G$1" pin="GND@1"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<pinref part="IC2" gate="G$1" pin="GND@4"/>
-<wire x1="116.84" y1="248.92" x2="116.84" y2="246.38" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GND@2"/>
-<junction x="116.84" y="243.84"/>
-<wire x1="116.84" y1="246.38" x2="116.84" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="116.84" y1="243.84" x2="116.84" y2="241.3" width="0.1524" layer="91"/>
-<pinref part="IC2" gate="G$1" pin="GND@3"/>
-<junction x="116.84" y="246.38"/>
-<junction x="116.84" y="241.3"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
@@ -8560,6 +8557,18 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <segment>
 <pinref part="C36" gate="G$1" pin="1"/>
 <pinref part="GND42" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="GND@4"/>
+<pinref part="GND43" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="GND@3"/>
+<pinref part="GND48" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="GND@2"/>
+<pinref part="GND49" gate="1" pin="GND"/>
 </segment>
 </net>
 <net name="USB0_DM_P" class="0">

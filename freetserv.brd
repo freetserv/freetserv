@@ -3510,23 +3510,6 @@ design rules under a new name.</description>
 <wire x1="4.572" y1="40.9448" x2="4.572" y2="38.1" width="0.254" layer="1"/>
 <wire x1="4.572" y1="38.1" x2="2.159" y2="38.1" width="0.254" layer="1"/>
 </signal>
-<signal name="N$37">
-<polygon width="0.254" layer="1">
-<vertex x="31.75" y="19.05"/>
-<vertex x="31.75" y="62.23"/>
-<vertex x="45.72" y="62.23"/>
-<vertex x="45.72" y="17.78"/>
-<vertex x="31.75" y="17.78"/>
-</polygon>
-</signal>
-<signal name="N$41">
-<polygon width="0.254" layer="1">
-<vertex x="3.81" y="50.8"/>
-<vertex x="3.81" y="60.96"/>
-<vertex x="0" y="60.96"/>
-<vertex x="0" y="50.8"/>
-</polygon>
-</signal>
 <signal name="N$1">
 <contactref element="HUB0" pad="12"/>
 <contactref element="USB_IN" pad="D+"/>

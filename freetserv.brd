@@ -2768,13 +2768,13 @@ design rules under a new name.</description>
 <signal name="USB0_D2_N" class="1">
 <contactref element="HUB0" pad="15"/>
 <contactref element="SERIAL0" pad="7"/>
-<wire x1="46.99" y1="67.818" x2="14.224" y2="67.818" width="0.2" layer="16"/>
-<wire x1="14.224" y1="67.818" x2="14.224" y2="58.42" width="0.2" layer="16"/>
+<wire x1="46.99" y1="66.294" x2="14.224" y2="66.294" width="0.2" layer="16"/>
+<wire x1="14.224" y1="66.294" x2="14.224" y2="58.42" width="0.2" layer="16"/>
 <via x="14.224" y="58.42" extent="1-16" drill="0.3048"/>
 <wire x1="13.462" y1="60.21" x2="13.45" y2="60.21" width="0.2" layer="1"/>
 <wire x1="14.224" y1="58.42" x2="13.45" y2="58.42" width="0.254" layer="1"/>
 <wire x1="13.45" y1="58.42" x2="13.45" y2="60.21" width="0.254" layer="1"/>
-<wire x1="46.99" y1="67.818" x2="46.99" y2="69.85" width="0.2" layer="16"/>
+<wire x1="46.99" y1="66.294" x2="46.99" y2="69.85" width="0.2" layer="16"/>
 <wire x1="46.99" y1="69.85" x2="67.31" y2="69.85" width="0.2" layer="16"/>
 <via x="67.31" y="69.85" extent="1-16" drill="0.3048"/>
 <wire x1="67.31" y1="69.85" x2="67.31" y2="71.6534" width="0.2" layer="1"/>
@@ -2783,12 +2783,12 @@ design rules under a new name.</description>
 <signal name="USB0_D2_P" class="1">
 <contactref element="HUB0" pad="16"/>
 <contactref element="SERIAL0" pad="8"/>
-<wire x1="45.72" y1="68.58" x2="12.192" y2="68.58" width="0.2" layer="16"/>
-<wire x1="12.192" y1="68.58" x2="12.192" y2="58.42" width="0.2" layer="16"/>
+<wire x1="45.72" y1="67.056" x2="12.192" y2="67.056" width="0.2" layer="16"/>
+<wire x1="12.192" y1="67.056" x2="12.192" y2="58.42" width="0.2" layer="16"/>
 <via x="12.192" y="58.42" extent="1-16" drill="0.3048"/>
 <wire x1="12.192" y1="58.42" x2="12.95" y2="58.42" width="0.254" layer="1"/>
 <wire x1="12.95" y1="58.42" x2="12.95" y2="60.21" width="0.254" layer="1"/>
-<wire x1="45.72" y1="68.58" x2="45.72" y2="71.32" width="0.2" layer="16"/>
+<wire x1="45.72" y1="67.056" x2="45.72" y2="71.32" width="0.2" layer="16"/>
 <wire x1="45.72" y1="71.32" x2="68.58" y2="71.32" width="0.2" layer="16"/>
 <via x="70.612" y="70.104" extent="1-16" drill="0.3048"/>
 <wire x1="70.612" y1="70.104" x2="70.612" y2="70.866" width="0.2" layer="1"/>

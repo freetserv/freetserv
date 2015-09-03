@@ -99,6 +99,10 @@
 <wire x1="91.44" y1="0" x2="91.44" y2="82.55" width="0" layer="20"/>
 <wire x1="91.44" y1="82.55" x2="0" y2="82.55" width="0" layer="20"/>
 <wire x1="0" y1="82.55" x2="0" y2="0" width="0" layer="20"/>
+<text x="2.54" y="72.39" size="1.778" layer="21">5V IN</text>
+<text x="13.97" y="72.39" size="1.778" layer="21">5V OUT</text>
+<text x="45.72" y="80.01" size="1.778" layer="21" rot="R270">USB OUT</text>
+<text x="57.15" y="67.31" size="1.778" layer="21">USB IN</text>
 </plain>
 <libraries>
 <library name="resistor">

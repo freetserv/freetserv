@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8089,8 +8089,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="L1" library="Wurth_Elektronik_Passive_rev15d" deviceset="WE-KI" device="_0805A"/>
-<part name="L2" library="Wurth_Elektronik_Passive_rev15d" deviceset="WE-KI" device="_0805A"/>
+<part name="FERRITE1" library="Wurth_Elektronik_Passive_rev15d" deviceset="WE-KI" device="_0805A" value="330"/>
+<part name="FERRITE2" library="Wurth_Elektronik_Passive_rev15d" deviceset="WE-KI" device="_0805A" value="330"/>
 <part name="C11" library="resistor" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C12" library="resistor" deviceset="C-EU" device="C0805" value="100nF"/>
 <part name="C13" library="resistor" deviceset="C-EU" device="C0805" value="4.7uF"/>
@@ -8211,8 +8211,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="GND18" gate="1" x="71.12" y="30.48" rot="R90"/>
 <instance part="GND19" gate="1" x="63.5" y="55.88" rot="R90"/>
 <instance part="GND20" gate="1" x="63.5" y="50.8" rot="R90"/>
-<instance part="L1" gate="G$1" x="35.56" y="116.84" rot="R270"/>
-<instance part="L2" gate="G$1" x="30.48" y="116.84" rot="R270"/>
+<instance part="FERRITE1" gate="G$1" x="35.56" y="116.84" rot="R270"/>
+<instance part="FERRITE2" gate="G$1" x="30.48" y="116.84" rot="R270"/>
 <instance part="C11" gate="G$1" x="38.1" y="99.06" rot="R90"/>
 <instance part="C12" gate="G$1" x="27.94" y="99.06" rot="R270"/>
 <instance part="C13" gate="G$1" x="38.1" y="109.22" rot="R90"/>
@@ -8669,7 +8669,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="L1" gate="G$1" pin="2"/>
+<pinref part="FERRITE1" gate="G$1" pin="2"/>
 <pinref part="SERIAL0" gate="CORE" pin="VPHY"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="35.56" y1="109.22" x2="35.56" y2="99.06" width="0.1524" layer="91"/>
@@ -8682,7 +8682,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <net name="N$18" class="0">
 <segment>
 <pinref part="SERIAL0" gate="CORE" pin="VPLL"/>
-<pinref part="L2" gate="G$1" pin="2"/>
+<pinref part="FERRITE2" gate="G$1" pin="2"/>
 <wire x1="30.48" y1="93.98" x2="30.48" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
 <wire x1="30.48" y1="99.06" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
@@ -8888,8 +8888,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="SERIAL0" gate="CORE" pin="VCCIO@3"/>
 <junction x="48.26" y="93.98"/>
 <junction x="50.8" y="93.98"/>
-<pinref part="L2" gate="G$1" pin="1"/>
-<pinref part="L1" gate="G$1" pin="1"/>
+<pinref part="FERRITE2" gate="G$1" pin="1"/>
+<pinref part="FERRITE1" gate="G$1" pin="1"/>
 <junction x="35.56" y="124.46"/>
 <junction x="30.48" y="124.46"/>
 <label x="-27.94" y="71.12" size="1.778" layer="95"/>

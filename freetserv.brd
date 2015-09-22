@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2384,8 +2384,8 @@ design rules under a new name.</description>
 <attribute name="MPN" value="TUSB2046BVF" x="74.93" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC2" library="sn65220_40" package="TSSOP8" value="SN75240PW" x="57.15" y="74.93"/>
-<element name="L1" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="" x="16.002" y="64.262" rot="R270"/>
-<element name="L2" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="" x="11.938" y="64.262" rot="R270"/>
+<element name="FERRITE1" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="16.002" y="64.262" rot="R270"/>
+<element name="FERRITE2" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="11.938" y="64.262" rot="R270"/>
 <element name="Q1" library="crystal" package="CSM-7X-DU" value="12MHz" x="26.543" y="58.166" rot="R90">
 <attribute name="MF" value="" x="26.543" y="58.166" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="26.543" y="58.166" size="1.778" layer="27" rot="R90" display="off"/>
@@ -2867,7 +2867,7 @@ design rules under a new name.</description>
 <wire x1="26.543" y1="59.624" x2="26.543" y2="53.416" width="0.254" layer="1"/>
 </signal>
 <signal name="N$17">
-<contactref element="L1" pad="2"/>
+<contactref element="FERRITE1" pad="2"/>
 <contactref element="SERIAL0" pad="4"/>
 <contactref element="C11" pad="1"/>
 <contactref element="C13" pad="1"/>
@@ -2881,7 +2881,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$18">
 <contactref element="SERIAL0" pad="9"/>
-<contactref element="L2" pad="2"/>
+<contactref element="FERRITE2" pad="2"/>
 <contactref element="C12" pad="1"/>
 <contactref element="C14" pad="1"/>
 <wire x1="9.779" y1="62.804" x2="7.747" y2="62.804" width="0.254" layer="1"/>
@@ -3026,8 +3026,8 @@ design rules under a new name.</description>
 <contactref element="SERIAL0" pad="20"/>
 <contactref element="SERIAL0" pad="31"/>
 <contactref element="SERIAL0" pad="42"/>
-<contactref element="L2" pad="1"/>
-<contactref element="L1" pad="1"/>
+<contactref element="FERRITE2" pad="1"/>
+<contactref element="FERRITE1" pad="1"/>
 <contactref element="DRIVER0A" pad="16"/>
 <contactref element="C19" pad="2"/>
 <contactref element="R4" pad="1"/>

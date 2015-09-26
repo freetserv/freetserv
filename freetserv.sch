@@ -8066,104 +8066,210 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="SERIAL0" library="ftdichip-6" deviceset="FT4232H" device="L"/>
+<part name="SERIAL0" library="ftdichip-6" deviceset="FT4232H" device="L">
+<attribute name="PARTNO" value="768-1026-1-ND"/>
+</part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
 <part name="USB_RASPI_DATA" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device=""/>
 <part name="IC2" library="sn65220_40" deviceset="SN75240" device="PW"/>
-<part name="HUB0" library="Texas Instruments_By_element14_Batch_1" deviceset="TUSB2046BVF" device=""/>
+<part name="HUB0" library="Texas Instruments_By_element14_Batch_1" deviceset="TUSB2046BVF" device="">
+<attribute name="PARTNO" value="296-27131-1-ND"/>
+</part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
-<part name="C2" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
-<part name="C3" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
+<part name="C2" library="resistor" deviceset="C-EU" device="C0805" value="10uF">
+<attribute name="PARTNO" value="311-1459-1-ND"/>
+</part>
+<part name="C3" library="resistor" deviceset="C-EU" device="C0805" value="10uF">
+<attribute name="PARTNO" value="311-1459-1-ND"/>
+</part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="USB_RASPI_PWR" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device=""/>
-<part name="C8" library="resistor" deviceset="C-EU" device="C0805" value="3.3uF"/>
+<part name="C8" library="resistor" deviceset="C-EU" device="C0805" value="3.3uF">
+<attribute name="PARTNO" value="445-7589-1-ND"/>
+</part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="R1" library="resistor" deviceset="R-EU_" device="R0805" value="1K"/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="R0805" value="12K"/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="R0805" value="1K">
+<attribute name="PARTNO" value="311-1.0KARCT-ND"/>
+</part>
+<part name="R2" library="resistor" deviceset="R-EU_" device="R0805" value="12K">
+<attribute name="PARTNO" value="311-12.0KCRCT-ND"/>
+</part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
-<part name="Q1" library="crystal" deviceset="CSM-7X-DU" device="" value="12MHz"/>
-<part name="C9" library="resistor" deviceset="C-EU" device="C0805" value="18pF"/>
-<part name="C10" library="resistor" deviceset="C-EU" device="C0805" value="18pF"/>
+<part name="Q1" library="crystal" deviceset="CSM-7X-DU" device="" value="12MHz">
+<attribute name="PARTNO" value="535-10218-1-ND"/>
+</part>
+<part name="C9" library="resistor" deviceset="C-EU" device="C0805" value="18pF">
+<attribute name="PARTNO" value="709-1171-1-ND"/>
+</part>
+<part name="C10" library="resistor" deviceset="C-EU" device="C0805" value="18pF">
+<attribute name="PARTNO" value="709-1171-1-ND"/>
+</part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
-<part name="FERRITE1" library="Wurth_Elektronik_Passive_rev15d" deviceset="WE-KI" device="_0805A" value="330"/>
-<part name="FERRITE2" library="Wurth_Elektronik_Passive_rev15d" deviceset="WE-KI" device="_0805A" value="330"/>
-<part name="C11" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C12" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C13" library="resistor" deviceset="C-EU" device="C0805" value="4.7uF"/>
-<part name="C14" library="resistor" deviceset="C-EU" device="C0805" value="4.7uF"/>
+<part name="FERRITE1" library="Wurth_Elektronik_Passive_rev15d" deviceset="WE-KI" device="_0805A" value="330">
+<attribute name="PARTNO" value="490-5988-1-ND"/>
+</part>
+<part name="FERRITE2" library="Wurth_Elektronik_Passive_rev15d" deviceset="WE-KI" device="_0805A" value="330">
+<attribute name="PARTNO" value="490-5988-1-ND"/>
+</part>
+<part name="C11" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C12" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C13" library="resistor" deviceset="C-EU" device="C0805" value="4.7uF">
+<attribute name="PARTNO" value="587-1302-1-ND"/>
+</part>
+<part name="C14" library="resistor" deviceset="C-EU" device="C0805" value="4.7uF">
+<attribute name="PARTNO" value="587-1302-1-ND"/>
+</part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
 <part name="U4" library="Texas Instruments_By_element14_Batch_1" deviceset="TLV810SDBZT" device=""/>
-<part name="DRIVER0A" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device=""/>
+<part name="DRIVER0A" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device="">
+<attribute name="PARTNO" value="296-19263-1-ND"/>
+</part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
-<part name="C15" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C16" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C15" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C16" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
 <part name="SL1" library="con-lstb" deviceset="MA05-1" device=""/>
-<part name="C17" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C18" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C17" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C18" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
 <part name="GND28" library="supply1" deviceset="GND" device=""/>
 <part name="GND29" library="supply1" deviceset="GND" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
-<part name="C19" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C19" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
 <part name="GND31" library="supply1" deviceset="GND" device=""/>
 <part name="U5" library="Texas Instruments_By_element14_Batch_1" deviceset="SN74LVC1G86DCKR" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
-<part name="Q2" library="crystal" deviceset="CSM-7X-DU" device="" value="6MHz"/>
-<part name="C20" library="resistor" deviceset="C-EU" device="C0805" value="18pF"/>
-<part name="C21" library="resistor" deviceset="C-EU" device="C0805" value="18pF"/>
+<part name="Q2" library="crystal" deviceset="CSM-7X-DU" device="" value="6MHz">
+<attribute name="PARTNO" value="535-10208-1-ND"/>
+</part>
+<part name="C20" library="resistor" deviceset="C-EU" device="C0805" value="18pF">
+<attribute name="PARTNO" value="709-1171-1-ND"/>
+</part>
+<part name="C21" library="resistor" deviceset="C-EU" device="C0805" value="18pF">
+<attribute name="PARTNO" value="709-1171-1-ND"/>
+</part>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
-<part name="R3" library="resistor" deviceset="R-EU_" device="R0805" value="1.5K"/>
+<part name="R3" library="resistor" deviceset="R-EU_" device="R0805" value="1.5K">
+<attribute name="PARTNO" value="311-1.5KARCT-ND"/>
+</part>
 <part name="USB_RASPI_DATA2" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device=""/>
 <part name="P+1" library="supply1" deviceset="VCC" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
-<part name="U$1" library="stewart_ss73100_046f_dwg" deviceset="SS73100-046F_DWG" device=""/>
-<part name="U1" library="microchip" deviceset="MCP16311" device="-E/MS"/>
-<part name="C4" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="L3" library="inductor-taiyoyuden" deviceset="NR6028" device="T220M" value="15uH"/>
-<part name="R4" library="resistor" deviceset="R-EU_" device="R0805" value="31.6k"/>
-<part name="R5" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>
-<part name="C5" library="resistor" deviceset="C-EU" device="C0805" value="1uF"/>
+<part name="U$1" library="stewart_ss73100_046f_dwg" deviceset="SS73100-046F_DWG" device="">
+<attribute name="PARTNO" value="380-1225-ND"/>
+</part>
+<part name="U1" library="microchip" deviceset="MCP16311" device="-E/MS">
+<attribute name="PARTNO" value="MCP16311-E/MS-ND"/>
+</part>
+<part name="C4" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="L3" library="inductor-taiyoyuden" deviceset="NR6028" device="T220M" value="15uH">
+<attribute name="PARTNO" value="587-2624-1-ND"/>
+</part>
+<part name="R4" library="resistor" deviceset="R-EU_" device="R0805" value="31.6k">
+<attribute name="PARTNO" value="311-31.6KCRCT-ND"/>
+</part>
+<part name="R5" library="resistor" deviceset="R-EU_" device="R0805" value="10k">
+<attribute name="PARTNO" value="311-10KARCT-ND"/>
+</part>
+<part name="C5" library="resistor" deviceset="C-EU" device="C0805" value="1uF">
+<attribute name="PARTNO" value="311-1365-1-ND"/>
+</part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
-<part name="C6" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
-<part name="C7" library="resistor" deviceset="C-EU" device="C0805" value="10uF"/>
+<part name="C6" library="resistor" deviceset="C-EU" device="C0805" value="10uF">
+<attribute name="PARTNO" value="311-1459-1-ND"/>
+</part>
+<part name="C7" library="resistor" deviceset="C-EU" device="C0805" value="10uF">
+<attribute name="PARTNO" value="311-1459-1-ND"/>
+</part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="DRIVER0B" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device=""/>
+<part name="DRIVER0B" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device="">
+<attribute name="PARTNO" value="296-19263-1-ND"/>
+</part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
-<part name="C1" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C22" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C23" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C24" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C1" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C22" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C23" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C24" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
 <part name="GND13" library="supply1" deviceset="GND" device=""/>
 <part name="GND25" library="supply1" deviceset="GND" device=""/>
-<part name="C25" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C25" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="DRIVER0B1" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device=""/>
+<part name="DRIVER0B1" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device="">
+<attribute name="PARTNO" value="296-19263-1-ND"/>
+</part>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
-<part name="C26" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C27" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C28" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C29" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C26" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C27" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C28" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C29" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
 <part name="GND40" library="supply1" deviceset="GND" device=""/>
-<part name="C30" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C30" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
-<part name="DRIVER0B2" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device=""/>
+<part name="DRIVER0B2" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device="">
+<attribute name="PARTNO" value="296-19263-1-ND"/>
+</part>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
-<part name="C31" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C32" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C33" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
-<part name="C34" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C31" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C32" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C33" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C34" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
-<part name="C35" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C35" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
 <part name="GND47" library="supply1" deviceset="GND" device=""/>
 <part name="GND5" library="supply1" deviceset="GND" device=""/>
 <part name="GND6" library="supply1" deviceset="GND" device=""/>
@@ -8173,19 +8279,25 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
 <part name="USB_IN" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device=""/>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
-<part name="C36" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C36" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
 <part name="GND42" library="supply1" deviceset="GND" device=""/>
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
-<part name="R6" library="resistor" deviceset="R-EU_" device="R0805" value="1.5K"/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="R0805" value="1.5K">
+<attribute name="PARTNO" value="311-1.5KARCT-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="SERIAL0" gate="CORE" x="35.56" y="48.26"/>
+<instance part="SERIAL0" gate="CORE" x="35.56" y="48.26">
+<attribute name="PARTNO" x="35.56" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SERIAL0" gate="A" x="86.36" y="91.44"/>
 <instance part="SERIAL0" gate="B" x="86.36" y="63.5"/>
 <instance part="SERIAL0" gate="C" x="86.36" y="35.56"/>
@@ -8193,100 +8305,204 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="GND1" gate="1" x="-60.96" y="287.02"/>
 <instance part="USB_RASPI_DATA" gate="G$1" x="90.17" y="258.318" rot="MR270"/>
 <instance part="IC2" gate="G$1" x="104.14" y="243.84" rot="R180"/>
-<instance part="HUB0" gate="A" x="25.4" y="203.2"/>
+<instance part="HUB0" gate="A" x="25.4" y="203.2">
+<attribute name="PARTNO" x="25.4" y="203.2" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND8" gate="1" x="119.38" y="241.3" rot="R90"/>
-<instance part="C2" gate="G$1" x="-137.16" y="233.68"/>
-<instance part="C3" gate="G$1" x="-147.32" y="233.68"/>
+<instance part="C2" gate="G$1" x="-137.16" y="233.68">
+<attribute name="PARTNO" x="-137.16" y="233.68" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C3" gate="G$1" x="-147.32" y="233.68">
+<attribute name="PARTNO" x="-147.32" y="233.68" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND10" gate="1" x="-147.32" y="223.52"/>
 <instance part="USB_RASPI_PWR" gate="G$1" x="-161.29" y="253.238" rot="R270"/>
-<instance part="C8" gate="G$1" x="5.08" y="99.06"/>
+<instance part="C8" gate="G$1" x="5.08" y="99.06">
+<attribute name="PARTNO" x="5.08" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND14" gate="1" x="5.08" y="104.14" rot="R180"/>
-<instance part="R1" gate="G$1" x="0" y="60.96"/>
-<instance part="R2" gate="G$1" x="0" y="55.88"/>
+<instance part="R1" gate="G$1" x="0" y="60.96">
+<attribute name="PARTNO" x="0" y="60.96" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R2" gate="G$1" x="0" y="55.88">
+<attribute name="PARTNO" x="0" y="55.88" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND15" gate="1" x="-7.62" y="55.88" rot="R270"/>
 <instance part="GND16" gate="1" x="45.72" y="15.24"/>
-<instance part="Q1" gate="P" x="60.96" y="35.56" rot="R90"/>
-<instance part="C9" gate="G$1" x="63.5" y="40.64" rot="R90"/>
-<instance part="C10" gate="G$1" x="63.5" y="30.48" rot="R90"/>
+<instance part="Q1" gate="P" x="60.96" y="35.56" rot="R90">
+<attribute name="PARTNO" x="60.96" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C9" gate="G$1" x="63.5" y="40.64" rot="R90">
+<attribute name="PARTNO" x="63.5" y="40.64" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C10" gate="G$1" x="63.5" y="30.48" rot="R90">
+<attribute name="PARTNO" x="63.5" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND17" gate="1" x="71.12" y="40.64" rot="R90"/>
 <instance part="GND18" gate="1" x="71.12" y="30.48" rot="R90"/>
 <instance part="GND19" gate="1" x="63.5" y="55.88" rot="R90"/>
 <instance part="GND20" gate="1" x="63.5" y="50.8" rot="R90"/>
-<instance part="FERRITE1" gate="G$1" x="35.56" y="116.84" rot="R270"/>
-<instance part="FERRITE2" gate="G$1" x="30.48" y="116.84" rot="R270"/>
-<instance part="C11" gate="G$1" x="38.1" y="99.06" rot="R90"/>
-<instance part="C12" gate="G$1" x="27.94" y="99.06" rot="R270"/>
-<instance part="C13" gate="G$1" x="38.1" y="109.22" rot="R90"/>
-<instance part="C14" gate="G$1" x="27.94" y="109.22" rot="R270"/>
+<instance part="FERRITE1" gate="G$1" x="35.56" y="116.84" rot="R270">
+<attribute name="PARTNO" x="35.56" y="116.84" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="FERRITE2" gate="G$1" x="30.48" y="116.84" rot="R270">
+<attribute name="PARTNO" x="30.48" y="116.84" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C11" gate="G$1" x="38.1" y="99.06" rot="R90">
+<attribute name="PARTNO" x="38.1" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C12" gate="G$1" x="27.94" y="99.06" rot="R270">
+<attribute name="PARTNO" x="27.94" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C13" gate="G$1" x="38.1" y="109.22" rot="R90">
+<attribute name="PARTNO" x="38.1" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C14" gate="G$1" x="27.94" y="109.22" rot="R270">
+<attribute name="PARTNO" x="27.94" y="109.22" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND21" gate="1" x="20.32" y="109.22" rot="R270"/>
 <instance part="GND22" gate="1" x="20.32" y="99.06" rot="R270"/>
 <instance part="GND23" gate="1" x="45.72" y="109.22" rot="R90"/>
 <instance part="GND24" gate="1" x="45.72" y="99.06" rot="R90"/>
 <instance part="U4" gate="A" x="-91.44" y="185.42"/>
-<instance part="DRIVER0A" gate="A" x="160.02" y="99.06"/>
+<instance part="DRIVER0A" gate="A" x="160.02" y="99.06">
+<attribute name="PARTNO" x="160.02" y="99.06" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND26" gate="1" x="139.7" y="76.2" rot="R270"/>
-<instance part="C15" gate="G$1" x="134.62" y="93.98" rot="R90"/>
-<instance part="C16" gate="G$1" x="134.62" y="86.36" rot="R90"/>
+<instance part="C15" gate="G$1" x="134.62" y="93.98" rot="R90">
+<attribute name="PARTNO" x="134.62" y="93.98" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C16" gate="G$1" x="134.62" y="86.36" rot="R90">
+<attribute name="PARTNO" x="134.62" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="SL1" gate="G$1" x="195.58" y="104.14" rot="R180"/>
-<instance part="C17" gate="G$1" x="137.16" y="114.3" rot="R90"/>
-<instance part="C18" gate="G$1" x="137.16" y="78.74" rot="R90"/>
+<instance part="C17" gate="G$1" x="137.16" y="114.3" rot="R90">
+<attribute name="PARTNO" x="137.16" y="114.3" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C18" gate="G$1" x="137.16" y="78.74" rot="R90">
+<attribute name="PARTNO" x="137.16" y="78.74" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND28" gate="1" x="132.08" y="78.74" rot="R270"/>
 <instance part="GND29" gate="1" x="132.08" y="114.3" rot="R270"/>
 <instance part="GND30" gate="1" x="-111.76" y="177.8" rot="R270"/>
-<instance part="C19" gate="G$1" x="127" y="111.76" rot="R180"/>
+<instance part="C19" gate="G$1" x="127" y="111.76" rot="R180">
+<attribute name="PARTNO" x="127" y="111.76" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND31" gate="1" x="127" y="106.68"/>
 <instance part="U5" gate="A" x="-50.8" y="187.96"/>
 <instance part="GND32" gate="1" x="-71.12" y="177.8" rot="R270"/>
-<instance part="Q2" gate="P" x="-15.24" y="205.74" rot="R270"/>
-<instance part="C20" gate="G$1" x="-22.86" y="208.28" rot="R90"/>
-<instance part="C21" gate="G$1" x="-22.86" y="203.2" rot="R90"/>
+<instance part="Q2" gate="P" x="-15.24" y="205.74" rot="R270">
+<attribute name="PARTNO" x="-15.24" y="205.74" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C20" gate="G$1" x="-22.86" y="208.28" rot="R90">
+<attribute name="PARTNO" x="-22.86" y="208.28" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C21" gate="G$1" x="-22.86" y="203.2" rot="R90">
+<attribute name="PARTNO" x="-22.86" y="203.2" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND34" gate="1" x="-27.94" y="208.28" rot="R270"/>
 <instance part="GND35" gate="1" x="-27.94" y="203.2" rot="R270"/>
-<instance part="R3" gate="G$1" x="-20.32" y="190.5" rot="R90"/>
+<instance part="R3" gate="G$1" x="-20.32" y="190.5" rot="R90">
+<attribute name="PARTNO" x="-20.32" y="190.5" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="USB_RASPI_DATA2" gate="G$1" x="-188.722" y="224.79"/>
 <instance part="P+1" gate="VCC" x="-157.48" y="238.76" rot="R90"/>
 <instance part="GND2" gate="1" x="-165.1" y="248.92"/>
 <instance part="GND3" gate="1" x="-182.88" y="220.98" rot="R90"/>
-<instance part="U$1" gate="G$1" x="-55.88" y="-73.66"/>
-<instance part="U1" gate="G$1" x="-116.84" y="228.6"/>
-<instance part="C4" gate="G$1" x="-99.06" y="236.22"/>
-<instance part="L3" gate="A" x="-88.9" y="231.14" rot="R90"/>
-<instance part="R4" gate="G$1" x="-73.66" y="226.06" rot="R270"/>
-<instance part="R5" gate="G$1" x="-73.66" y="215.9" rot="R270"/>
-<instance part="C5" gate="G$1" x="-93.98" y="218.44"/>
+<instance part="U$1" gate="G$1" x="-55.88" y="-73.66">
+<attribute name="PARTNO" x="-55.88" y="-73.66" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="U1" gate="G$1" x="-116.84" y="228.6">
+<attribute name="PARTNO" x="-116.84" y="228.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C4" gate="G$1" x="-99.06" y="236.22">
+<attribute name="PARTNO" x="-99.06" y="236.22" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="L3" gate="A" x="-88.9" y="231.14" rot="R90">
+<attribute name="PARTNO" x="-88.9" y="231.14" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R4" gate="G$1" x="-73.66" y="226.06" rot="R270">
+<attribute name="PARTNO" x="-73.66" y="226.06" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R5" gate="G$1" x="-73.66" y="215.9" rot="R270">
+<attribute name="PARTNO" x="-73.66" y="215.9" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C5" gate="G$1" x="-93.98" y="218.44">
+<attribute name="PARTNO" x="-93.98" y="218.44" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND4" gate="1" x="-73.66" y="208.28"/>
-<instance part="C6" gate="G$1" x="-63.5" y="228.6"/>
-<instance part="C7" gate="G$1" x="-53.34" y="228.6"/>
+<instance part="C6" gate="G$1" x="-63.5" y="228.6">
+<attribute name="PARTNO" x="-63.5" y="228.6" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C7" gate="G$1" x="-53.34" y="228.6">
+<attribute name="PARTNO" x="-53.34" y="228.6" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND11" gate="1" x="187.96" y="96.52"/>
-<instance part="DRIVER0B" gate="A" x="269.24" y="71.12"/>
+<instance part="DRIVER0B" gate="A" x="269.24" y="71.12">
+<attribute name="PARTNO" x="269.24" y="71.12" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND12" gate="1" x="248.92" y="48.26" rot="R270"/>
-<instance part="C1" gate="G$1" x="243.84" y="66.04" rot="R90"/>
-<instance part="C22" gate="G$1" x="243.84" y="58.42" rot="R90"/>
-<instance part="C23" gate="G$1" x="246.38" y="86.36" rot="R90"/>
-<instance part="C24" gate="G$1" x="246.38" y="50.8" rot="R90"/>
+<instance part="C1" gate="G$1" x="243.84" y="66.04" rot="R90">
+<attribute name="PARTNO" x="243.84" y="66.04" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C22" gate="G$1" x="243.84" y="58.42" rot="R90">
+<attribute name="PARTNO" x="243.84" y="58.42" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C23" gate="G$1" x="246.38" y="86.36" rot="R90">
+<attribute name="PARTNO" x="246.38" y="86.36" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C24" gate="G$1" x="246.38" y="50.8" rot="R90">
+<attribute name="PARTNO" x="246.38" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND13" gate="1" x="241.3" y="50.8" rot="R270"/>
 <instance part="GND25" gate="1" x="241.3" y="86.36" rot="R270"/>
-<instance part="C25" gate="G$1" x="236.22" y="83.82" rot="R180"/>
+<instance part="C25" gate="G$1" x="236.22" y="83.82" rot="R180">
+<attribute name="PARTNO" x="236.22" y="83.82" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND27" gate="1" x="236.22" y="78.74"/>
-<instance part="DRIVER0B1" gate="A" x="373.38" y="35.56"/>
+<instance part="DRIVER0B1" gate="A" x="373.38" y="35.56">
+<attribute name="PARTNO" x="373.38" y="35.56" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND38" gate="1" x="353.06" y="12.7" rot="R270"/>
-<instance part="C26" gate="G$1" x="347.98" y="30.48" rot="R90"/>
-<instance part="C27" gate="G$1" x="347.98" y="22.86" rot="R90"/>
-<instance part="C28" gate="G$1" x="350.52" y="50.8" rot="R90"/>
-<instance part="C29" gate="G$1" x="350.52" y="15.24" rot="R90"/>
+<instance part="C26" gate="G$1" x="347.98" y="30.48" rot="R90">
+<attribute name="PARTNO" x="347.98" y="30.48" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C27" gate="G$1" x="347.98" y="22.86" rot="R90">
+<attribute name="PARTNO" x="347.98" y="22.86" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C28" gate="G$1" x="350.52" y="50.8" rot="R90">
+<attribute name="PARTNO" x="350.52" y="50.8" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C29" gate="G$1" x="350.52" y="15.24" rot="R90">
+<attribute name="PARTNO" x="350.52" y="15.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND39" gate="1" x="345.44" y="15.24" rot="R270"/>
 <instance part="GND40" gate="1" x="345.44" y="50.8" rot="R270"/>
-<instance part="C30" gate="G$1" x="340.36" y="48.26" rot="R180"/>
+<instance part="C30" gate="G$1" x="340.36" y="48.26" rot="R180">
+<attribute name="PARTNO" x="340.36" y="48.26" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND41" gate="1" x="340.36" y="43.18"/>
-<instance part="DRIVER0B2" gate="A" x="447.04" y="-15.24"/>
+<instance part="DRIVER0B2" gate="A" x="447.04" y="-15.24">
+<attribute name="PARTNO" x="447.04" y="-15.24" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND44" gate="1" x="426.72" y="-38.1" rot="R270"/>
-<instance part="C31" gate="G$1" x="421.64" y="-20.32" rot="R90"/>
-<instance part="C32" gate="G$1" x="421.64" y="-27.94" rot="R90"/>
-<instance part="C33" gate="G$1" x="424.18" y="0" rot="R90"/>
-<instance part="C34" gate="G$1" x="424.18" y="-35.56" rot="R90"/>
+<instance part="C31" gate="G$1" x="421.64" y="-20.32" rot="R90">
+<attribute name="PARTNO" x="421.64" y="-20.32" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C32" gate="G$1" x="421.64" y="-27.94" rot="R90">
+<attribute name="PARTNO" x="421.64" y="-27.94" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C33" gate="G$1" x="424.18" y="0" rot="R90">
+<attribute name="PARTNO" x="424.18" y="0" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="C34" gate="G$1" x="424.18" y="-35.56" rot="R90">
+<attribute name="PARTNO" x="424.18" y="-35.56" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND45" gate="1" x="419.1" y="-35.56" rot="R270"/>
 <instance part="GND46" gate="1" x="419.1" y="0" rot="R270"/>
-<instance part="C35" gate="G$1" x="414.02" y="-2.54" rot="R180"/>
+<instance part="C35" gate="G$1" x="414.02" y="-2.54" rot="R180">
+<attribute name="PARTNO" x="414.02" y="-2.54" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND47" gate="1" x="414.02" y="-7.62"/>
 <instance part="GND5" gate="1" x="-2.54" y="195.58" rot="R270"/>
 <instance part="GND6" gate="1" x="-2.54" y="182.88" rot="R270"/>
@@ -8296,12 +8512,16 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="GND36" gate="1" x="-2.54" y="175.26" rot="R270"/>
 <instance part="USB_IN" gate="G$1" x="108.458" y="194.31" rot="MR0"/>
 <instance part="GND37" gate="1" x="104.14" y="190.5" rot="R270"/>
-<instance part="C36" gate="G$1" x="-2.54" y="228.6"/>
+<instance part="C36" gate="G$1" x="-2.54" y="228.6">
+<attribute name="PARTNO" x="-2.54" y="228.6" size="1.778" layer="96" display="off"/>
+</instance>
 <instance part="GND42" gate="1" x="-2.54" y="233.68" rot="R180"/>
 <instance part="GND43" gate="1" x="119.38" y="248.92" rot="R90"/>
 <instance part="GND48" gate="1" x="119.38" y="246.38" rot="R90"/>
 <instance part="GND49" gate="1" x="119.38" y="243.84" rot="R90"/>
-<instance part="R6" gate="G$1" x="83.82" y="208.28" rot="R90"/>
+<instance part="R6" gate="G$1" x="83.82" y="208.28" rot="R90">
+<attribute name="PARTNO" x="83.82" y="208.28" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>

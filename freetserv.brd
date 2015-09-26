@@ -2367,34 +2367,64 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C10" library="resistor" package="C0805" value="18pF" x="20.955" y="58.674" rot="R270"/>
-<element name="C11" library="resistor" package="C0805" value="0.1uF" x="20.447" y="63.754" rot="R90"/>
-<element name="C12" library="resistor" package="C0805" value="0.1uF" x="7.747" y="63.754" rot="R90"/>
-<element name="C13" library="resistor" package="C0805" value="4.7uF" x="18.161" y="63.754" rot="R90"/>
-<element name="C14" library="resistor" package="C0805" value="4.7uF" x="9.779" y="63.754" rot="R90"/>
-<element name="C2" library="resistor" package="C0805" value="10uF" x="30.48" y="74.295"/>
-<element name="C3" library="resistor" package="C0805" value="10uF" x="30.48" y="71.755"/>
-<element name="C8" library="resistor" package="C0805" value="3.3uF" x="22.86" y="50.8" rot="R180"/>
-<element name="C9" library="resistor" package="C0805" value="18pF" x="22.479" y="62.738" rot="R90"/>
+<element name="C10" library="resistor" package="C0805" value="18pF" x="20.955" y="58.674" rot="R270">
+<attribute name="PARTNO" value="709-1171-1-ND" x="20.955" y="58.674" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C11" library="resistor" package="C0805" value="0.1uF" x="20.447" y="63.754" rot="R90">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="20.447" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C12" library="resistor" package="C0805" value="0.1uF" x="7.747" y="63.754" rot="R90">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="7.747" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C13" library="resistor" package="C0805" value="4.7uF" x="18.161" y="63.754" rot="R90">
+<attribute name="PARTNO" value="587-1302-1-ND" x="18.161" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C14" library="resistor" package="C0805" value="4.7uF" x="9.779" y="63.754" rot="R90">
+<attribute name="PARTNO" value="587-1302-1-ND" x="9.779" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C2" library="resistor" package="C0805" value="10uF" x="30.48" y="74.295">
+<attribute name="PARTNO" value="311-1459-1-ND" x="30.48" y="74.295" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C3" library="resistor" package="C0805" value="10uF" x="30.48" y="71.755">
+<attribute name="PARTNO" value="311-1459-1-ND" x="30.48" y="71.755" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C8" library="resistor" package="C0805" value="3.3uF" x="22.86" y="50.8" rot="R180">
+<attribute name="PARTNO" value="445-7589-1-ND" x="22.86" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C9" library="resistor" package="C0805" value="18pF" x="22.479" y="62.738" rot="R90">
+<attribute name="PARTNO" value="709-1171-1-ND" x="22.479" y="62.738" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
 <element name="HUB0" library="Texas Instruments_By_element14_Batch_1" package="QFP80P900X900X145-32N" value="TUSB2046BVF" x="74.93" y="73.66" rot="R270">
 <attribute name="PACKAGE" value="LQFP-32" x="74.93" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="SUPPLIER" value="TEXAS INSTRUMENTS" x="74.93" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="1470507" x="74.93" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="77C1805" x="74.93" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="TUSB2046BVF" x="74.93" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="296-27131-1-ND" x="74.93" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="IC2" library="sn65220_40" package="TSSOP8" value="SN75240PW" x="57.15" y="74.93"/>
-<element name="FERRITE1" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="16.002" y="64.262" rot="R270"/>
-<element name="FERRITE2" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="11.938" y="64.262" rot="R270"/>
+<element name="FERRITE1" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="16.002" y="64.262" rot="R270">
+<attribute name="PARTNO" value="490-5988-1-ND" x="16.002" y="64.262" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="FERRITE2" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="11.938" y="64.262" rot="R270">
+<attribute name="PARTNO" value="490-5988-1-ND" x="11.938" y="64.262" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="Q1" library="crystal" package="CSM-7X-DU" value="12MHz" x="26.543" y="58.166" rot="R90">
 <attribute name="MF" value="" x="26.543" y="58.166" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="26.543" y="58.166" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="26.543" y="58.166" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="" x="26.543" y="58.166" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="535-10218-1-ND" x="26.543" y="58.166" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="R1" library="resistor" package="R0805" value="1K" x="5.588" y="63.754" rot="R270"/>
-<element name="R2" library="resistor" package="R0805" value="12K" x="13.97" y="63.754" rot="R270"/>
-<element name="SERIAL0" library="ftdichip-6" package="LQFP64" value="FT4232HL" x="12.7" y="54.61" rot="R180"/>
+<element name="R1" library="resistor" package="R0805" value="1K" x="5.588" y="63.754" rot="R270">
+<attribute name="PARTNO" value="311-1.0KARCT-ND" x="5.588" y="63.754" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R2" library="resistor" package="R0805" value="12K" x="13.97" y="63.754" rot="R270">
+<attribute name="PARTNO" value="311-12.0KCRCT-ND" x="13.97" y="63.754" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="SERIAL0" library="ftdichip-6" package="LQFP64" value="FT4232HL" x="12.7" y="54.61" rot="R180">
+<attribute name="PARTNO" value="768-1026-1-ND" x="12.7" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="USB_RASPI_DATA" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="52.07" y="77.47" rot="R180"/>
 <element name="USB_RASPI_PWR" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="17.78" y="77.47" rot="R180"/>
 <element name="U4" library="Texas Instruments_By_element14_Batch_1" package="SOT95P237X112-3N" value="TLV810SDBZT" x="71.12" y="80.01" rot="R180">
@@ -2410,18 +2440,29 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="1460372" x="10.16" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="75C1004" x="10.16" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="MAX3232CPWR" x="10.16" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="296-19263-1-ND" x="10.16" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C15" library="resistor" package="C0805" value="0.1uF" x="15.875" y="39.37" rot="R270"/>
-<element name="C16" library="resistor" package="C0805" value="0.1uF" x="15.875" y="43.815" rot="R270"/>
+<element name="C15" library="resistor" package="C0805" value="0.1uF" x="15.875" y="39.37" rot="R270">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="15.875" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C16" library="resistor" package="C0805" value="0.1uF" x="15.875" y="43.815" rot="R270">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="15.875" y="43.815" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="SL1" library="con-lstb" package="MA05-1" value="" x="2.159" y="35.56" rot="R270">
 <attribute name="MF" value="" x="2.159" y="35.56" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="2.159" y="35.56" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="2.159" y="35.56" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="2.159" y="35.56" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C17" library="resistor" package="C0805" value="0.1uF" x="12.7" y="38.1"/>
-<element name="C18" library="resistor" package="C0805" value="0.1uF" x="12.7" y="45.72"/>
-<element name="C19" library="resistor" package="C0805" value="0.1uF" x="8.509" y="38.1" rot="R180"/>
+<element name="C17" library="resistor" package="C0805" value="0.1uF" x="12.7" y="38.1">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="12.7" y="38.1" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C18" library="resistor" package="C0805" value="0.1uF" x="12.7" y="45.72">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="12.7" y="45.72" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C19" library="resistor" package="C0805" value="0.1uF" x="8.509" y="38.1" rot="R180">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="8.509" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="U5" library="Texas Instruments_By_element14_Batch_1" package="SOT65P210X110-5N" value="SN74LVC1G86DCKR" x="74.93" y="80.01">
 <attribute name="PACKAGE" value="SC70-5" x="74.93" y="80.01" size="1.778" layer="27" display="off"/>
 <attribute name="SUPPLIER" value="Texas Instruments" x="74.93" y="80.01" size="1.778" layer="27" display="off"/>
@@ -2434,59 +2475,121 @@ design rules under a new name.</description>
 <attribute name="OC_FARNELL" value="unknown" x="87.63" y="74.422" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="87.63" y="74.422" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="" x="87.63" y="74.422" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="PARTNO" value="535-10208-1-ND" x="87.63" y="74.422" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C20" library="resistor" package="C0805" value="18pF" x="81.28" y="77.216" rot="R270"/>
-<element name="C21" library="resistor" package="C0805" value="18pF" x="83.82" y="71.12" rot="R90"/>
-<element name="R3" library="resistor" package="R0805" value="1.5K" x="81.28" y="73.152" rot="R270"/>
+<element name="C20" library="resistor" package="C0805" value="18pF" x="81.28" y="77.216" rot="R270">
+<attribute name="PARTNO" value="709-1171-1-ND" x="81.28" y="77.216" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C21" library="resistor" package="C0805" value="18pF" x="83.82" y="71.12" rot="R90">
+<attribute name="PARTNO" value="709-1171-1-ND" x="83.82" y="71.12" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="R3" library="resistor" package="R0805" value="1.5K" x="81.28" y="73.152" rot="R270">
+<attribute name="PARTNO" value="311-1.5KARCT-ND" x="81.28" y="73.152" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="USB_RASPI_DATA2" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="6.35" y="77.47" rot="R180"/>
-<element name="U$1" library="stewart_ss73100_046f_dwg" package="SS73100-046F" value="SS73100-046F_DWG" x="5.08" y="6.35"/>
-<element name="U1" library="microchip" package="MSOP8" value="MCP16311-E/MS" x="31.75" y="77.47" rot="R270"/>
-<element name="C4" library="resistor" package="C0805" value="0.1uF" x="36.195" y="77.47" rot="R270"/>
-<element name="L3" library="inductor-taiyoyuden" package="NR60XX" value="15uH" x="40.64" y="76.835" rot="R270"/>
-<element name="R4" library="resistor" package="R0805" value="31.6k" x="24.765" y="78.74" rot="R270"/>
-<element name="R5" library="resistor" package="R0805" value="10k" x="27.305" y="78.74" rot="R90"/>
-<element name="C5" library="resistor" package="C0805" value="1uF" x="32.385" y="80.01"/>
-<element name="C6" library="resistor" package="C0805" value="10uF" x="38.1" y="71.755" rot="R180"/>
-<element name="C7" library="resistor" package="C0805" value="10uF" x="38.1" y="69.215" rot="R180"/>
+<element name="U$1" library="stewart_ss73100_046f_dwg" package="SS73100-046F" value="SS73100-046F_DWG" x="5.08" y="6.35">
+<attribute name="PARTNO" value="380-1225-ND" x="5.08" y="6.35" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U1" library="microchip" package="MSOP8" value="MCP16311-E/MS" x="31.75" y="77.47" rot="R270">
+<attribute name="PARTNO" value="MCP16311-E/MS-ND" x="31.75" y="77.47" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C4" library="resistor" package="C0805" value="0.1uF" x="36.195" y="77.47" rot="R270">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="36.195" y="77.47" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="L3" library="inductor-taiyoyuden" package="NR60XX" value="15uH" x="40.64" y="76.835" rot="R270">
+<attribute name="PARTNO" value="587-2624-1-ND" x="40.64" y="76.835" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R4" library="resistor" package="R0805" value="31.6k" x="24.765" y="78.74" rot="R270">
+<attribute name="PARTNO" value="311-31.6KCRCT-ND" x="24.765" y="78.74" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="R5" library="resistor" package="R0805" value="10k" x="27.305" y="78.74" rot="R90">
+<attribute name="PARTNO" value="311-10KARCT-ND" x="27.305" y="78.74" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="C5" library="resistor" package="C0805" value="1uF" x="32.385" y="80.01">
+<attribute name="PARTNO" value="311-1365-1-ND" x="32.385" y="80.01" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C6" library="resistor" package="C0805" value="10uF" x="38.1" y="71.755" rot="R180">
+<attribute name="PARTNO" value="311-1459-1-ND" x="38.1" y="71.755" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="C7" library="resistor" package="C0805" value="10uF" x="38.1" y="69.215" rot="R180">
+<attribute name="PARTNO" value="311-1459-1-ND" x="38.1" y="69.215" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="DRIVER0B" library="Texas Instruments_By_element14_Batch_1" package="SOP65P640X120-16N" value="MAX3232CPWR" x="10.16" y="30.48" rot="R180">
 <attribute name="PACKAGE" value="TSSOP-16" x="10.16" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER" value="Texas Instruments" x="10.16" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1460372" x="10.16" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="75C1004" x="10.16" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="MAX3232CPWR" x="10.16" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="296-19263-1-ND" x="10.16" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C1" library="resistor" package="C0805" value="0.1uF" x="15.24" y="27.686" rot="R270"/>
-<element name="C22" library="resistor" package="C0805" value="0.1uF" x="15.24" y="31.877" rot="R270"/>
-<element name="C23" library="resistor" package="C0805" value="0.1uF" x="12.192" y="26.67"/>
-<element name="C24" library="resistor" package="C0805" value="0.1uF" x="11.938" y="34.29"/>
-<element name="C25" library="resistor" package="C0805" value="0.1uF" x="8.001" y="26.67" rot="R180"/>
+<element name="C1" library="resistor" package="C0805" value="0.1uF" x="15.24" y="27.686" rot="R270">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="15.24" y="27.686" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C22" library="resistor" package="C0805" value="0.1uF" x="15.24" y="31.877" rot="R270">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="15.24" y="31.877" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C23" library="resistor" package="C0805" value="0.1uF" x="12.192" y="26.67">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="12.192" y="26.67" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C24" library="resistor" package="C0805" value="0.1uF" x="11.938" y="34.29">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="11.938" y="34.29" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C25" library="resistor" package="C0805" value="0.1uF" x="8.001" y="26.67" rot="R180">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="8.001" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="DRIVER0B1" library="Texas Instruments_By_element14_Batch_1" package="SOP65P640X120-16N" value="MAX3232CPWR" x="24.13" y="41.91" rot="R180">
 <attribute name="PACKAGE" value="TSSOP-16" x="24.13" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER" value="Texas Instruments" x="24.13" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1460372" x="24.13" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="75C1004" x="24.13" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="MAX3232CPWR" x="24.13" y="49.53" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="296-19263-1-ND" x="24.13" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C26" library="resistor" package="C0805" value="0.1uF" x="29.21" y="39.116" rot="R270"/>
-<element name="C27" library="resistor" package="C0805" value="0.1uF" x="29.21" y="43.307" rot="R270"/>
-<element name="C28" library="resistor" package="C0805" value="0.1uF" x="26.162" y="38.1"/>
-<element name="C29" library="resistor" package="C0805" value="0.1uF" x="25.908" y="45.72"/>
-<element name="C30" library="resistor" package="C0805" value="0.1uF" x="21.971" y="38.1" rot="R180"/>
+<element name="C26" library="resistor" package="C0805" value="0.1uF" x="29.21" y="39.116" rot="R270">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="29.21" y="39.116" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C27" library="resistor" package="C0805" value="0.1uF" x="29.21" y="43.307" rot="R270">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="29.21" y="43.307" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C28" library="resistor" package="C0805" value="0.1uF" x="26.162" y="38.1">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="26.162" y="38.1" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C29" library="resistor" package="C0805" value="0.1uF" x="25.908" y="45.72">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="25.908" y="45.72" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C30" library="resistor" package="C0805" value="0.1uF" x="21.971" y="38.1" rot="R180">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="21.971" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="DRIVER0B2" library="Texas Instruments_By_element14_Batch_1" package="SOP65P640X120-16N" value="MAX3232CPWR" x="24.13" y="30.48" rot="R180">
 <attribute name="PACKAGE" value="TSSOP-16" x="24.13" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER" value="Texas Instruments" x="24.13" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_FARNELL" value="1460372" x="24.13" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="OC_NEWARK" value="75C1004" x="24.13" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="MAX3232CPWR" x="24.13" y="38.1" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="296-19263-1-ND" x="24.13" y="30.48" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C31" library="resistor" package="C0805" value="0.1uF" x="29.21" y="27.686" rot="R270"/>
-<element name="C32" library="resistor" package="C0805" value="0.1uF" x="29.21" y="31.877" rot="R270"/>
-<element name="C33" library="resistor" package="C0805" value="0.1uF" x="26.162" y="26.67"/>
-<element name="C34" library="resistor" package="C0805" value="0.1uF" x="26.035" y="34.29"/>
-<element name="C35" library="resistor" package="C0805" value="0.1uF" x="21.971" y="26.67" rot="R180"/>
+<element name="C31" library="resistor" package="C0805" value="0.1uF" x="29.21" y="27.686" rot="R270">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="29.21" y="27.686" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C32" library="resistor" package="C0805" value="0.1uF" x="29.21" y="31.877" rot="R270">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="29.21" y="31.877" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="C33" library="resistor" package="C0805" value="0.1uF" x="26.162" y="26.67">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="26.162" y="26.67" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C34" library="resistor" package="C0805" value="0.1uF" x="26.035" y="34.29">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="26.035" y="34.29" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C35" library="resistor" package="C0805" value="0.1uF" x="21.971" y="26.67" rot="R180">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="21.971" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="USB_IN" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="63.5" y="77.47" rot="R180"/>
-<element name="C36" library="resistor" package="C0805" value="0.1uF" x="69.596" y="68.58"/>
-<element name="R6" library="resistor" package="R0805" value="1.5K" x="54.864" y="71.12" rot="R180"/>
+<element name="C36" library="resistor" package="C0805" value="0.1uF" x="69.596" y="68.58">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="69.596" y="68.58" size="1.778" layer="27" display="off"/>
+</element>
+<element name="R6" library="resistor" package="R0805" value="1.5K" x="54.864" y="71.12" rot="R180">
+<attribute name="PARTNO" value="311-1.5KARCT-ND" x="54.864" y="71.12" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">

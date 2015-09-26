@@ -2368,8 +2368,8 @@ design rules under a new name.</description>
 </autorouter>
 <elements>
 <element name="C10" library="resistor" package="C0805" value="27pF" x="20.955" y="58.674" rot="R270"/>
-<element name="C11" library="resistor" package="C0805" value="100nF" x="20.447" y="63.754" rot="R90"/>
-<element name="C12" library="resistor" package="C0805" value="100nF" x="7.747" y="63.754" rot="R90"/>
+<element name="C11" library="resistor" package="C0805" value="0.1uF" x="20.447" y="63.754" rot="R90"/>
+<element name="C12" library="resistor" package="C0805" value="0.1uF" x="7.747" y="63.754" rot="R90"/>
 <element name="C13" library="resistor" package="C0805" value="4.7uF" x="18.161" y="63.754" rot="R90"/>
 <element name="C14" library="resistor" package="C0805" value="4.7uF" x="9.779" y="63.754" rot="R90"/>
 <element name="C2" library="resistor" package="C0805" value="10uF" x="30.48" y="74.295"/>
@@ -2441,7 +2441,7 @@ design rules under a new name.</description>
 <element name="USB_RASPI_DATA2" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="6.35" y="77.47" rot="R180"/>
 <element name="U$1" library="stewart_ss73100_046f_dwg" package="SS73100-046F" value="SS73100-046F_DWG" x="5.08" y="6.35"/>
 <element name="U1" library="microchip" package="MSOP8" value="MCP16311-E/MS" x="31.75" y="77.47" rot="R270"/>
-<element name="C4" library="resistor" package="C0805" value="100nF" x="36.195" y="77.47" rot="R270"/>
+<element name="C4" library="resistor" package="C0805" value="0.1uF" x="36.195" y="77.47" rot="R270"/>
 <element name="L3" library="inductor-taiyoyuden" package="NR60XX" value="15uH" x="40.64" y="76.835" rot="R270"/>
 <element name="R4" library="resistor" package="R0805" value="31.6k" x="24.765" y="78.74" rot="R270"/>
 <element name="R5" library="resistor" package="R0805" value="10k" x="27.305" y="78.74" rot="R90"/>

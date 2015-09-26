@@ -8091,8 +8091,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="FERRITE1" library="Wurth_Elektronik_Passive_rev15d" deviceset="WE-KI" device="_0805A" value="330"/>
 <part name="FERRITE2" library="Wurth_Elektronik_Passive_rev15d" deviceset="WE-KI" device="_0805A" value="330"/>
-<part name="C11" library="resistor" deviceset="C-EU" device="C0805" value="100nF"/>
-<part name="C12" library="resistor" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C11" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
+<part name="C12" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="C13" library="resistor" deviceset="C-EU" device="C0805" value="4.7uF"/>
 <part name="C14" library="resistor" deviceset="C-EU" device="C0805" value="4.7uF"/>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
@@ -8126,7 +8126,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="U$1" library="stewart_ss73100_046f_dwg" deviceset="SS73100-046F_DWG" device=""/>
 <part name="U1" library="microchip" deviceset="MCP16311" device="-E/MS"/>
-<part name="C4" library="resistor" deviceset="C-EU" device="C0805" value="100nF"/>
+<part name="C4" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF"/>
 <part name="L3" library="inductor-taiyoyuden" deviceset="NR6028" device="T220M" value="15uH"/>
 <part name="R4" library="resistor" deviceset="R-EU_" device="R0805" value="31.6k"/>
 <part name="R5" library="resistor" deviceset="R-EU_" device="R0805" value="10k"/>

@@ -702,38 +702,38 @@ element14 CAD Library consolidation.ulp
 at 30/07/2012 17:45:58</description>
 <packages>
 <package name="QFP80P900X900X145-32N">
-<smd name="1" x="-4.2164" y="2.794" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="2" x="-4.2164" y="2.0066" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="3" x="-4.2164" y="1.1938" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="4" x="-4.2164" y="0.4064" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="5" x="-4.2164" y="-0.4064" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="6" x="-4.2164" y="-1.1938" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="7" x="-4.2164" y="-2.0066" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="8" x="-4.2164" y="-2.794" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="9" x="-2.794" y="-4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="10" x="-2.0066" y="-4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="11" x="-1.1938" y="-4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="12" x="-0.4064" y="-4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="13" x="0.4064" y="-4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="14" x="1.1938" y="-4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="15" x="2.0066" y="-4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="16" x="2.794" y="-4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="17" x="4.2164" y="-2.794" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="18" x="4.2164" y="-2.0066" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="19" x="4.2164" y="-1.1938" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="20" x="4.2164" y="-0.4064" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="21" x="4.2164" y="0.4064" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="22" x="4.2164" y="1.1938" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="23" x="4.2164" y="2.0066" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="24" x="4.2164" y="2.794" dx="0.508" dy="1.4732" layer="1" rot="R270"/>
-<smd name="25" x="2.794" y="4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="26" x="2.0066" y="4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="27" x="1.1938" y="4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="28" x="0.4064" y="4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="29" x="-0.4064" y="4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="30" x="-1.1938" y="4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="31" x="-2.0066" y="4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
-<smd name="32" x="-2.794" y="4.2164" dx="0.508" dy="1.4732" layer="1" rot="R180"/>
+<smd name="1" x="-4.3688" y="2.794" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="2" x="-4.3688" y="2.0066" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="3" x="-4.3688" y="1.1938" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="4" x="-4.3688" y="0.4064" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="5" x="-4.3688" y="-0.4064" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="6" x="-4.3688" y="-1.1938" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="7" x="-4.3688" y="-2.0066" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="8" x="-4.3688" y="-2.794" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="9" x="-2.794" y="-4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="10" x="-2.0066" y="-4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="11" x="-1.1938" y="-4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="12" x="-0.4064" y="-4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="13" x="0.4064" y="-4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="14" x="1.1938" y="-4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="15" x="2.0066" y="-4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="16" x="2.794" y="-4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="17" x="4.3688" y="-2.794" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="18" x="4.3688" y="-2.0066" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="19" x="4.3688" y="-1.1938" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="20" x="4.3688" y="-0.4064" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="21" x="4.3688" y="0.4064" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="22" x="4.3688" y="1.1938" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="23" x="4.3688" y="2.0066" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="24" x="4.3688" y="2.794" dx="0.508" dy="1.778" layer="1" rot="R270"/>
+<smd name="25" x="2.794" y="4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="26" x="2.0066" y="4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="27" x="1.1938" y="4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="28" x="0.4064" y="4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="29" x="-0.4064" y="4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="30" x="-1.1938" y="4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="31" x="-2.0066" y="4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
+<smd name="32" x="-2.794" y="4.3688" dx="0.508" dy="1.778" layer="1" rot="R180"/>
 <wire x1="-1.1938" y1="5.2832" x2="-1.1938" y2="6.2992" width="0.1524" layer="21"/>
 <wire x1="-1.9812" y1="-6.2738" x2="-1.9812" y2="-5.2578" width="0.1524" layer="21"/>
 <wire x1="5.2832" y1="-0.4064" x2="6.2992" y2="-0.4064" width="0.1524" layer="21"/>
@@ -883,6 +883,7 @@ at 30/07/2012 17:45:58</description>
 <text x="-6.1722" y="2.9464" size="1.27" layer="51" ratio="6" rot="SR0">*</text>
 <text x="-3.4544" y="6.985" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-3.4544" y="-9.525" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<circle x="-2.54" y="2.54" radius="0.635" width="0.0254" layer="21"/>
 </package>
 <package name="SOP65P640X120-16N">
 <smd name="1" x="-2.921" y="2.286" dx="1.4732" dy="0.3556" layer="1"/>

@@ -7127,8 +7127,8 @@ Copyright: Würth Elektronik</description>
 <wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
 <wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
 <wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<smd name="2" x="0.8375" y="0" dx="0.925" dy="1.2" layer="1"/>
-<smd name="1" x="-0.8375" y="0" dx="0.925" dy="1.2" layer="1"/>
+<smd name="2" x="0.8375" y="0" dx="1.143" dy="1.2" layer="1"/>
+<smd name="1" x="-0.8375" y="0" dx="1.143" dy="1.2" layer="1"/>
 <text x="-1.5" y="-1.7" size="0.3048" layer="25">&gt;NAME</text>
 <text x="-1.5" y="1.4" size="0.3048" layer="27">&gt;VALUE</text>
 <wire x1="-1.5" y1="0.875" x2="-1.5" y2="-0.875" width="0.127" layer="39"/>

@@ -8083,8 +8083,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
 <part name="GND16" library="supply1" deviceset="GND" device=""/>
 <part name="Q1" library="crystal" deviceset="CSM-7X-DU" device="" value="12MHz"/>
-<part name="C9" library="resistor" deviceset="C-EU" device="C0805" value="27pF"/>
-<part name="C10" library="resistor" deviceset="C-EU" device="C0805" value="27pF"/>
+<part name="C9" library="resistor" deviceset="C-EU" device="C0805" value="18pF"/>
+<part name="C10" library="resistor" deviceset="C-EU" device="C0805" value="18pF"/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" deviceset="GND" device=""/>
@@ -8115,8 +8115,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="U5" library="Texas Instruments_By_element14_Batch_1" deviceset="SN74LVC1G86DCKR" device=""/>
 <part name="GND32" library="supply1" deviceset="GND" device=""/>
 <part name="Q2" library="crystal" deviceset="CSM-7X-DU" device="" value="6MHz"/>
-<part name="C20" library="resistor" deviceset="C-EU" device="C0805" value="27pF"/>
-<part name="C21" library="resistor" deviceset="C-EU" device="C0805" value="27pF"/>
+<part name="C20" library="resistor" deviceset="C-EU" device="C0805" value="18pF"/>
+<part name="C21" library="resistor" deviceset="C-EU" device="C0805" value="18pF"/>
 <part name="GND34" library="supply1" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" deviceset="GND" device=""/>
 <part name="R3" library="resistor" deviceset="R-EU_" device="R0805" value="1.5K"/>

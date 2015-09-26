@@ -984,6 +984,7 @@ at 30/07/2012 17:45:58</description>
 <text x="-3.7592" y="2.4892" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-4.826" y="3.4798" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-5.6896" y="-5.2832" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
+<circle x="-1.27" y="1.905" radius="0.635" width="0.0254" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -1027,29 +1028,29 @@ at 30/07/2012 17:45:58</description>
 <text x="-5.4864" y="27.6098" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-4.1148" y="-36.1442" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
-<symbol name="MAX3232CPWR">
-<pin name="VCC" x="-17.78" y="17.78" length="middle" direction="pwr"/>
-<pin name="V+" x="-17.78" y="15.24" length="middle" direction="pwr"/>
+<symbol name="MAX3232ECPW">
+<pin name="V+" x="-17.78" y="17.78" length="middle" direction="pwr"/>
+<pin name="VCC" x="-17.78" y="15.24" length="middle" direction="pwr"/>
 <pin name="RIN1" x="-17.78" y="10.16" length="middle" direction="in"/>
 <pin name="RIN2" x="-17.78" y="7.62" length="middle" direction="in"/>
 <pin name="DIN1" x="-17.78" y="2.54" length="middle" direction="in"/>
 <pin name="DIN2" x="-17.78" y="0" length="middle" direction="in"/>
 <pin name="C1+" x="-17.78" y="-5.08" length="middle" direction="pas"/>
-<pin name="C1-" x="-17.78" y="-7.62" length="middle" direction="pas"/>
-<pin name="C2+" x="-17.78" y="-12.7" length="middle" direction="pas"/>
+<pin name="C2+" x="-17.78" y="-7.62" length="middle" direction="pas"/>
+<pin name="C1-" x="-17.78" y="-12.7" length="middle" direction="pas"/>
 <pin name="C2-" x="-17.78" y="-15.24" length="middle" direction="pas"/>
 <pin name="V-" x="-17.78" y="-20.32" length="middle" direction="pwr"/>
-<pin name="GND" x="-17.78" y="-22.86" length="middle" direction="pas"/>
-<pin name="ROUT1" x="17.78" y="17.78" length="middle" direction="out" rot="R180"/>
-<pin name="ROUT2" x="17.78" y="15.24" length="middle" direction="out" rot="R180"/>
-<pin name="DOUT1" x="17.78" y="10.16" length="middle" direction="out" rot="R180"/>
-<pin name="DOUT2" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
-<wire x1="-12.7" y1="22.86" x2="-12.7" y2="-27.94" width="0.4064" layer="94"/>
-<wire x1="-12.7" y1="-27.94" x2="12.7" y2="-27.94" width="0.4064" layer="94"/>
-<wire x1="12.7" y1="-27.94" x2="12.7" y2="22.86" width="0.4064" layer="94"/>
+<pin name="GND" x="-17.78" y="-25.4" length="middle" direction="pas"/>
+<pin name="DOUT1" x="17.78" y="15.24" length="middle" direction="out" rot="R180"/>
+<pin name="ROUT1" x="17.78" y="12.7" length="middle" direction="out" rot="R180"/>
+<pin name="ROUT2" x="17.78" y="7.62" length="middle" direction="out" rot="R180"/>
+<pin name="DOUT2" x="17.78" y="5.08" length="middle" direction="out" rot="R180"/>
+<wire x1="-12.7" y1="22.86" x2="-12.7" y2="-30.48" width="0.4064" layer="94"/>
+<wire x1="-12.7" y1="-30.48" x2="12.7" y2="-30.48" width="0.4064" layer="94"/>
+<wire x1="12.7" y1="-30.48" x2="12.7" y2="22.86" width="0.4064" layer="94"/>
 <wire x1="12.7" y1="22.86" x2="-12.7" y2="22.86" width="0.4064" layer="94"/>
-<text x="-5.3594" y="26.8986" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
-<text x="-4.6736" y="-34.4678" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
+<text x="-5.207" y="25.1714" size="2.0828" layer="95" ratio="10" rot="SR0">&gt;NAME</text>
+<text x="-4.2164" y="-34.6202" size="2.0828" layer="96" ratio="10" rot="SR0">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1106,10 +1107,10 @@ at 30/07/2012 17:45:58</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="MAX3232CPWR" prefix="U">
+<deviceset name="MAX3232ECPW" prefix="U">
 <description>RS-232 Line Driver/Receiver</description>
 <gates>
-<gate name="A" symbol="MAX3232CPWR" x="0" y="0"/>
+<gate name="A" symbol="MAX3232ECPW" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="SOP65P640X120-16N">
@@ -1133,9 +1134,9 @@ at 30/07/2012 17:45:58</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MPN" value="MAX3232CPWR" constant="no"/>
-<attribute name="OC_FARNELL" value="1460372" constant="no"/>
-<attribute name="OC_NEWARK" value="75C1004" constant="no"/>
+<attribute name="MPN" value="MAX3232ECPW" constant="no"/>
+<attribute name="OC_FARNELL" value="-" constant="no"/>
+<attribute name="OC_NEWARK" value="52K5774" constant="no"/>
 <attribute name="PACKAGE" value="TSSOP-16" constant="no"/>
 <attribute name="SUPPLIER" value="Texas Instruments" constant="no"/>
 </technology>
@@ -7988,7 +7989,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="DRIVER0A" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device="">
+<part name="DRV0A" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
@@ -8058,7 +8059,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="PARTNO" value="311-1459-1-ND"/>
 </part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="DRIVER0B" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device="">
+<part name="DRV0B" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -8080,7 +8081,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="PARTNO" value="1276-1003-1-ND"/>
 </part>
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
-<part name="DRIVER0B1" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device="">
+<part name="DRV0C" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
@@ -8102,7 +8103,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="PARTNO" value="1276-1003-1-ND"/>
 </part>
 <part name="GND41" library="supply1" deviceset="GND" device=""/>
-<part name="DRIVER0B2" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232CPWR" device="">
+<part name="DRV0D" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
@@ -8223,7 +8224,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="GND22" gate="1" x="20.32" y="99.06" rot="R270"/>
 <instance part="GND23" gate="1" x="45.72" y="109.22" rot="R90"/>
 <instance part="GND24" gate="1" x="45.72" y="99.06" rot="R90"/>
-<instance part="DRIVER0A" gate="A" x="160.02" y="99.06">
+<instance part="DRV0A" gate="A" x="160.02" y="99.06">
 <attribute name="PARTNO" x="160.02" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND26" gate="1" x="139.7" y="76.2" rot="R270"/>
@@ -8293,7 +8294,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="PARTNO" x="66.04" y="330.2" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND11" gate="1" x="187.96" y="96.52"/>
-<instance part="DRIVER0B" gate="A" x="269.24" y="71.12">
+<instance part="DRV0B" gate="A" x="269.24" y="71.12">
 <attribute name="PARTNO" x="269.24" y="71.12" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND12" gate="1" x="248.92" y="48.26" rot="R270"/>
@@ -8315,7 +8316,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="PARTNO" x="236.22" y="83.82" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND27" gate="1" x="236.22" y="78.74"/>
-<instance part="DRIVER0B1" gate="A" x="373.38" y="35.56">
+<instance part="DRV0C" gate="A" x="373.38" y="35.56">
 <attribute name="PARTNO" x="373.38" y="35.56" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND38" gate="1" x="353.06" y="12.7" rot="R270"/>
@@ -8337,7 +8338,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="PARTNO" x="340.36" y="48.26" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND41" gate="1" x="340.36" y="43.18"/>
-<instance part="DRIVER0B2" gate="A" x="447.04" y="-15.24">
+<instance part="DRV0D" gate="A" x="447.04" y="-15.24">
 <attribute name="PARTNO" x="447.04" y="-15.24" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND44" gate="1" x="426.72" y="-38.1" rot="R270"/>
@@ -8479,8 +8480,9 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="GND24" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="DRIVER0A" gate="A" pin="GND"/>
+<pinref part="DRV0A" gate="A" pin="GND"/>
 <pinref part="GND26" gate="1" pin="GND"/>
+<wire x1="142.24" y1="76.2" x2="142.24" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C18" gate="G$1" pin="1"/>
@@ -8554,8 +8556,9 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="GND11" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="DRIVER0B" gate="A" pin="GND"/>
+<pinref part="DRV0B" gate="A" pin="GND"/>
 <pinref part="GND12" gate="1" pin="GND"/>
+<wire x1="251.46" y1="48.26" x2="251.46" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C24" gate="G$1" pin="1"/>
@@ -8570,8 +8573,9 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="GND27" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="DRIVER0B1" gate="A" pin="GND"/>
+<pinref part="DRV0C" gate="A" pin="GND"/>
 <pinref part="GND38" gate="1" pin="GND"/>
+<wire x1="355.6" y1="12.7" x2="355.6" y2="10.16" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C29" gate="G$1" pin="1"/>
@@ -8586,8 +8590,9 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="GND41" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="DRIVER0B2" gate="A" pin="GND"/>
+<pinref part="DRV0D" gate="A" pin="GND"/>
 <pinref part="GND44" gate="1" pin="GND"/>
+<wire x1="429.26" y1="-38.1" x2="429.26" y2="-40.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C34" gate="G$1" pin="1"/>
@@ -8767,7 +8772,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <net name="N$31" class="0">
 <segment>
 <pinref part="C15" gate="G$1" pin="2"/>
-<pinref part="DRIVER0A" gate="A" pin="C1+"/>
+<pinref part="DRV0A" gate="A" pin="C1+"/>
 <wire x1="139.7" y1="93.98" x2="142.24" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8775,36 +8780,36 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <segment>
 <pinref part="C15" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="93.98" x2="132.08" y2="91.44" width="0.1524" layer="91"/>
-<pinref part="DRIVER0A" gate="A" pin="C1-"/>
-<wire x1="132.08" y1="91.44" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
+<pinref part="DRV0A" gate="A" pin="C1-"/>
+<wire x1="132.08" y1="91.44" x2="142.24" y2="86.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$33" class="0">
 <segment>
 <pinref part="C16" gate="G$1" pin="2"/>
-<pinref part="DRIVER0A" gate="A" pin="C2+"/>
-<wire x1="139.7" y1="86.36" x2="142.24" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="DRV0A" gate="A" pin="C2+"/>
+<wire x1="139.7" y1="86.36" x2="142.24" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$34" class="0">
 <segment>
 <pinref part="C16" gate="G$1" pin="1"/>
 <wire x1="132.08" y1="86.36" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
-<pinref part="DRIVER0A" gate="A" pin="C2-"/>
+<pinref part="DRV0A" gate="A" pin="C2-"/>
 <wire x1="142.24" y1="83.82" x2="132.08" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$35" class="0">
 <segment>
-<pinref part="DRIVER0A" gate="A" pin="DIN1"/>
+<pinref part="DRV0A" gate="A" pin="DIN1"/>
 <wire x1="142.24" y1="101.6" x2="99.06" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="SERIAL0" gate="A" pin="DB0/TXD"/>
 </segment>
 </net>
 <net name="N$36" class="0">
 <segment>
-<pinref part="DRIVER0A" gate="A" pin="ROUT1"/>
-<wire x1="177.8" y1="116.84" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="DRV0A" gate="A" pin="ROUT1"/>
+<wire x1="177.8" y1="111.76" x2="180.34" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="116.84" x2="180.34" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="129.54" x2="109.22" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="129.54" x2="109.22" y2="99.06" width="0.1524" layer="91"/>
@@ -8814,13 +8819,14 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$39" class="0">
 <segment>
-<pinref part="DRIVER0A" gate="A" pin="V+"/>
+<pinref part="DRV0A" gate="A" pin="V+"/>
 <pinref part="C17" gate="G$1" pin="2"/>
+<wire x1="142.24" y1="114.3" x2="142.24" y2="116.84" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$40" class="0">
 <segment>
-<pinref part="DRIVER0A" gate="A" pin="V-"/>
+<pinref part="DRV0A" gate="A" pin="V-"/>
 <pinref part="C18" gate="G$1" pin="2"/>
 </segment>
 </net>
@@ -8874,7 +8880,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$19" class="0">
 <segment>
-<pinref part="DRIVER0A" gate="A" pin="RIN1"/>
+<pinref part="DRV0A" gate="A" pin="RIN1"/>
 <wire x1="142.24" y1="109.22" x2="129.54" y2="109.22" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="109.22" x2="129.54" y2="124.46" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="124.46" x2="187.96" y2="124.46" width="0.1524" layer="91"/>
@@ -8947,26 +8953,26 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <label x="-27.94" y="71.12" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="DRIVER0A" gate="A" pin="VCC"/>
-<wire x1="142.24" y1="116.84" x2="127" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="DRV0A" gate="A" pin="VCC"/>
+<wire x1="142.24" y1="114.3" x2="127" y2="116.84" width="0.1524" layer="91"/>
 <label x="127" y="116.84" size="1.778" layer="95"/>
 <pinref part="C19" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="DRIVER0B" gate="A" pin="VCC"/>
-<wire x1="251.46" y1="88.9" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="DRV0B" gate="A" pin="VCC"/>
+<wire x1="251.46" y1="86.36" x2="236.22" y2="88.9" width="0.1524" layer="91"/>
 <label x="236.22" y="88.9" size="1.778" layer="95"/>
 <pinref part="C25" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="DRIVER0B1" gate="A" pin="VCC"/>
-<wire x1="355.6" y1="53.34" x2="340.36" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="DRV0C" gate="A" pin="VCC"/>
+<wire x1="355.6" y1="50.8" x2="340.36" y2="53.34" width="0.1524" layer="91"/>
 <label x="340.36" y="53.34" size="1.778" layer="95"/>
 <pinref part="C30" gate="G$1" pin="2"/>
 </segment>
 <segment>
-<pinref part="DRIVER0B2" gate="A" pin="VCC"/>
-<wire x1="429.26" y1="2.54" x2="414.02" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="DRV0D" gate="A" pin="VCC"/>
+<wire x1="429.26" y1="0" x2="414.02" y2="2.54" width="0.1524" layer="91"/>
 <label x="414.02" y="2.54" size="1.778" layer="95"/>
 <pinref part="C35" gate="G$1" pin="2"/>
 </segment>
@@ -9048,7 +9054,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="SERIAL0" gate="A" pin="DB2/RTS"/>
 <wire x1="99.06" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
 <wire x1="127" y1="96.52" x2="127" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="DRIVER0A" gate="A" pin="DIN2"/>
+<pinref part="DRV0A" gate="A" pin="DIN2"/>
 <wire x1="127" y1="99.06" x2="142.24" y2="99.06" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9056,8 +9062,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <segment>
 <pinref part="SERIAL0" gate="A" pin="DB3/CTS"/>
 <wire x1="99.06" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
-<pinref part="DRIVER0A" gate="A" pin="ROUT2"/>
-<wire x1="177.8" y1="114.3" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="DRV0A" gate="A" pin="ROUT2"/>
+<wire x1="177.8" y1="106.68" x2="182.88" y2="114.3" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="114.3" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="132.08" x2="106.68" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="106.68" y1="132.08" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
@@ -9065,8 +9071,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="DRIVER0A" gate="A" pin="DOUT2"/>
-<wire x1="177.8" y1="106.68" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="DRV0A" gate="A" pin="DOUT2"/>
+<wire x1="177.8" y1="104.14" x2="182.88" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="182.88" y1="106.68" x2="182.88" y2="101.6" width="0.1524" layer="91"/>
 <pinref part="SL1" gate="G$1" pin="4"/>
 <wire x1="182.88" y1="101.6" x2="187.96" y2="101.6" width="0.1524" layer="91"/>
@@ -9074,7 +9080,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="DRIVER0A" gate="A" pin="RIN2"/>
+<pinref part="DRV0A" gate="A" pin="RIN2"/>
 <wire x1="142.24" y1="106.68" x2="129.54" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="106.68" x2="129.54" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="104.14" x2="124.46" y2="104.14" width="0.1524" layer="91"/>
@@ -9099,7 +9105,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <net name="N$11" class="0">
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
-<pinref part="DRIVER0B" gate="A" pin="C1+"/>
+<pinref part="DRV0B" gate="A" pin="C1+"/>
 <wire x1="248.92" y1="66.04" x2="251.46" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9107,28 +9113,28 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="66.04" x2="241.3" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="DRIVER0B" gate="A" pin="C1-"/>
-<wire x1="241.3" y1="63.5" x2="251.46" y2="63.5" width="0.1524" layer="91"/>
+<pinref part="DRV0B" gate="A" pin="C1-"/>
+<wire x1="241.3" y1="63.5" x2="251.46" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$21" class="0">
 <segment>
 <pinref part="C22" gate="G$1" pin="2"/>
-<pinref part="DRIVER0B" gate="A" pin="C2+"/>
-<wire x1="248.92" y1="58.42" x2="251.46" y2="58.42" width="0.1524" layer="91"/>
+<pinref part="DRV0B" gate="A" pin="C2+"/>
+<wire x1="248.92" y1="58.42" x2="251.46" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$22" class="0">
 <segment>
 <pinref part="C22" gate="G$1" pin="1"/>
 <wire x1="241.3" y1="58.42" x2="241.3" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="DRIVER0B" gate="A" pin="C2-"/>
+<pinref part="DRV0B" gate="A" pin="C2-"/>
 <wire x1="251.46" y1="55.88" x2="241.3" y2="55.88" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$23" class="0">
 <segment>
-<pinref part="DRIVER0B" gate="A" pin="DIN1"/>
+<pinref part="DRV0B" gate="A" pin="DIN1"/>
 <wire x1="251.46" y1="73.66" x2="175.26" y2="73.66" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="73.66" x2="175.26" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="68.58" x2="127" y2="68.58" width="0.1524" layer="91"/>
@@ -9139,8 +9145,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$24" class="0">
 <segment>
-<pinref part="DRIVER0B" gate="A" pin="ROUT1"/>
-<wire x1="287.02" y1="88.9" x2="289.56" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="DRV0B" gate="A" pin="ROUT1"/>
+<wire x1="287.02" y1="83.82" x2="289.56" y2="88.9" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="88.9" x2="289.56" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="289.56" y1="101.6" x2="218.44" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="218.44" y1="101.6" x2="218.44" y2="71.12" width="0.1524" layer="91"/>
@@ -9154,20 +9160,21 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$26" class="0">
 <segment>
-<pinref part="DRIVER0B" gate="A" pin="V+"/>
+<pinref part="DRV0B" gate="A" pin="V+"/>
 <pinref part="C23" gate="G$1" pin="2"/>
+<wire x1="251.46" y1="86.36" x2="251.46" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
-<pinref part="DRIVER0B" gate="A" pin="V-"/>
+<pinref part="DRV0B" gate="A" pin="V-"/>
 <pinref part="C24" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$47" class="0">
 <segment>
 <wire x1="236.22" y1="68.58" x2="236.22" y2="71.12" width="0.1524" layer="91"/>
-<pinref part="DRIVER0B" gate="A" pin="DIN2"/>
+<pinref part="DRV0B" gate="A" pin="DIN2"/>
 <wire x1="236.22" y1="71.12" x2="251.46" y2="71.12" width="0.1524" layer="91"/>
 <wire x1="236.22" y1="68.58" x2="180.34" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="68.58" x2="180.34" y2="63.5" width="0.1524" layer="91"/>
@@ -9179,8 +9186,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$48" class="0">
 <segment>
-<pinref part="DRIVER0B" gate="A" pin="ROUT2"/>
-<wire x1="287.02" y1="86.36" x2="292.1" y2="86.36" width="0.1524" layer="91"/>
+<pinref part="DRV0B" gate="A" pin="ROUT2"/>
+<wire x1="287.02" y1="78.74" x2="292.1" y2="86.36" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="86.36" x2="292.1" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="292.1" y1="104.14" x2="215.9" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="215.9" y1="104.14" x2="215.9" y2="66.04" width="0.1524" layer="91"/>
@@ -9195,7 +9202,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <net name="N$51" class="0">
 <segment>
 <pinref part="C26" gate="G$1" pin="2"/>
-<pinref part="DRIVER0B1" gate="A" pin="C1+"/>
+<pinref part="DRV0C" gate="A" pin="C1+"/>
 <wire x1="353.06" y1="30.48" x2="355.6" y2="30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9203,28 +9210,28 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <segment>
 <pinref part="C26" gate="G$1" pin="1"/>
 <wire x1="345.44" y1="30.48" x2="345.44" y2="27.94" width="0.1524" layer="91"/>
-<pinref part="DRIVER0B1" gate="A" pin="C1-"/>
-<wire x1="345.44" y1="27.94" x2="355.6" y2="27.94" width="0.1524" layer="91"/>
+<pinref part="DRV0C" gate="A" pin="C1-"/>
+<wire x1="345.44" y1="27.94" x2="355.6" y2="22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$53" class="0">
 <segment>
 <pinref part="C27" gate="G$1" pin="2"/>
-<pinref part="DRIVER0B1" gate="A" pin="C2+"/>
-<wire x1="353.06" y1="22.86" x2="355.6" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="DRV0C" gate="A" pin="C2+"/>
+<wire x1="353.06" y1="22.86" x2="355.6" y2="27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$54" class="0">
 <segment>
 <pinref part="C27" gate="G$1" pin="1"/>
 <wire x1="345.44" y1="22.86" x2="345.44" y2="20.32" width="0.1524" layer="91"/>
-<pinref part="DRIVER0B1" gate="A" pin="C2-"/>
+<pinref part="DRV0C" gate="A" pin="C2-"/>
 <wire x1="355.6" y1="20.32" x2="345.44" y2="20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$55" class="0">
 <segment>
-<pinref part="DRIVER0B1" gate="A" pin="DIN1"/>
+<pinref part="DRV0C" gate="A" pin="DIN1"/>
 <wire x1="355.6" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="38.1" x2="119.38" y2="45.72" width="0.1524" layer="91"/>
 <pinref part="SERIAL0" gate="C" pin="DB0/TXD"/>
@@ -9233,8 +9240,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$56" class="0">
 <segment>
-<pinref part="DRIVER0B1" gate="A" pin="ROUT1"/>
-<wire x1="391.16" y1="53.34" x2="393.7" y2="53.34" width="0.1524" layer="91"/>
+<pinref part="DRV0C" gate="A" pin="ROUT1"/>
+<wire x1="391.16" y1="48.26" x2="393.7" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="53.34" x2="393.7" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="66.04" x2="322.58" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="322.58" y1="66.04" x2="322.58" y2="35.56" width="0.1524" layer="91"/>
@@ -9246,20 +9253,21 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$58" class="0">
 <segment>
-<pinref part="DRIVER0B1" gate="A" pin="V+"/>
+<pinref part="DRV0C" gate="A" pin="V+"/>
 <pinref part="C28" gate="G$1" pin="2"/>
+<wire x1="355.6" y1="50.8" x2="355.6" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$59" class="0">
 <segment>
-<pinref part="DRIVER0B1" gate="A" pin="V-"/>
+<pinref part="DRV0C" gate="A" pin="V-"/>
 <pinref part="C29" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$61" class="0">
 <segment>
 <wire x1="340.36" y1="33.02" x2="340.36" y2="35.56" width="0.1524" layer="91"/>
-<pinref part="DRIVER0B1" gate="A" pin="DIN2"/>
+<pinref part="DRV0C" gate="A" pin="DIN2"/>
 <wire x1="340.36" y1="35.56" x2="355.6" y2="35.56" width="0.1524" layer="91"/>
 <pinref part="SERIAL0" gate="C" pin="DB2/RTS"/>
 <wire x1="99.06" y1="40.64" x2="114.3" y2="40.64" width="0.1524" layer="91"/>
@@ -9269,8 +9277,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$62" class="0">
 <segment>
-<pinref part="DRIVER0B1" gate="A" pin="ROUT2"/>
-<wire x1="391.16" y1="50.8" x2="396.24" y2="50.8" width="0.1524" layer="91"/>
+<pinref part="DRV0C" gate="A" pin="ROUT2"/>
+<wire x1="391.16" y1="43.18" x2="396.24" y2="50.8" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="50.8" x2="396.24" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="68.58" x2="320.04" y2="68.58" width="0.1524" layer="91"/>
 <wire x1="320.04" y1="68.58" x2="320.04" y2="30.48" width="0.1524" layer="91"/>
@@ -9283,7 +9291,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <net name="N$65" class="0">
 <segment>
 <pinref part="C31" gate="G$1" pin="2"/>
-<pinref part="DRIVER0B2" gate="A" pin="C1+"/>
+<pinref part="DRV0D" gate="A" pin="C1+"/>
 <wire x1="426.72" y1="-20.32" x2="429.26" y2="-20.32" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -9291,28 +9299,28 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <segment>
 <pinref part="C31" gate="G$1" pin="1"/>
 <wire x1="419.1" y1="-20.32" x2="419.1" y2="-22.86" width="0.1524" layer="91"/>
-<pinref part="DRIVER0B2" gate="A" pin="C1-"/>
-<wire x1="419.1" y1="-22.86" x2="429.26" y2="-22.86" width="0.1524" layer="91"/>
+<pinref part="DRV0D" gate="A" pin="C1-"/>
+<wire x1="419.1" y1="-22.86" x2="429.26" y2="-27.94" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$67" class="0">
 <segment>
 <pinref part="C32" gate="G$1" pin="2"/>
-<pinref part="DRIVER0B2" gate="A" pin="C2+"/>
-<wire x1="426.72" y1="-27.94" x2="429.26" y2="-27.94" width="0.1524" layer="91"/>
+<pinref part="DRV0D" gate="A" pin="C2+"/>
+<wire x1="426.72" y1="-27.94" x2="429.26" y2="-22.86" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$68" class="0">
 <segment>
 <pinref part="C32" gate="G$1" pin="1"/>
 <wire x1="419.1" y1="-27.94" x2="419.1" y2="-30.48" width="0.1524" layer="91"/>
-<pinref part="DRIVER0B2" gate="A" pin="C2-"/>
+<pinref part="DRV0D" gate="A" pin="C2-"/>
 <wire x1="429.26" y1="-30.48" x2="419.1" y2="-30.48" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$69" class="0">
 <segment>
-<pinref part="DRIVER0B2" gate="A" pin="DIN1"/>
+<pinref part="DRV0D" gate="A" pin="DIN1"/>
 <wire x1="429.26" y1="-12.7" x2="127" y2="-12.7" width="0.1524" layer="91"/>
 <wire x1="127" y1="-12.7" x2="127" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="SERIAL0" gate="D" pin="DB0/TXD"/>
@@ -9321,8 +9329,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$70" class="0">
 <segment>
-<pinref part="DRIVER0B2" gate="A" pin="ROUT1"/>
-<wire x1="464.82" y1="2.54" x2="467.36" y2="2.54" width="0.1524" layer="91"/>
+<pinref part="DRV0D" gate="A" pin="ROUT1"/>
+<wire x1="464.82" y1="-2.54" x2="467.36" y2="2.54" width="0.1524" layer="91"/>
 <wire x1="467.36" y1="2.54" x2="467.36" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="467.36" y1="15.24" x2="396.24" y2="15.24" width="0.1524" layer="91"/>
 <wire x1="396.24" y1="15.24" x2="396.24" y2="-15.24" width="0.1524" layer="91"/>
@@ -9334,20 +9342,21 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$72" class="0">
 <segment>
-<pinref part="DRIVER0B2" gate="A" pin="V+"/>
+<pinref part="DRV0D" gate="A" pin="V+"/>
 <pinref part="C33" gate="G$1" pin="2"/>
+<wire x1="429.26" y1="0" x2="429.26" y2="2.54" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$73" class="0">
 <segment>
-<pinref part="DRIVER0B2" gate="A" pin="V-"/>
+<pinref part="DRV0D" gate="A" pin="V-"/>
 <pinref part="C34" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$75" class="0">
 <segment>
 <wire x1="414.02" y1="-17.78" x2="414.02" y2="-15.24" width="0.1524" layer="91"/>
-<pinref part="DRIVER0B2" gate="A" pin="DIN2"/>
+<pinref part="DRV0D" gate="A" pin="DIN2"/>
 <wire x1="414.02" y1="-15.24" x2="429.26" y2="-15.24" width="0.1524" layer="91"/>
 <wire x1="414.02" y1="-17.78" x2="121.92" y2="-17.78" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="-17.78" x2="121.92" y2="12.7" width="0.1524" layer="91"/>
@@ -9357,8 +9366,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="N$76" class="0">
 <segment>
-<pinref part="DRIVER0B2" gate="A" pin="ROUT2"/>
-<wire x1="464.82" y1="0" x2="469.9" y2="0" width="0.1524" layer="91"/>
+<pinref part="DRV0D" gate="A" pin="ROUT2"/>
+<wire x1="464.82" y1="-7.62" x2="469.9" y2="0" width="0.1524" layer="91"/>
 <wire x1="469.9" y1="0" x2="469.9" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="469.9" y1="17.78" x2="393.7" y2="17.78" width="0.1524" layer="91"/>
 <wire x1="393.7" y1="17.78" x2="393.7" y2="-20.32" width="0.1524" layer="91"/>
@@ -9373,8 +9382,8 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="SL1" gate="G$1" pin="2"/>
 <wire x1="187.96" y1="106.68" x2="185.42" y2="106.68" width="0.1524" layer="91"/>
 <wire x1="185.42" y1="106.68" x2="185.42" y2="109.22" width="0.1524" layer="91"/>
-<pinref part="DRIVER0A" gate="A" pin="DOUT1"/>
-<wire x1="185.42" y1="109.22" x2="177.8" y2="109.22" width="0.1524" layer="91"/>
+<pinref part="DRV0A" gate="A" pin="DOUT1"/>
+<wire x1="185.42" y1="109.22" x2="177.8" y2="114.3" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$1" class="0">

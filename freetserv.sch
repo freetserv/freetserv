@@ -7780,14 +7780,14 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <wire x1="1.4" y1="-1.4" x2="-1.4" y2="-1.4" width="0.2032" layer="21"/>
 <wire x1="-1.4" y1="-1.4" x2="-1.4" y2="1.4" width="0.2032" layer="21"/>
 <circle x="-1" y="-1" radius="0.2" width="0" layer="21"/>
-<smd name="1" x="-0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="2" x="-0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="3" x="0.325" y="-2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="4" x="0.975" y="-2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="5" x="0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="6" x="0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="7" x="-0.325" y="2.05" dx="0.45" dy="1" layer="1"/>
-<smd name="8" x="-0.975" y="2.05" dx="0.45" dy="1" layer="1"/>
+<smd name="1" x="-0.975" y="-2.304" dx="0.45" dy="1.524" layer="1"/>
+<smd name="2" x="-0.325" y="-2.304" dx="0.45" dy="1.524" layer="1"/>
+<smd name="3" x="0.325" y="-2.304" dx="0.45" dy="1.524" layer="1"/>
+<smd name="4" x="0.975" y="-2.304" dx="0.45" dy="1.524" layer="1"/>
+<smd name="5" x="0.975" y="2.304" dx="0.45" dy="1.524" layer="1"/>
+<smd name="6" x="0.325" y="2.304" dx="0.45" dy="1.524" layer="1"/>
+<smd name="7" x="-0.325" y="2.304" dx="0.45" dy="1.524" layer="1"/>
+<smd name="8" x="-0.975" y="2.304" dx="0.45" dy="1.524" layer="1"/>
 <text x="-1.15" y="0.15" size="1.016" layer="25">&gt;NAME</text>
 <text x="-0.65" y="-1.05" size="1.016" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.1254" y1="-2.45" x2="-0.8254" y2="-1.5" layer="51"/>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8178,6 +8178,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="GND43" library="supply1" deviceset="GND" device=""/>
 <part name="GND48" library="supply1" deviceset="GND" device=""/>
 <part name="GND49" library="supply1" deviceset="GND" device=""/>
+<part name="R6" library="resistor" deviceset="R-EU_" device="R0805" value="1.5K"/>
 </parts>
 <sheets>
 <sheet>
@@ -8300,6 +8301,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="GND43" gate="1" x="119.38" y="248.92" rot="R90"/>
 <instance part="GND48" gate="1" x="119.38" y="246.38" rot="R90"/>
 <instance part="GND49" gate="1" x="119.38" y="243.84" rot="R90"/>
+<instance part="R6" gate="G$1" x="83.82" y="208.28" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -8573,15 +8575,11 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="USB0_DM_P" class="0">
 <segment>
-<pinref part="USB_RASPI_DATA" gate="G$1" pin="D+"/>
 <pinref part="HUB0" gate="A" pin="DP0"/>
-<wire x1="50.8" y1="200.66" x2="78.74" y2="200.66" width="0.1524" layer="91"/>
-<wire x1="78.74" y1="200.66" x2="88.9" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="50.8" y1="200.66" x2="83.82" y2="200.66" width="0.1524" layer="91"/>
 <label x="68.58" y="200.66" size="1.778" layer="95"/>
-<pinref part="IC2" gate="G$1" pin="D"/>
-<wire x1="88.9" y1="248.92" x2="88.9" y2="258.318" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="248.92" x2="91.44" y2="248.92" width="0.1524" layer="91"/>
-<junction x="88.9" y="248.92"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="83.82" y1="200.66" x2="83.82" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="USB0_DM_N" class="0">
@@ -9337,6 +9335,20 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <wire x1="91.44" y1="241.3" x2="91.44" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="91.44" y1="236.22" x2="101.6" y2="236.22" width="0.1524" layer="91"/>
 <junction x="101.6" y="198.12"/>
+</segment>
+</net>
+<net name="N$41" class="0">
+<segment>
+<pinref part="IC2" gate="G$1" pin="D"/>
+<wire x1="88.9" y1="248.92" x2="91.44" y2="248.92" width="0.1524" layer="91"/>
+<pinref part="USB_RASPI_DATA" gate="G$1" pin="D+"/>
+<wire x1="88.9" y1="248.92" x2="88.9" y2="258.318" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="83.82" y1="213.36" x2="83.82" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="83.82" y1="241.3" x2="87.884" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="88.9" y1="248.92" x2="87.884" y2="248.92" width="0.1524" layer="91"/>
+<wire x1="87.884" y1="248.92" x2="87.884" y2="241.3" width="0.1524" layer="91"/>
+<junction x="88.9" y="248.92"/>
 </segment>
 </net>
 </nets>

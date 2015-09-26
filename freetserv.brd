@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.3.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2486,6 +2486,7 @@ design rules under a new name.</description>
 <element name="C35" library="resistor" package="C0805" value="0.1uF" x="21.971" y="26.67" rot="R180"/>
 <element name="USB_IN" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="63.5" y="77.47" rot="R180"/>
 <element name="C36" library="resistor" package="C0805" value="0.1uF" x="69.596" y="68.58"/>
+<element name="R6" library="resistor" package="R0805" value="1.5K" x="54.864" y="71.12" rot="R180"/>
 </elements>
 <signals>
 <signal name="GND">
@@ -2738,18 +2739,16 @@ design rules under a new name.</description>
 </polygon>
 </signal>
 <signal name="USB0_DM_P">
-<contactref element="USB_RASPI_DATA" pad="D+"/>
 <contactref element="HUB0" pad="1"/>
-<contactref element="IC2" pad="4"/>
-<wire x1="52.07" y1="78.15" x2="52.07" y2="73.955" width="0.1778" layer="1"/>
-<wire x1="52.07" y1="73.955" x2="54.225" y2="73.955" width="0.1778" layer="1"/>
-<wire x1="54.225" y1="73.955" x2="55.88" y2="73.955" width="0.1778" layer="1"/>
 <wire x1="55.88" y1="73.955" x2="55.88" y2="73.914" width="0.1778" layer="1"/>
 <via x="55.88" y="73.914" extent="1-16" drill="0.3048"/>
 <wire x1="55.88" y1="73.914" x2="77.724" y2="73.914" width="0.1778" layer="16"/>
 <wire x1="77.724" y1="73.914" x2="77.724" y2="76.454" width="0.1778" layer="16"/>
 <via x="77.724" y="76.454" extent="1-16" drill="0.3048"/>
 <wire x1="77.724" y1="76.454" x2="77.724" y2="77.8764" width="0.1778" layer="1"/>
+<contactref element="R6" pad="1"/>
+<wire x1="55.88" y1="73.914" x2="55.88" y2="71.12" width="0.254" layer="1"/>
+<wire x1="55.88" y1="71.12" x2="55.814" y2="71.12" width="0.254" layer="1"/>
 </signal>
 <signal name="USB0_DM_N">
 <contactref element="USB_RASPI_DATA" pad="D-"/>
@@ -3548,6 +3547,15 @@ design rules under a new name.</description>
 <wire x1="61.214" y1="75.946" x2="65.278" y2="75.946" width="0.254" layer="16"/>
 <via x="65.278" y="75.946" extent="1-16" drill="0.3048"/>
 <wire x1="65.278" y1="75.946" x2="65.278" y2="74.8538" width="0.254" layer="1"/>
+</signal>
+<signal name="N$41">
+<contactref element="IC2" pad="4"/>
+<contactref element="USB_RASPI_DATA" pad="D+"/>
+<contactref element="R6" pad="2"/>
+<wire x1="52.07" y1="78.15" x2="52.07" y2="73.955" width="0.254" layer="1"/>
+<wire x1="52.07" y1="73.955" x2="54.225" y2="73.955" width="0.254" layer="1"/>
+<wire x1="54.225" y1="73.955" x2="54.225" y2="71.12" width="0.254" layer="1"/>
+<wire x1="54.225" y1="71.12" x2="53.914" y2="71.12" width="0.254" layer="1"/>
 </signal>
 </signals>
 <errors>

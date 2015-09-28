@@ -2287,17 +2287,17 @@ design rules under a new name.</description>
 <element name="C10" library="resistor" package="C0805" value="18pF" x="20.955" y="58.674" rot="R270">
 <attribute name="PARTNO" value="709-1171-1-ND" x="20.955" y="58.674" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="C11" library="resistor" package="C0805" value="0.1uF" x="20.447" y="63.754" rot="R90">
-<attribute name="PARTNO" value="1276-1003-1-ND" x="20.447" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C11" library="resistor" package="C0805" value="0.1uF" x="18.034" y="63.754" rot="R90">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="18.034" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C12" library="resistor" package="C0805" value="0.1uF" x="7.747" y="63.754" rot="R90">
-<attribute name="PARTNO" value="1276-1003-1-ND" x="7.747" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C12" library="resistor" package="C0805" value="0.1uF" x="9.906" y="63.754" rot="R90">
+<attribute name="PARTNO" value="1276-1003-1-ND" x="9.906" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C13" library="resistor" package="C0805" value="4.7uF" x="18.161" y="63.754" rot="R90">
-<attribute name="PARTNO" value="587-1302-1-ND" x="18.161" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C13" library="resistor" package="C0805" value="4.7uF" x="20.193" y="63.754" rot="R90">
+<attribute name="PARTNO" value="587-1302-1-ND" x="20.193" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="C14" library="resistor" package="C0805" value="4.7uF" x="9.779" y="63.754" rot="R90">
-<attribute name="PARTNO" value="587-1302-1-ND" x="9.779" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="C14" library="resistor" package="C0805" value="4.7uF" x="7.747" y="63.754" rot="R90">
+<attribute name="PARTNO" value="587-1302-1-ND" x="7.747" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C2" library="resistor" package="C0805" value="10uF" x="30.48" y="74.295">
 <attribute name="PARTNO" value="311-1459-1-ND" x="30.48" y="74.295" size="1.778" layer="27" display="off"/>
@@ -2551,7 +2551,6 @@ design rules under a new name.</description>
 <contactref element="C19" pad="1"/>
 <contactref element="C20" pad="1"/>
 <contactref element="C21" pad="1"/>
-<wire x1="7.747" y1="64.704" x2="9.779" y2="64.704" width="0.254" layer="1"/>
 <contactref element="USB_RASPI_PWR" pad="GND"/>
 <contactref element="USB_RASPI_DATA2" pad="GND"/>
 <contactref element="C3" pad="2"/>
@@ -2633,9 +2632,6 @@ design rules under a new name.</description>
 <wire x1="22.606" y1="65.278" x2="22.606" y2="63.688" width="0.254" layer="1"/>
 <wire x1="22.606" y1="63.688" x2="22.479" y2="63.688" width="0.254" layer="1"/>
 <wire x1="22.606" y1="65.278" x2="20.447" y2="65.278" width="0.254" layer="1"/>
-<wire x1="20.447" y1="65.278" x2="20.447" y2="64.704" width="0.254" layer="1"/>
-<wire x1="20.447" y1="64.704" x2="18.161" y2="64.704" width="0.254" layer="1"/>
-<wire x1="18.161" y1="64.704" x2="17.018" y2="64.704" width="0.1778" layer="1"/>
 <wire x1="17.018" y1="64.704" x2="17.018" y2="64.262" width="0.1778" layer="1"/>
 <wire x1="17.018" y1="64.262" x2="14.986" y2="64.262" width="0.1778" layer="1"/>
 <wire x1="14.986" y1="64.262" x2="14.986" y2="64.704" width="0.1778" layer="1"/>
@@ -2645,7 +2641,6 @@ design rules under a new name.</description>
 <wire x1="12.954" y1="64.77" x2="12.954" y2="64.262" width="0.1778" layer="1"/>
 <wire x1="12.954" y1="64.262" x2="10.922" y2="64.262" width="0.1778" layer="1"/>
 <wire x1="10.922" y1="64.262" x2="10.922" y2="64.704" width="0.1778" layer="1"/>
-<wire x1="10.922" y1="64.704" x2="9.779" y2="64.704" width="0.1778" layer="1"/>
 <wire x1="14.45" y1="60.464" x2="14.45" y2="59.182" width="0.1778" layer="1"/>
 <wire x1="14.45" y1="59.182" x2="16.51" y2="59.182" width="0.1778" layer="1"/>
 <wire x1="16.51" y1="59.182" x2="16.51" y2="60.21" width="0.1778" layer="1"/>
@@ -2778,6 +2773,10 @@ design rules under a new name.</description>
 <wire x1="16.002" y1="49.01" x2="16.002" y2="50.292" width="0.254" layer="1"/>
 <wire x1="16.002" y1="50.292" x2="14.224" y2="50.292" width="0.254" layer="1"/>
 <contactref element="C45" pad="2"/>
+<wire x1="10.922" y1="64.704" x2="9.906" y2="64.704" width="0.1778" layer="1"/>
+<wire x1="9.906" y1="64.704" x2="7.747" y2="64.704" width="0.1778" layer="1"/>
+<wire x1="17.018" y1="64.704" x2="18.034" y2="64.704" width="0.1778" layer="1"/>
+<wire x1="18.034" y1="64.704" x2="20.193" y2="64.704" width="0.1778" layer="1"/>
 </signal>
 <signal name="USB0_DM_P">
 <contactref element="HUB0" pad="1"/>
@@ -2914,23 +2913,23 @@ design rules under a new name.</description>
 <contactref element="C11" pad="1"/>
 <contactref element="C13" pad="1"/>
 <wire x1="16.002" y1="63.4245" x2="16.002" y2="62.804" width="0.1778" layer="1"/>
-<wire x1="16.002" y1="62.804" x2="18.161" y2="62.804" width="0.1778" layer="1"/>
 <wire x1="16.002" y1="62.804" x2="15.814" y2="62.804" width="0.1778" layer="1"/>
 <wire x1="15.814" y1="62.804" x2="14.986" y2="61.976" width="0.1778" layer="1"/>
 <wire x1="14.986" y1="61.976" x2="14.986" y2="60.246" width="0.1778" layer="1"/>
 <wire x1="14.986" y1="60.246" x2="14.95" y2="60.464" width="0.1778" layer="1"/>
-<wire x1="18.161" y1="62.804" x2="20.447" y2="62.804" width="0.1778" layer="1"/>
+<wire x1="20.193" y1="62.804" x2="18.034" y2="62.804" width="0.1778" layer="1"/>
+<wire x1="18.034" y1="62.804" x2="16.002" y2="62.804" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$18">
 <contactref element="SERIAL0" pad="9"/>
 <contactref element="FERRITE2" pad="2"/>
 <contactref element="C12" pad="1"/>
 <contactref element="C14" pad="1"/>
-<wire x1="9.779" y1="62.804" x2="7.747" y2="62.804" width="0.254" layer="1"/>
 <wire x1="11.938" y1="63.4245" x2="12.45" y2="63.4245" width="0.1778" layer="1"/>
 <wire x1="12.45" y1="63.4245" x2="12.45" y2="60.464" width="0.1778" layer="1"/>
 <wire x1="11.938" y1="63.4245" x2="11.938" y2="62.804" width="0.1778" layer="1"/>
-<wire x1="11.938" y1="62.804" x2="9.779" y2="62.804" width="0.1778" layer="1"/>
+<wire x1="7.747" y1="62.804" x2="9.906" y2="62.804" width="0.1778" layer="1"/>
+<wire x1="9.906" y1="62.804" x2="11.938" y2="62.804" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$27">
 </signal>

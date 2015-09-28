@@ -7943,10 +7943,10 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </part>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="C2" library="resistor" deviceset="C-EU" device="C0805" value="10uF">
-<attribute name="PARTNO" value="311-1459-1-ND"/>
+<attribute name="PARTNO" value="490-10517-1-ND"/>
 </part>
 <part name="C3" library="resistor" deviceset="C-EU" device="C0805" value="10uF">
-<attribute name="PARTNO" value="311-1459-1-ND"/>
+<attribute name="PARTNO" value="490-10517-1-ND"/>
 </part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
 <part name="USB_RASPI_PWR" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device="">
@@ -7987,10 +7987,10 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="PARTNO" value="1276-1003-1-ND"/>
 </part>
 <part name="C13" library="resistor" deviceset="C-EU" device="C0805" value="4.7uF">
-<attribute name="PARTNO" value="587-1302-1-ND"/>
+<attribute name="PARTNO" value="1276-2972-1-ND"/>
 </part>
 <part name="C14" library="resistor" deviceset="C-EU" device="C0805" value="4.7uF">
-<attribute name="PARTNO" value="587-1302-1-ND"/>
+<attribute name="PARTNO" value="1276-2972-1-ND"/>
 </part>
 <part name="GND21" library="supply1" deviceset="GND" device=""/>
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
@@ -8062,10 +8062,10 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </part>
 <part name="GND4" library="supply1" deviceset="GND" device=""/>
 <part name="C6" library="resistor" deviceset="C-EU" device="C0805" value="10uF">
-<attribute name="PARTNO" value="311-1459-1-ND"/>
+<attribute name="PARTNO" value="490-10517-1-ND"/>
 </part>
 <part name="C7" library="resistor" deviceset="C-EU" device="C0805" value="10uF">
-<attribute name="PARTNO" value="311-1459-1-ND"/>
+<attribute name="PARTNO" value="490-10517-1-ND"/>
 </part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
 <part name="DRV0B" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">

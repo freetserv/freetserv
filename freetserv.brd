@@ -2294,16 +2294,16 @@ design rules under a new name.</description>
 <attribute name="PARTNO" value="1276-1003-1-ND" x="9.906" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C13" library="resistor" package="C0805" value="4.7uF" x="20.193" y="63.754" rot="R90">
-<attribute name="PARTNO" value="587-1302-1-ND" x="20.193" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="1276-2972-1-ND" x="20.193" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C14" library="resistor" package="C0805" value="4.7uF" x="7.747" y="63.754" rot="R90">
-<attribute name="PARTNO" value="587-1302-1-ND" x="7.747" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="1276-2972-1-ND" x="7.747" y="63.754" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C2" library="resistor" package="C0805" value="10uF" x="30.48" y="74.295">
-<attribute name="PARTNO" value="311-1459-1-ND" x="30.48" y="74.295" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="490-10517-1-ND" x="30.48" y="74.295" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C3" library="resistor" package="C0805" value="10uF" x="30.48" y="71.755">
-<attribute name="PARTNO" value="311-1459-1-ND" x="30.48" y="71.755" size="1.778" layer="27" display="off"/>
+<attribute name="PARTNO" value="490-10517-1-ND" x="30.48" y="71.755" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C8" library="resistor" package="C0805" value="3.3uF" x="22.86" y="50.8" rot="R180">
 <attribute name="PARTNO" value="445-7589-1-ND" x="22.86" y="50.8" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2417,10 +2417,10 @@ design rules under a new name.</description>
 <attribute name="PARTNO" value="311-1365-1-ND" x="32.385" y="80.01" size="1.778" layer="27" display="off"/>
 </element>
 <element name="C6" library="resistor" package="C0805" value="10uF" x="38.1" y="71.755" rot="R180">
-<attribute name="PARTNO" value="311-1459-1-ND" x="38.1" y="71.755" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="490-10517-1-ND" x="38.1" y="71.755" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C7" library="resistor" package="C0805" value="10uF" x="38.1" y="69.215" rot="R180">
-<attribute name="PARTNO" value="311-1459-1-ND" x="38.1" y="69.215" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="490-10517-1-ND" x="38.1" y="69.215" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="DRV0B" library="Texas Instruments_By_element14_Batch_1" package="SOP65P640X120-16N" value="MAX3232ECPW" x="10.16" y="30.48" rot="R180">
 <attribute name="PACKAGE" value="TSSOP-16" x="10.16" y="36.83" size="1.778" layer="27" rot="R180" display="off"/>

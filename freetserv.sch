@@ -8190,6 +8190,12 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </part>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="R0805" value="27">
+<attribute name="PARTNO" value="311-27.0CRCT-ND"/>
+</part>
+<part name="R8" library="resistor" deviceset="R-EU_" device="R0805" value="27">
+<attribute name="PARTNO" value="311-27.0CRCT-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -8204,7 +8210,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="SERIAL0" gate="C" x="86.36" y="35.56"/>
 <instance part="SERIAL0" gate="D" x="86.36" y="7.62"/>
 <instance part="GND1" gate="1" x="-60.96" y="287.02"/>
-<instance part="USB_RASPI_DATA" gate="G$1" x="90.17" y="258.318" rot="MR270"/>
+<instance part="USB_RASPI_DATA" gate="G$1" x="90.17" y="283.718" rot="MR270"/>
 <instance part="IC2" gate="G$1" x="104.14" y="243.84" rot="R180"/>
 <instance part="HUB0" gate="A" x="25.4" y="203.2">
 <attribute name="PARTNO" x="25.4" y="203.2" size="1.778" layer="96" display="off"/>
@@ -8462,6 +8468,12 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </instance>
 <instance part="GND56" gate="1" x="58.42" y="132.08"/>
 <instance part="+3V5" gate="G$1" x="58.42" y="144.78"/>
+<instance part="R1" gate="G$1" x="86.36" y="271.78" rot="R270">
+<attribute name="PARTNO" x="86.36" y="271.78" size="1.778" layer="96" display="off"/>
+</instance>
+<instance part="R8" gate="G$1" x="88.9" y="261.62" rot="R270">
+<attribute name="PARTNO" x="88.9" y="261.62" size="1.778" layer="96" display="off"/>
+</instance>
 </instances>
 <busses>
 </busses>
@@ -8472,10 +8484,10 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <wire x1="-60.96" y1="289.56" x2="-60.96" y2="294.64" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<wire x1="93.98" y1="258.572" x2="93.98" y2="258.318" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="258.572" x2="93.98" y2="283.718" width="0.1524" layer="91"/>
 <pinref part="USB_RASPI_DATA" gate="G$1" pin="GND"/>
-<wire x1="93.98" y1="258.318" x2="93.98" y2="255.27" width="0.1524" layer="91"/>
-<junction x="93.98" y="258.318"/>
+<wire x1="93.98" y1="283.718" x2="93.98" y2="255.27" width="0.1524" layer="91"/>
+<junction x="93.98" y="283.718"/>
 <label x="93.98" y="254" size="1.778" layer="95"/>
 </segment>
 <segment>
@@ -8777,15 +8789,16 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </net>
 <net name="USB0_DM_N" class="0">
 <segment>
-<pinref part="USB_RASPI_DATA" gate="G$1" pin="D-"/>
-<wire x1="86.36" y1="258.318" x2="86.36" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="HUB0" gate="A" pin="DM0"/>
-<wire x1="50.8" y1="185.42" x2="86.36" y2="248.92" width="0.1524" layer="91"/>
 <label x="66.04" y="215.9" size="1.778" layer="95"/>
-<wire x1="86.36" y1="248.92" x2="86.36" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="IC2" gate="G$1" pin="C"/>
 <wire x1="86.36" y1="246.38" x2="91.44" y2="246.38" width="0.1524" layer="91"/>
-<junction x="86.36" y="248.92"/>
+<pinref part="HUB0" gate="A" pin="DM0"/>
+<wire x1="50.8" y1="185.42" x2="63.5" y2="185.42" width="0.1524" layer="91"/>
+<wire x1="63.5" y1="185.42" x2="63.5" y2="266.7" width="0.1524" layer="91"/>
+<pinref part="R1" gate="G$1" pin="2"/>
+<wire x1="63.5" y1="266.7" x2="86.36" y2="266.7" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="246.38" x2="86.36" y2="266.7" width="0.1524" layer="91"/>
+<junction x="86.36" y="266.7"/>
 </segment>
 </net>
 <net name="USB0_D2_N" class="1">
@@ -9560,15 +9573,33 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <net name="N$41" class="0">
 <segment>
 <pinref part="IC2" gate="G$1" pin="D"/>
-<wire x1="88.9" y1="248.92" x2="91.44" y2="248.92" width="0.1524" layer="91"/>
-<pinref part="USB_RASPI_DATA" gate="G$1" pin="D+"/>
-<wire x1="88.9" y1="248.92" x2="88.9" y2="258.318" width="0.1524" layer="91"/>
+<wire x1="87.884" y1="248.92" x2="88.9" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="248.92" x2="91.44" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="213.36" x2="83.82" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="241.3" x2="87.884" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="248.92" x2="87.884" y2="248.92" width="0.1524" layer="91"/>
 <wire x1="87.884" y1="248.92" x2="87.884" y2="241.3" width="0.1524" layer="91"/>
+<pinref part="R8" gate="G$1" pin="2"/>
+<wire x1="88.9" y1="256.54" x2="88.9" y2="248.92" width="0.1524" layer="91"/>
 <junction x="88.9" y="248.92"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="86.36" y1="284.48" x2="86.36" y2="283.718" width="0.1524" layer="91"/>
+<pinref part="USB_RASPI_DATA" gate="G$1" pin="D-"/>
+<wire x1="86.36" y1="283.718" x2="86.36" y2="276.86" width="0.1524" layer="91"/>
+<junction x="86.36" y="283.718"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="R8" gate="G$1" pin="1"/>
+<wire x1="88.9" y1="284.48" x2="88.9" y2="283.718" width="0.1524" layer="91"/>
+<pinref part="USB_RASPI_DATA" gate="G$1" pin="D+"/>
+<wire x1="88.9" y1="283.718" x2="88.9" y2="266.7" width="0.1524" layer="91"/>
+<junction x="88.9" y="283.718"/>
 </segment>
 </net>
 </nets>

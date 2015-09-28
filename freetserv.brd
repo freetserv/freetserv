@@ -2319,7 +2319,9 @@ design rules under a new name.</description>
 <attribute name="MPN" value="TUSB2046BVF" x="74.93" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="PARTNO" value="296-27131-1-ND" x="74.93" y="73.66" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="IC2" library="sn65220_40" package="TSSOP8" value="SN75240PW" x="62.23" y="74.422"/>
+<element name="IC2" library="sn65220_40" package="TSSOP8" value="SN75240PW" x="62.23" y="74.422">
+<attribute name="PARTNO" value="296-6596-1-ND" x="62.23" y="74.422" size="1.778" layer="27" display="off"/>
+</element>
 <element name="FERRITE1" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="16.002" y="64.262" rot="R270">
 <attribute name="PARTNO" value="490-5988-1-ND" x="16.002" y="64.262" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -2339,8 +2341,12 @@ design rules under a new name.</description>
 <element name="SERIAL0" library="ftdichip-6" package="LQFP64" value="FT4232HL" x="12.7" y="54.61" rot="R180">
 <attribute name="PARTNO" value="768-1026-1-ND" x="12.7" y="54.61" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="USB_RASPI_DATA" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="52.07" y="77.47" rot="R180"/>
-<element name="USB_RASPI_PWR" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="17.78" y="77.47" rot="R180"/>
+<element name="USB_RASPI_DATA" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="52.07" y="77.47" rot="R180">
+<attribute name="PARTNO" value="H11634CT-ND" x="52.07" y="77.47" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="USB_RASPI_PWR" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="17.78" y="77.47" rot="R180">
+<attribute name="PARTNO" value="H11634CT-ND" x="17.78" y="77.47" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="DRV0A" library="Texas Instruments_By_element14_Batch_1" package="SOP65P640X120-16N" value="MAX3232ECPW" x="10.16" y="41.91" rot="R180">
 <attribute name="PACKAGE" value="TSSOP-16" x="10.16" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="SUPPLIER" value="Texas Instruments" x="10.16" y="41.91" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2386,7 +2392,9 @@ design rules under a new name.</description>
 <element name="R3" library="resistor" package="R0805" value="1.5K" x="81.28" y="73.152" rot="R270">
 <attribute name="PARTNO" value="311-1.5KARCT-ND" x="81.28" y="73.152" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="USB_RASPI_DATA2" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="6.35" y="77.47" rot="R180"/>
+<element name="USB_RASPI_DATA2" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="6.35" y="77.47" rot="R180">
+<attribute name="PARTNO" value="H11634CT-ND" x="6.35" y="77.47" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="U$1" library="stewart_ss73100_046f_dwg" package="SS73100-046F" value="SS73100-046F_DWG" x="5.08" y="6.35">
 <attribute name="PARTNO" value="380-1225-ND" x="5.08" y="6.35" size="1.778" layer="27" display="off"/>
 </element>
@@ -2483,7 +2491,9 @@ design rules under a new name.</description>
 <element name="C35" library="resistor" package="C0805" value="0.1uF" x="21.971" y="26.67" rot="R180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="21.971" y="26.67" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="USB_IN" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="63.5" y="77.47" rot="R180"/>
+<element name="USB_IN" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="63.5" y="77.47" rot="R180">
+<attribute name="PARTNO" value="H11634CT-ND" x="63.5" y="77.47" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
 <element name="C36" library="resistor" package="C0805" value="0.1uF" x="69.596" y="68.58">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="69.596" y="68.58" size="1.778" layer="27" display="off"/>
 </element>

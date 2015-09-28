@@ -7932,8 +7932,12 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="PARTNO" value="768-1026-1-ND"/>
 </part>
 <part name="GND1" library="supply1" deviceset="GND" device=""/>
-<part name="USB_RASPI_DATA" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device=""/>
-<part name="IC2" library="sn65220_40" deviceset="SN75240" device="PW"/>
+<part name="USB_RASPI_DATA" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device="">
+<attribute name="PARTNO" value="H11634CT-ND"/>
+</part>
+<part name="IC2" library="sn65220_40" deviceset="SN75240" device="PW">
+<attribute name="PARTNO" value="296-6596-1-ND"/>
+</part>
 <part name="HUB0" library="Texas Instruments_By_element14_Batch_1" deviceset="TUSB2046BVF" device="">
 <attribute name="PARTNO" value="296-27131-1-ND"/>
 </part>
@@ -7945,7 +7949,9 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="PARTNO" value="311-1459-1-ND"/>
 </part>
 <part name="GND10" library="supply1" deviceset="GND" device=""/>
-<part name="USB_RASPI_PWR" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device=""/>
+<part name="USB_RASPI_PWR" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device="">
+<attribute name="PARTNO" value="H11634CT-ND"/>
+</part>
 <part name="C8" library="resistor" deviceset="C-EU" device="C0805" value="3.3uF">
 <attribute name="PARTNO" value="445-7589-1-ND"/>
 </part>
@@ -8027,7 +8033,9 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="R3" library="resistor" deviceset="R-EU_" device="R0805" value="1.5K">
 <attribute name="PARTNO" value="311-1.5KARCT-ND"/>
 </part>
-<part name="USB_RASPI_DATA2" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device=""/>
+<part name="USB_RASPI_DATA2" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device="">
+<attribute name="PARTNO" value="H11634CT-ND"/>
+</part>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
@@ -8132,7 +8140,9 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="GND9" library="supply1" deviceset="GND" device=""/>
 <part name="GND33" library="supply1" deviceset="GND" device=""/>
 <part name="GND36" library="supply1" deviceset="GND" device=""/>
-<part name="USB_IN" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device=""/>
+<part name="USB_IN" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device="">
+<attribute name="PARTNO" value="H11634CT-ND"/>
+</part>
 <part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="C36" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
 <attribute name="PARTNO" value="1276-1003-1-ND"/>
@@ -8210,8 +8220,12 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="SERIAL0" gate="C" x="86.36" y="35.56"/>
 <instance part="SERIAL0" gate="D" x="86.36" y="7.62"/>
 <instance part="GND1" gate="1" x="-60.96" y="287.02"/>
-<instance part="USB_RASPI_DATA" gate="G$1" x="90.17" y="283.718" rot="MR270"/>
-<instance part="IC2" gate="G$1" x="104.14" y="243.84" rot="R180"/>
+<instance part="USB_RASPI_DATA" gate="G$1" x="90.17" y="283.718" rot="MR270">
+<attribute name="PARTNO" x="90.17" y="283.718" size="1.778" layer="96" rot="MR270" display="off"/>
+</instance>
+<instance part="IC2" gate="G$1" x="104.14" y="243.84" rot="R180">
+<attribute name="PARTNO" x="104.14" y="243.84" size="1.778" layer="96" rot="MR270" display="off"/>
+</instance>
 <instance part="HUB0" gate="A" x="25.4" y="203.2">
 <attribute name="PARTNO" x="25.4" y="203.2" size="1.778" layer="96" display="off"/>
 </instance>
@@ -8223,7 +8237,9 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="PARTNO" x="-27.94" y="335.28" size="1.778" layer="96" display="off"/>
 </instance>
 <instance part="GND10" gate="1" x="-27.94" y="325.12"/>
-<instance part="USB_RASPI_PWR" gate="G$1" x="-41.91" y="354.838" rot="R270"/>
+<instance part="USB_RASPI_PWR" gate="G$1" x="-41.91" y="354.838" rot="R270">
+<attribute name="PARTNO" x="-41.91" y="354.838" size="1.778" layer="96" rot="MR270" display="off"/>
+</instance>
 <instance part="C8" gate="G$1" x="5.08" y="99.06">
 <attribute name="PARTNO" x="5.08" y="99.06" size="1.778" layer="96" display="off"/>
 </instance>
@@ -8305,7 +8321,9 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="R3" gate="G$1" x="-20.32" y="190.5" rot="R90">
 <attribute name="PARTNO" x="-20.32" y="190.5" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="USB_RASPI_DATA2" gate="G$1" x="-69.342" y="326.39"/>
+<instance part="USB_RASPI_DATA2" gate="G$1" x="-69.342" y="326.39">
+<attribute name="PARTNO" x="-69.342" y="326.39" size="1.778" layer="96" rot="MR270" display="off"/>
+</instance>
 <instance part="P+1" gate="1" x="-38.1" y="340.36" rot="R90"/>
 <instance part="GND2" gate="1" x="-45.72" y="350.52"/>
 <instance part="GND3" gate="1" x="-63.5" y="322.58" rot="R90"/>
@@ -8410,7 +8428,9 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="GND9" gate="1" x="-2.54" y="185.42" rot="R270"/>
 <instance part="GND33" gate="1" x="-2.54" y="177.8" rot="R270"/>
 <instance part="GND36" gate="1" x="-2.54" y="175.26" rot="R270"/>
-<instance part="USB_IN" gate="G$1" x="108.458" y="194.31" rot="MR0"/>
+<instance part="USB_IN" gate="G$1" x="108.458" y="194.31" rot="MR0">
+<attribute name="PARTNO" x="108.458" y="194.31" size="1.778" layer="96" rot="MR270" display="off"/>
+</instance>
 <instance part="GND37" gate="1" x="104.14" y="190.5" rot="R270"/>
 <instance part="C36" gate="G$1" x="-5.08" y="228.6">
 <attribute name="PARTNO" x="-5.08" y="228.6" size="1.778" layer="96" display="off"/>

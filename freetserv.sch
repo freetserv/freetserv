@@ -8153,6 +8153,43 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </part>
 <part name="P+3" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND30" library="supply1" deviceset="GND" device=""/>
+<part name="C38" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C39" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C40" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C41" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C42" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C43" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="C44" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="GND32" library="supply1" deviceset="GND" device=""/>
+<part name="GND50" library="supply1" deviceset="GND" device=""/>
+<part name="GND51" library="supply1" deviceset="GND" device=""/>
+<part name="GND52" library="supply1" deviceset="GND" device=""/>
+<part name="GND53" library="supply1" deviceset="GND" device=""/>
+<part name="GND54" library="supply1" deviceset="GND" device=""/>
+<part name="GND55" library="supply1" deviceset="GND" device=""/>
+<part name="+3V1" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V3" library="supply1" deviceset="+3V3" device=""/>
+<part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
+<part name="C45" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
+<attribute name="PARTNO" value="1276-1003-1-ND"/>
+</part>
+<part name="GND56" library="supply1" deviceset="GND" device=""/>
+<part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -8388,6 +8425,43 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </instance>
 <instance part="P+3" gate="G$1" x="-78.74" y="215.9" rot="R90"/>
 <instance part="GND30" gate="1" x="-60.96" y="228.6" rot="R180"/>
+<instance part="C38" gate="G$1" x="12.7" y="139.7">
+<attribute name="PARTNO" x="12.7" y="139.7" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="C39" gate="G$1" x="22.86" y="139.7">
+<attribute name="PARTNO" x="22.86" y="139.7" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="C40" gate="G$1" x="33.02" y="139.7">
+<attribute name="PARTNO" x="33.02" y="139.7" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="C41" gate="G$1" x="68.58" y="139.7">
+<attribute name="PARTNO" x="68.58" y="139.7" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="C42" gate="G$1" x="78.74" y="139.7">
+<attribute name="PARTNO" x="78.74" y="139.7" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="C43" gate="G$1" x="88.9" y="139.7">
+<attribute name="PARTNO" x="88.9" y="139.7" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="C44" gate="G$1" x="99.06" y="139.7">
+<attribute name="PARTNO" x="99.06" y="139.7" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="GND32" gate="1" x="12.7" y="132.08"/>
+<instance part="GND50" gate="1" x="22.86" y="132.08"/>
+<instance part="GND51" gate="1" x="33.02" y="132.08"/>
+<instance part="GND52" gate="1" x="68.58" y="132.08"/>
+<instance part="GND53" gate="1" x="78.74" y="132.08"/>
+<instance part="GND54" gate="1" x="88.9" y="132.08"/>
+<instance part="GND55" gate="1" x="99.06" y="132.08"/>
+<instance part="+3V1" gate="G$1" x="68.58" y="144.78"/>
+<instance part="+3V2" gate="G$1" x="78.74" y="144.78"/>
+<instance part="+3V3" gate="G$1" x="88.9" y="144.78"/>
+<instance part="+3V4" gate="G$1" x="99.06" y="144.78"/>
+<instance part="C45" gate="G$1" x="58.42" y="139.7">
+<attribute name="PARTNO" x="58.42" y="139.7" size="1.778" layer="96" rot="R270" display="off"/>
+</instance>
+<instance part="GND56" gate="1" x="58.42" y="132.08"/>
+<instance part="+3V5" gate="G$1" x="58.42" y="144.78"/>
 </instances>
 <busses>
 </busses>
@@ -8659,6 +8733,38 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="C37" gate="G$1" pin="1"/>
 <pinref part="GND30" gate="1" pin="GND"/>
 </segment>
+<segment>
+<pinref part="C38" gate="G$1" pin="2"/>
+<pinref part="GND32" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C39" gate="G$1" pin="2"/>
+<pinref part="GND50" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C40" gate="G$1" pin="2"/>
+<pinref part="GND51" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C41" gate="G$1" pin="2"/>
+<pinref part="GND52" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C42" gate="G$1" pin="2"/>
+<pinref part="GND53" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C43" gate="G$1" pin="2"/>
+<pinref part="GND54" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C44" gate="G$1" pin="2"/>
+<pinref part="GND55" gate="1" pin="GND"/>
+</segment>
+<segment>
+<pinref part="C45" gate="G$1" pin="2"/>
+<pinref part="GND56" gate="1" pin="GND"/>
+</segment>
 </net>
 <net name="USB0_DM_P" class="0">
 <segment>
@@ -8706,7 +8812,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <label x="-7.62" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="N$12" class="0">
+<net name="+1V8" class="0">
 <segment>
 <pinref part="SERIAL0" gate="CORE" pin="VREGOUT"/>
 <wire x1="5.08" y1="76.2" x2="5.08" y2="93.98" width="0.1524" layer="91"/>
@@ -8720,6 +8826,18 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="SERIAL0" gate="CORE" pin="VCORE@2"/>
 <junction x="20.32" y="93.98"/>
 <wire x1="20.32" y1="93.98" x2="22.86" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C38" gate="G$1" pin="1"/>
+<pinref part="C40" gate="G$1" pin="1"/>
+<wire x1="12.7" y1="142.24" x2="22.86" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="142.24" x2="33.02" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="12.7" y1="142.24" x2="2.54" y2="142.24" width="0.1524" layer="91"/>
+<junction x="12.7" y="142.24"/>
+<label x="2.54" y="142.24" size="1.778" layer="95"/>
+<pinref part="C39" gate="G$1" pin="1"/>
+<junction x="22.86" y="142.24"/>
+<junction x="33.02" y="142.24"/>
 </segment>
 </net>
 <net name="N$14" class="0">
@@ -8994,6 +9112,26 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <segment>
 <pinref part="R7" gate="G$1" pin="2"/>
 <pinref part="P+3" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C41" gate="G$1" pin="1"/>
+<pinref part="+3V1" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C42" gate="G$1" pin="1"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C43" gate="G$1" pin="1"/>
+<pinref part="+3V3" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C44" gate="G$1" pin="1"/>
+<pinref part="+3V4" gate="G$1" pin="+3V3"/>
+</segment>
+<segment>
+<pinref part="C45" gate="G$1" pin="1"/>
+<pinref part="+3V5" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
 <net name="+5V" class="2">

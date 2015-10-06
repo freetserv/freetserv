@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -2490,8 +2490,6 @@ design rules under a new name.</description>
 <contactref element="SERIAL0" pad="10"/>
 <contactref element="C9" pad="2"/>
 <contactref element="C10" pad="2"/>
-<contactref element="SERIAL0" pad="63"/>
-<contactref element="SERIAL0" pad="61"/>
 <contactref element="C14" pad="2"/>
 <contactref element="C12" pad="2"/>
 <contactref element="C13" pad="2"/>
@@ -2610,8 +2608,6 @@ design rules under a new name.</description>
 <via x="5.334" y="55.626" extent="1-16" drill="0.3048"/>
 <wire x1="9.95" y1="48.756" x2="9.95" y2="45.72" width="0.254" layer="1"/>
 <wire x1="9.95" y1="45.72" x2="11.75" y2="45.72" width="0.254" layer="1"/>
-<wire x1="18.554" y1="56.86" x2="19.304" y2="56.86" width="0.1778" layer="1"/>
-<wire x1="18.3" y1="56.896" x2="18.554" y2="56.86" width="0.1778" layer="1"/>
 <via x="20.32" y="51.562" extent="1-16" drill="0.3048"/>
 <wire x1="20.32" y1="51.562" x2="20.022" y2="51.86" width="0.254" layer="1"/>
 <wire x1="20.022" y1="51.86" x2="18.554" y2="51.86" width="0.254" layer="1"/>
@@ -2726,14 +2722,11 @@ design rules under a new name.</description>
 <wire x1="5.588" y1="54.356" x2="5.719" y2="54.36" width="0.1778" layer="1"/>
 <wire x1="5.719" y1="54.36" x2="6.846" y2="54.36" width="0.1778" layer="1"/>
 <wire x1="20.955" y1="57.658" x2="20.828" y2="57.658" width="0.1778" layer="1"/>
-<wire x1="20.828" y1="57.658" x2="20.574" y2="57.404" width="0.1778" layer="1"/>
-<wire x1="20.574" y1="57.404" x2="20.066" y2="56.896" width="0.1778" layer="1"/>
-<wire x1="20.066" y1="56.896" x2="19.34" y2="56.896" width="0.1778" layer="1"/>
+<wire x1="20.828" y1="57.658" x2="20.066" y2="56.896" width="0.1778" layer="1"/>
 <wire x1="19.34" y1="56.896" x2="19.304" y2="56.86" width="0.1778" layer="1"/>
-<wire x1="18.554" y1="57.86" x2="20.118" y2="57.86" width="0.1778" layer="1"/>
-<wire x1="20.118" y1="57.86" x2="20.574" y2="57.404" width="0.1778" layer="1"/>
 <wire x1="17.272" y1="60.21" x2="16.704" y2="60.21" width="0.1778" layer="1"/>
 <wire x1="16.704" y1="60.21" x2="16.45" y2="60.464" width="0.1778" layer="1"/>
+<wire x1="20.066" y1="56.896" x2="19.34" y2="56.896" width="0.1778" layer="1"/>
 </signal>
 <signal name="USB0_DM_P">
 <contactref element="HUB0" pad="1"/>

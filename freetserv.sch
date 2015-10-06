@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -7866,8 +7866,6 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </part>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
-<part name="GND19" library="supply1" deviceset="GND" device=""/>
-<part name="GND20" library="supply1" deviceset="GND" device=""/>
 <part name="FERRITE1" library="Wurth_Elektronik_Passive_rev15d" deviceset="WE-KI" device="_0805A" value="330">
 <attribute name="PARTNO" value="490-5988-1-ND"/>
 </part>
@@ -8154,8 +8152,6 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </instance>
 <instance part="GND17" gate="1" x="71.12" y="40.64" rot="R90"/>
 <instance part="GND18" gate="1" x="71.12" y="30.48" rot="R90"/>
-<instance part="GND19" gate="1" x="63.5" y="55.88" rot="R90"/>
-<instance part="GND20" gate="1" x="63.5" y="50.8" rot="R90"/>
 <instance part="FERRITE1" gate="G$1" x="35.56" y="116.84" rot="R270">
 <attribute name="PARTNO" x="35.56" y="116.84" size="1.778" layer="96" display="off"/>
 </instance>
@@ -8455,14 +8451,6 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <segment>
 <pinref part="C10" gate="G$1" pin="2"/>
 <pinref part="GND18" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SERIAL0" gate="CORE" pin="EECS"/>
-<pinref part="GND19" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="SERIAL0" gate="CORE" pin="EEDATA"/>
-<pinref part="GND20" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C14" gate="G$1" pin="2"/>

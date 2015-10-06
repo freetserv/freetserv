@@ -1734,65 +1734,6 @@ Updated with Vinculum-II by Marcin Zakaszewski.</description>
 </package>
 </packages>
 </library>
-<library name="con-lstb">
-<description>&lt;b&gt;Pin Headers&lt;/b&gt;&lt;p&gt;
-Naming:&lt;p&gt;
-MA = male&lt;p&gt;
-# contacts - # rows&lt;p&gt;
-W = angled&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="MA05-1">
-<description>&lt;b&gt;PIN HEADER&lt;/b&gt;</description>
-<wire x1="-5.715" y1="1.27" x2="-4.445" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="1.27" x2="-3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-0.635" x2="-4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="0.635" x2="-3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="1.27" x2="-1.905" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.27" x2="-1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="-0.635" x2="-1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="-1.27" x2="-3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="-1.27" x2="-3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="0.635" x2="-6.35" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="-5.715" y1="1.27" x2="-6.35" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="-6.35" y1="-0.635" x2="-5.715" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-4.445" y1="-1.27" x2="-5.715" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-1.27" y1="0.635" x2="-0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="1.27" x2="0.635" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="0.635" y1="-1.27" x2="-0.635" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="-0.635" y1="-1.27" x2="-1.27" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="3.175" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="1.27" x2="3.81" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-0.635" x2="3.175" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="0.635" x2="4.445" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="1.27" x2="5.715" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="1.27" x2="6.35" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="0.635" x2="6.35" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="6.35" y1="-0.635" x2="5.715" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="5.715" y1="-1.27" x2="4.445" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="4.445" y1="-1.27" x2="3.81" y2="-0.635" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.27" x2="1.27" y2="0.635" width="0.1524" layer="21"/>
-<wire x1="1.27" y1="-0.635" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<wire x1="3.175" y1="-1.27" x2="1.905" y2="-1.27" width="0.1524" layer="21"/>
-<pad name="1" x="-5.08" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="2" x="-2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="3" x="0" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="4" x="2.54" y="0" drill="1.016" shape="long" rot="R90"/>
-<pad name="5" x="5.08" y="0" drill="1.016" shape="long" rot="R90"/>
-<text x="-6.35" y="1.651" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="-5.715" y="-2.921" size="1.27" layer="21" ratio="10">1</text>
-<text x="4.445" y="1.651" size="1.27" layer="21" ratio="10">5</text>
-<text x="-2.54" y="-2.921" size="1.27" layer="27" ratio="10">&gt;VALUE</text>
-<rectangle x1="-2.794" y1="-0.254" x2="-2.286" y2="0.254" layer="51"/>
-<rectangle x1="-5.334" y1="-0.254" x2="-4.826" y2="0.254" layer="51"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
-<rectangle x1="4.826" y1="-0.254" x2="5.334" y2="0.254" layer="51"/>
-<rectangle x1="2.286" y1="-0.254" x2="2.794" y2="0.254" layer="51"/>
-</package>
-</packages>
-</library>
 <library name="ftdi_ft231xq-r">
 <packages>
 <package name="USB_MICROB_PACKAGE">
@@ -2361,12 +2302,6 @@ design rules under a new name.</description>
 <element name="C16" library="resistor" package="C0805" value="0.1uF" x="15.875" y="43.815" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="15.875" y="43.815" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="SL1" library="con-lstb" package="MA05-1" value="" x="2.159" y="35.56" rot="R270">
-<attribute name="MF" value="" x="2.159" y="35.56" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_FARNELL" value="unknown" x="2.159" y="35.56" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="unknown" x="2.159" y="35.56" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="" x="2.159" y="35.56" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
 <element name="C17" library="resistor" package="C0805" value="0.1uF" x="12.7" y="38.1">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="12.7" y="38.1" size="1.778" layer="27" display="off"/>
 </element>
@@ -2577,7 +2512,6 @@ design rules under a new name.</description>
 <contactref element="C5" pad="2"/>
 <contactref element="C6" pad="2"/>
 <contactref element="C7" pad="2"/>
-<contactref element="SL1" pad="5"/>
 <polygon width="0.4064" layer="16">
 <vertex x="0" y="82.55"/>
 <vertex x="0" y="0"/>
@@ -3110,9 +3044,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$19">
 <contactref element="DRV0A" pad="13"/>
-<contactref element="SL1" pad="1"/>
 <wire x1="7.239" y1="41.5798" x2="3.175" y2="41.5798" width="0.254" layer="1"/>
-<wire x1="3.175" y1="41.5798" x2="2.159" y2="40.64" width="0.254" layer="1"/>
 </signal>
 <signal name="+3V3" class="2">
 <contactref element="HUB0" pad="3"/>
@@ -3334,24 +3266,9 @@ design rules under a new name.</description>
 <wire x1="6.846" y1="57.36" x2="8.592" y2="57.36" width="0.1778" layer="1"/>
 <wire x1="8.592" y1="57.36" x2="8.636" y2="57.404" width="0.1778" layer="1"/>
 </signal>
-<signal name="N$8">
-<contactref element="DRV0A" pad="7"/>
-<contactref element="SL1" pad="4"/>
-<wire x1="13.081" y1="43.5356" x2="12.2936" y2="43.5356" width="0.254" layer="1"/>
-<via x="11.176" y="42.164" extent="1-16" drill="0.5"/>
-<wire x1="11.176" y1="42.164" x2="11.176" y2="31.75" width="0.254" layer="16"/>
-<wire x1="11.176" y1="31.75" x2="3.556" y2="31.75" width="0.254" layer="16"/>
-<via x="3.556" y="31.75" extent="1-16" drill="0.5"/>
-<wire x1="3.556" y1="31.75" x2="2.667" y2="31.75" width="0.254" layer="1"/>
-<wire x1="2.667" y1="31.75" x2="2.159" y2="33.02" width="0.254" layer="1"/>
-<wire x1="12.2936" y1="43.5356" x2="11.938" y2="43.18" width="0.254" layer="1"/>
-<wire x1="11.938" y1="43.18" x2="11.938" y2="42.164" width="0.254" layer="1"/>
-<wire x1="11.938" y1="42.164" x2="11.176" y2="42.164" width="0.254" layer="1"/>
-</signal>
 <signal name="N$9">
 <contactref element="DRV0A" pad="8"/>
 <wire x1="13.081" y1="44.196" x2="12.192" y2="44.196" width="0.254" layer="1"/>
-<contactref element="SL1" pad="3"/>
 <wire x1="12.192" y1="44.196" x2="11.176" y2="43.18" width="0.254" layer="1"/>
 <via x="11.176" y="43.18" extent="1-16" drill="0.5"/>
 <wire x1="11.176" y1="43.18" x2="10.414" y2="42.418" width="0.254" layer="16"/>
@@ -3359,7 +3276,6 @@ design rules under a new name.</description>
 <wire x1="10.414" y1="34.29" x2="3.556" y2="34.29" width="0.254" layer="16"/>
 <via x="3.556" y="34.29" extent="1-16" drill="0.5"/>
 <wire x1="3.556" y1="34.29" x2="3.429" y2="34.29" width="0.254" layer="1"/>
-<wire x1="3.429" y1="34.29" x2="2.159" y2="35.56" width="0.254" layer="1"/>
 </signal>
 <signal name="N$10">
 <contactref element="C5" pad="1"/>
@@ -3648,13 +3564,6 @@ design rules under a new name.</description>
 <wire x1="21.082" y1="53.594" x2="20.848" y2="53.36" width="0.1778" layer="1"/>
 <wire x1="20.848" y1="53.36" x2="18.554" y2="53.36" width="0.1778" layer="1"/>
 </signal>
-<signal name="N$25">
-<contactref element="SL1" pad="2"/>
-<contactref element="DRV0A" pad="14"/>
-<wire x1="7.239" y1="40.9448" x2="4.572" y2="40.9448" width="0.254" layer="1"/>
-<wire x1="4.572" y1="40.9448" x2="4.572" y2="38.1" width="0.254" layer="1"/>
-<wire x1="4.572" y1="38.1" x2="2.159" y2="38.1" width="0.254" layer="1"/>
-</signal>
 <signal name="N$1">
 <contactref element="HUB0" pad="12"/>
 <contactref element="USB_IN" pad="D+"/>
@@ -3702,6 +3611,9 @@ design rules under a new name.</description>
 <contactref element="USB_RASPI_DATA" pad="D+"/>
 <wire x1="52.07" y1="74.742" x2="54.295" y2="72.517" width="0.1778" layer="1"/>
 <wire x1="52.07" y1="78.15" x2="52.07" y2="74.742" width="0.1778" layer="1"/>
+</signal>
+<signal name="N$37">
+<contactref element="DRV0A" pad="14"/>
 </signal>
 </signals>
 <errors>

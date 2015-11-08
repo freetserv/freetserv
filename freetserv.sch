@@ -9309,7 +9309,6 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="U$10" library="frames" deviceset="DOCFIELD_NEW" device=""/>
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="H3" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="RN1" library="resistor-net" deviceset="EXBV4V" device="" value="27"/>
 <part name="RN2" library="resistor-net" deviceset="EXBV4V" device="" value="27"/>
@@ -9826,7 +9825,6 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <instance part="U$4" gate="G$1" x="289.56" y="3.81"/>
 <instance part="H1" gate="G$1" x="259.08" y="25.4"/>
 <instance part="H2" gate="G$1" x="259.08" y="20.32"/>
-<instance part="H3" gate="G$1" x="259.08" y="15.24"/>
 <instance part="H4" gate="G$1" x="259.08" y="10.16"/>
 <instance part="RN1" gate="B" x="50.8" y="129.54" rot="MR0"/>
 <instance part="RN1" gate="A" x="50.8" y="127" rot="MR0"/>

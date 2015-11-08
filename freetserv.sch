@@ -9309,12 +9309,20 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="U$10" library="frames" deviceset="DOCFIELD_NEW" device=""/>
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="RN2" library="resistor-net" deviceset="EXBV4V" device="" value="27"/>
-<part name="D1" library="texas1" deviceset="SN65220" device=""/>
-<part name="D2" library="texas1" deviceset="SN65220" device=""/>
+<part name="RN2" library="resistor-net" deviceset="EXBV4V" device="" value="27">
+<attribute name="PARTNO" value="Y2270CT-ND"/>
+</part>
+<part name="D1" library="texas1" deviceset="SN65220" device="">
+<attribute name="PARTNO" value="296-9694-1-ND"/>
+</part>
+<part name="D2" library="texas1" deviceset="SN65220" device="">
+<attribute name="PARTNO" value="296-9694-1-ND"/>
+</part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND139" library="supply1" deviceset="GND" device=""/>
-<part name="QG1" library="crystal" deviceset="XO-" device="XO53" value="ASV-12.000MHZ-EJ-T"/>
+<part name="QG1" library="crystal" deviceset="XO-" device="XO53" value="ASV-12.000MHZ-EJ-T">
+<attribute name="PARTNO" value="535-9309-1-ND"/>
+</part>
 <part name="P+11" library="supply1" deviceset="+3V3" device=""/>
 <part name="C47" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
 <attribute name="PARTNO" value="1276-1003-1-ND"/>
@@ -9325,20 +9333,26 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="P+5" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+10" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+13" library="supply1" deviceset="+3V3" device=""/>
-<part name="PWRIN" library="pinhead" deviceset="PINHD-1X2" device=""/>
+<part name="PWRIN" library="pinhead" deviceset="PINHD-1X2" device="">
+<attribute name="PARTNO" value="A1921-ND"/>
+</part>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
-<part name="DAISY_OUT" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" deviceset="61300411021" device=""/>
+<part name="DAISY_OUT" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" deviceset="61300411021" device="">
+<attribute name="PARTNO" value="732-5337-ND"/>
+</part>
 <part name="P+14" library="supply1" deviceset="+5V" device=""/>
 <part name="GND8" library="supply1" deviceset="GND" device=""/>
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
-<part name="K1" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" deviceset="613004143121" device=""/>
+<part name="DAISY_IN" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" deviceset="613004143121" device="">
+<attribute name="PARTNO" value="732-2863-ND"/>
+</part>
 <part name="R1" library="resistor" deviceset="R-EU_" device="R0805" value="27">
-<attribute name="PARTNO" value="311-1.5KARCT-ND"/>
+<attribute name="PARTNO" value="311-27ARCT-ND"/>
 </part>
 <part name="R8" library="resistor" deviceset="R-EU_" device="R0805" value="27">
-<attribute name="PARTNO" value="311-1.5KARCT-ND"/>
+<attribute name="PARTNO" value="311-27ARCT-ND"/>
 </part>
 </parts>
 <sheets>
@@ -9731,8 +9745,12 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <frame x1="0" y1="0" x2="388.62" y2="261.62" columns="8" rows="5" layer="97"/>
 </plain>
 <instances>
-<instance part="K1" gate="G$1" x="33.02" y="45.72"/>
-<instance part="PWRIN" gate="G$1" x="25.4" y="231.14"/>
+<instance part="DAISY_IN" gate="G$1" x="33.02" y="45.72">
+<attribute name="PARTNO" x="33.02" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="PWRIN" gate="G$1" x="25.4" y="231.14">
+<attribute name="PARTNO" x="25.4" y="231.14" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="P+1" gate="1" x="38.1" y="233.68" rot="R270"/>
 <instance part="GND2" gate="1" x="40.64" y="231.14" rot="R90"/>
 <instance part="USB_HOST" gate="G$1" x="35.56" y="125.73">
@@ -9829,13 +9847,21 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <instance part="U$4" gate="G$1" x="289.56" y="3.81"/>
 <instance part="H1" gate="G$1" x="259.08" y="25.4"/>
 <instance part="H2" gate="G$1" x="259.08" y="20.32"/>
-<instance part="RN2" gate="B" x="53.34" y="45.72" rot="MR0"/>
+<instance part="RN2" gate="B" x="53.34" y="45.72" rot="MR0">
+<attribute name="PARTNO" x="53.34" y="45.72" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="RN2" gate="A" x="53.34" y="43.18" rot="MR0"/>
-<instance part="D1" gate="G$1" x="63.5" y="116.84" rot="MR270"/>
-<instance part="D2" gate="G$1" x="66.04" y="33.02" rot="R270"/>
+<instance part="D1" gate="G$1" x="63.5" y="116.84" rot="MR270">
+<attribute name="PARTNO" x="63.5" y="116.84" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
+<instance part="D2" gate="G$1" x="66.04" y="33.02" rot="R270">
+<attribute name="PARTNO" x="66.04" y="33.02" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="GND3" gate="1" x="63.5" y="104.14" rot="MR0"/>
 <instance part="GND139" gate="1" x="66.04" y="20.32"/>
-<instance part="QG1" gate="G$1" x="289.56" y="228.6"/>
+<instance part="QG1" gate="G$1" x="289.56" y="228.6">
+<attribute name="PARTNO" x="289.56" y="228.6" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="P+11" gate="G$1" x="256.54" y="233.68" rot="MR270"/>
 <instance part="C47" gate="G$1" x="264.16" y="226.06" rot="MR180">
 <attribute name="PARTNO" x="264.16" y="226.06" size="1.778" layer="96" rot="MR180" display="off"/>
@@ -9846,7 +9872,9 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <instance part="P+5" gate="G$1" x="238.76" y="111.76" rot="MR90"/>
 <instance part="P+10" gate="G$1" x="238.76" y="129.54" rot="MR90"/>
 <instance part="P+13" gate="G$1" x="238.76" y="147.32" rot="MR90"/>
-<instance part="DAISY_OUT" gate="G$1" x="40.64" y="154.94" rot="R270"/>
+<instance part="DAISY_OUT" gate="G$1" x="40.64" y="154.94" rot="R270">
+<attribute name="PARTNO" x="40.64" y="154.94" size="1.778" layer="96" rot="R180" display="off"/>
+</instance>
 <instance part="P+14" gate="1" x="48.26" y="152.4" rot="R180"/>
 <instance part="GND8" gate="1" x="33.02" y="152.4"/>
 <instance part="P+15" gate="1" x="40.64" y="53.34" rot="R270"/>
@@ -10144,7 +10172,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </segment>
 <segment>
 <pinref part="P+15" gate="1" pin="+5V"/>
-<pinref part="K1" gate="G$1" pin="1"/>
+<pinref part="DAISY_IN" gate="G$1" pin="1"/>
 <wire x1="38.1" y1="53.34" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -10369,7 +10397,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="RN2" gate="A" pin="2"/>
 <wire x1="48.26" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
 <wire x1="40.64" y1="43.18" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="K1" gate="G$1" pin="2"/>
+<pinref part="DAISY_IN" gate="G$1" pin="2"/>
 <wire x1="40.64" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10378,13 +10406,13 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="RN2" gate="B" pin="2"/>
 <wire x1="48.26" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="35.56" y1="45.72" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="K1" gate="G$1" pin="3"/>
+<pinref part="DAISY_IN" gate="G$1" pin="3"/>
 <wire x1="35.56" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="K1" gate="G$1" pin="4"/>
+<pinref part="DAISY_IN" gate="G$1" pin="4"/>
 <wire x1="40.64" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>

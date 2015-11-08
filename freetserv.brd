@@ -3080,21 +3080,35 @@ design rules under a new name.</description>
 </element>
 <element name="H1" library="holes" package="3,2" value="MOUNT-HOLE3.2" x="4.064" y="78.486"/>
 <element name="H2" library="holes" package="3,2" value="MOUNT-HOLE3.2" x="87.376" y="78.486"/>
-<element name="RN2" library="resistor-net" package="EXBV4V" value="27" x="77.089" y="69.7865" rot="R270"/>
-<element name="D1" library="texas1" package="SOT23-6" value="SN65220" x="36.449" y="71.9455" rot="R270"/>
-<element name="D2" library="texas1" package="SOT23-6" value="SN65220" x="72.0725" y="74.803" rot="R180"/>
-<element name="QG1" library="crystal" package="XO53" value="ASV-12.000MHZ-EJ-T" x="66.167" y="60.198" rot="MR180"/>
+<element name="RN2" library="resistor-net" package="EXBV4V" value="27" x="77.089" y="69.7865" rot="R270">
+<attribute name="PARTNO" value="Y2270CT-ND" x="77.089" y="69.7865" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D1" library="texas1" package="SOT23-6" value="SN65220" x="36.449" y="71.9455" rot="R270">
+<attribute name="PARTNO" value="296-9694-1-ND" x="36.449" y="71.9455" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="D2" library="texas1" package="SOT23-6" value="SN65220" x="72.0725" y="74.803" rot="R180">
+<attribute name="PARTNO" value="296-9694-1-ND" x="72.0725" y="74.803" size="1.778" layer="27" rot="R180" display="off"/>
+</element>
+<element name="QG1" library="crystal" package="XO53" value="ASV-12.000MHZ-EJ-T" x="66.167" y="60.198" rot="MR180">
+<attribute name="PARTNO" value="535-9309-1-ND" x="66.167" y="60.198" size="1.778" layer="28" rot="MR180" display="off"/>
+</element>
 <element name="C47" library="resistor" package="C0805" value="0.1uF" x="62.357" y="60.325" rot="MR90">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="62.357" y="60.325" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="PWRIN" library="pinhead" package="1X02" value="" x="14.859" y="79.756" rot="R270"/>
-<element name="DAISY_OUT" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" package="61300411021" value="61300411021" x="5.207" y="68.834" rot="R90"/>
-<element name="K1" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" package="613004143121" value="613004143121" x="81.407" y="72.771" rot="R270"/>
+<element name="PWRIN" library="pinhead" package="1X02" value="" x="14.859" y="79.756" rot="R270">
+<attribute name="PARTNO" value="A1921-ND" x="14.859" y="79.756" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
+<element name="DAISY_OUT" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" package="61300411021" value="61300411021" x="5.207" y="68.834" rot="R90">
+<attribute name="PARTNO" value="732-5337-ND" x="5.207" y="68.834" size="1.778" layer="27" rot="R90" display="off"/>
+</element>
+<element name="DAISY_IN" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" package="613004143121" value="613004143121" x="81.407" y="72.771" rot="R270">
+<attribute name="PARTNO" value="732-2863-ND" x="81.407" y="72.771" size="1.778" layer="27" rot="R270" display="off"/>
+</element>
 <element name="R1" library="resistor" package="R0805" value="27" x="31.369" y="72.771" rot="R90">
-<attribute name="PARTNO" value="311-1.5KARCT-ND" x="31.369" y="72.771" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="PARTNO" value="311-27ARCT-ND" x="31.369" y="72.771" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R8" library="resistor" package="R0805" value="27" x="30.48" y="75.5015" rot="R180">
-<attribute name="PARTNO" value="311-1.5KARCT-ND" x="30.48" y="75.5015" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="PARTNO" value="311-27ARCT-ND" x="30.48" y="75.5015" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 </elements>
 <signals>
@@ -4231,7 +4245,7 @@ design rules under a new name.</description>
 </polygon>
 <contactref element="IC1" pad="3"/>
 <contactref element="PWRIN" pad="1"/>
-<contactref element="K1" pad="1"/>
+<contactref element="DAISY_IN" pad="1"/>
 <contactref element="DAISY_OUT" pad="1"/>
 <wire x1="14.859" y1="81.026" x2="16.891" y2="81.026" width="0.4064" layer="16"/>
 <wire x1="16.891" y1="81.026" x2="81.407" y2="81.026" width="0.4064" layer="16"/>
@@ -7027,18 +7041,18 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$7">
 <contactref element="RN2" pad="A2"/>
-<contactref element="K1" pad="2"/>
+<contactref element="DAISY_IN" pad="2"/>
 <wire x1="77.889" y1="70.1865" x2="81.407" y2="70.1865" width="0.1778" layer="1"/>
 <wire x1="81.407" y1="70.1865" x2="81.407" y2="70.231" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$8">
 <contactref element="RN2" pad="B2"/>
-<contactref element="K1" pad="3"/>
+<contactref element="DAISY_IN" pad="3"/>
 <wire x1="77.889" y1="69.3865" x2="79.5845" y2="67.691" width="0.1778" layer="1" curve="90"/>
 <wire x1="79.5845" y1="67.691" x2="81.407" y2="67.691" width="0.1778" layer="1"/>
 </signal>
 <signal name="N$15">
-<contactref element="K1" pad="4"/>
+<contactref element="DAISY_IN" pad="4"/>
 </signal>
 <signal name="N$16">
 </signal>

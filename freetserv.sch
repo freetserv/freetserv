@@ -9309,8 +9309,6 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="U$10" library="frames" deviceset="DOCFIELD_NEW" device=""/>
 <part name="H1" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
 <part name="H2" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="H4" library="holes" deviceset="MOUNT-HOLE" device="3.2"/>
-<part name="RN1" library="resistor-net" deviceset="EXBV4V" device="" value="27"/>
 <part name="RN2" library="resistor-net" deviceset="EXBV4V" device="" value="27"/>
 <part name="D1" library="texas1" deviceset="SN65220" device=""/>
 <part name="D2" library="texas1" deviceset="SN65220" device=""/>
@@ -9336,6 +9334,12 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="P+15" library="supply1" deviceset="+5V" device=""/>
 <part name="GND17" library="supply1" deviceset="GND" device=""/>
 <part name="K1" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" deviceset="613004143121" device=""/>
+<part name="R1" library="resistor" deviceset="R-EU_" device="R0805" value="27">
+<attribute name="PARTNO" value="311-1.5KARCT-ND"/>
+</part>
+<part name="R8" library="resistor" deviceset="R-EU_" device="R0805" value="27">
+<attribute name="PARTNO" value="311-1.5KARCT-ND"/>
+</part>
 </parts>
 <sheets>
 <sheet>
@@ -9825,9 +9829,6 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <instance part="U$4" gate="G$1" x="289.56" y="3.81"/>
 <instance part="H1" gate="G$1" x="259.08" y="25.4"/>
 <instance part="H2" gate="G$1" x="259.08" y="20.32"/>
-<instance part="H4" gate="G$1" x="259.08" y="10.16"/>
-<instance part="RN1" gate="B" x="50.8" y="129.54" rot="MR0"/>
-<instance part="RN1" gate="A" x="50.8" y="127" rot="MR0"/>
 <instance part="RN2" gate="B" x="53.34" y="45.72" rot="MR0"/>
 <instance part="RN2" gate="A" x="53.34" y="43.18" rot="MR0"/>
 <instance part="D1" gate="G$1" x="63.5" y="116.84" rot="MR270"/>
@@ -9850,6 +9851,16 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <instance part="GND8" gate="1" x="33.02" y="152.4"/>
 <instance part="P+15" gate="1" x="40.64" y="53.34" rot="R270"/>
 <instance part="GND17" gate="1" x="40.64" y="38.1" rot="R90"/>
+<instance part="R1" gate="G$1" x="50.8" y="129.54" smashed="yes" rot="R180">
+<attribute name="PARTNO" x="50.8" y="129.54" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="50.8" y="127.762" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="48.26" y="127.762" size="1.778" layer="96" rot="R270"/>
+</instance>
+<instance part="R8" gate="G$1" x="50.8" y="127" smashed="yes" rot="R180">
+<attribute name="PARTNO" x="50.8" y="127" size="1.778" layer="96" rot="R90" display="off"/>
+<attribute name="NAME" x="50.8" y="125.222" size="1.778" layer="95" rot="R270"/>
+<attribute name="VALUE" x="48.26" y="125.222" size="1.778" layer="96" rot="R270"/>
+</instance>
 </instances>
 <busses>
 <bus name="USB1:D1_N,D1_P,!OVRCUR1,!PWRON1">
@@ -10300,10 +10311,10 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="63.5" y1="127" x2="55.88" y2="127" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="134.62" x2="63.5" y2="127" width="0.1524" layer="91"/>
 <junction x="63.5" y="127"/>
-<pinref part="RN1" gate="A" pin="1"/>
 <pinref part="D1" gate="G$1" pin="A"/>
 <wire x1="63.5" y1="124.46" x2="63.5" y2="127" width="0.1524" layer="91"/>
 <junction x="63.5" y="127"/>
+<pinref part="R8" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="D0_N" class="1">
@@ -10317,33 +10328,33 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="78.74" y1="127" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
 <label x="76.2" y="129.54" size="1.778" layer="95" rot="MR0"/>
 <wire x1="55.88" y1="129.54" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="B" pin="1"/>
 <pinref part="D1" gate="G$1" pin="B"/>
 <wire x1="66.04" y1="129.54" x2="76.2" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="124.46" x2="66.04" y2="129.54" width="0.1524" layer="91"/>
 <junction x="66.04" y="129.54"/>
+<pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="DX0_N" class="1">
 <segment>
 <pinref part="USB_HOST" gate="G$1" pin="D-"/>
 <wire x1="35.56" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
-<pinref part="RN1" gate="B" pin="2"/>
 <pinref part="DAISY_OUT" gate="G$1" pin="3"/>
 <wire x1="38.1" y1="129.54" x2="45.72" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="38.1" y1="129.54" x2="38.1" y2="162.56" width="0.1524" layer="91"/>
 <junction x="38.1" y="129.54"/>
+<pinref part="R1" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="DX0_P" class="1">
 <segment>
 <pinref part="USB_HOST" gate="G$1" pin="D+"/>
-<pinref part="RN1" gate="A" pin="2"/>
 <wire x1="45.72" y1="127" x2="43.18" y2="127" width="0.1524" layer="91"/>
 <pinref part="DAISY_OUT" gate="G$1" pin="2"/>
 <wire x1="43.18" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="127" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
 <junction x="43.18" y="127"/>
+<pinref part="R8" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="12MHZ" class="0">

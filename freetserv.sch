@@ -8521,6 +8521,181 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c">
+<description>&lt;BR&gt;Wurth Elektronik - Board to Board Connectors&lt;br&gt;&lt;Hr&gt;
+&lt;BR&gt;&lt;BR&gt; 
+&lt;TABLE BORDER=0 CELLSPACING=0 CELLPADDING=0&gt;
+&lt;TR&gt;   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;&lt;br&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;
+      -----&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt; &lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------------------------&lt;BR&gt;
+&lt;B&gt;&lt;I&gt;&lt;span style='font-size:26pt;
+  color:#FF6600;'&gt;WE &lt;/span&gt;&lt;/i&gt;&lt;/b&gt;
+&lt;BR&gt;
+      ---------------------------&lt;BR&gt;&lt;b&gt;Würth Elektronik&lt;/b&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+    &lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;br&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;
+      ----O--------&lt;BR&gt;
+      ---------O---&lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+   
+&lt;TD BGCOLOR="#cccccc" ALIGN=CENTER&gt;&lt;FONT FACE=ARIAL SIZE=3&gt;&lt;BR&gt;
+      &amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp; &amp;nbsp;&lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;
+       &lt;BR&gt;&lt;BR&gt;&lt;/FONT&gt;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+
+  &lt;TR&gt;
+    &lt;TD COLSPAN=7&gt;&amp;nbsp;
+    &lt;/TD&gt;
+  &lt;/TR&gt;
+  
+&lt;/TABLE&gt;
+&lt;B&gt;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;&amp;nbsp;More than you expect&lt;BR&gt;&lt;BR&gt;&lt;BR&gt;&lt;/B&gt;
+
+&lt;HR&gt;&lt;BR&gt;
+&lt;b&gt;Würth Elektronik eiSos GmbH &amp; Co. KG&lt;/b&gt;&lt;br&gt;
+EMC &amp; Inductive Solutions&lt;br&gt;
+
+Max-Eyth-Str.1&lt;br&gt;
+D-74638 Waldenburg&lt;br&gt;
+&lt;br&gt;
+Tel: +49 (0)7942-945-0&lt;br&gt;
+Fax:+49 (0)7942-945-405&lt;br&gt;
+&lt;br&gt;
+&lt;a href="http://www.we-online.com/eagle"&gt;http://www.we-online.com/eagle&lt;/a&gt;&lt;br&gt;
+&lt;a href="mailto:libraries@we-online.com"&gt;libraries@we-online.com&lt;/a&gt; &lt;BR&gt;&lt;BR&gt;
+&lt;br&gt;&lt;HR&gt;&lt;BR&gt;
+Neither CadSoft nor WE-eiSos does warrant that this library is error-free or &lt;br&gt;
+that it meets your specific requirements.&lt;br&gt;&lt;BR&gt;
+Please contact us for more information.&lt;br&gt;&lt;BR&gt;&lt;br&gt;
+&lt;hr&gt;
+Eagle Version 6, Library Revision 2015c, 2015-06-02
+&lt;HR&gt;
+Copyright: Würth Elektronik</description>
+<packages>
+<package name="613004143121">
+<description>WR-PHD 2.54mm Angled Socket Header, 4 Pins</description>
+<wire x1="-1.54" y1="1.57" x2="9.12" y2="1.57" width="0.127" layer="21"/>
+<wire x1="-1.54" y1="10.07" x2="9.12" y2="10.07" width="0.127" layer="21"/>
+<wire x1="-1.54" y1="10.07" x2="-1.54" y2="1.57" width="0.127" layer="21"/>
+<wire x1="9.12" y1="10.07" x2="9.12" y2="1.57" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="1.5" x2="-0.5" y2="1" width="0.127" layer="21"/>
+<wire x1="-0.5" y1="1" x2="0.5" y2="1" width="0.127" layer="21"/>
+<wire x1="0.5" y1="1" x2="0.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="2" y1="1.5" x2="2" y2="1" width="0.127" layer="21"/>
+<wire x1="2" y1="1" x2="3" y2="1" width="0.127" layer="21"/>
+<wire x1="3" y1="1" x2="3" y2="1.5" width="0.127" layer="21"/>
+<wire x1="4.5" y1="1.5" x2="4.5" y2="1" width="0.127" layer="21"/>
+<wire x1="4.5" y1="1" x2="5.5" y2="1" width="0.127" layer="21"/>
+<wire x1="5.5" y1="1" x2="5.5" y2="1.5" width="0.127" layer="21"/>
+<wire x1="7" y1="1.5" x2="7" y2="1" width="0.127" layer="21"/>
+<wire x1="7" y1="1" x2="8" y2="1" width="0.127" layer="21"/>
+<wire x1="8" y1="1" x2="8" y2="1.5" width="0.127" layer="21"/>
+<pad name="1" x="0" y="0" drill="1.02"/>
+<pad name="2" x="2.54" y="0" drill="1.02"/>
+<pad name="3" x="5.08" y="0" drill="1.02"/>
+<pad name="4" x="7.62" y="0" drill="1.02"/>
+<text x="-2" y="1.5" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="11" y="1.5" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+</package>
+<package name="61300411021">
+<description>WR-PHD 2.54mm Angled Pin Header, 4 Pins</description>
+<wire x1="-5.11" y1="5.16" x2="5.05" y2="5.16" width="0.127" layer="21"/>
+<wire x1="5.05" y1="5.16" x2="5.05" y2="2.741" width="0.127" layer="21"/>
+<wire x1="5.05" y1="2.741" x2="-5.111" y2="2.725" width="0.127" layer="21"/>
+<wire x1="-5.111" y1="2.725" x2="-5.11" y2="5.16" width="0.127" layer="21"/>
+<pad name="1" x="3.81" y="0" drill="1.1"/>
+<pad name="2" x="1.27" y="0" drill="1.1"/>
+<pad name="3" x="-1.27" y="0" drill="1.1"/>
+<pad name="4" x="-3.81" y="0" drill="1.1"/>
+<text x="-10.0096" y="6.3221" size="1.27" layer="25">&gt;NAME</text>
+<text x="-10.0096" y="-8.1002" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="4">
+<wire x1="-4.191" y1="8.509" x2="-4.191" y2="6.731" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="-4.191" y1="3.429" x2="-4.191" y2="1.651" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="-4.191" y1="-1.651" x2="-4.191" y2="-3.429" width="0.254" layer="94" curve="180" cap="flat"/>
+<wire x1="-4.191" y1="-6.731" x2="-4.191" y2="-8.509" width="0.254" layer="94" curve="180" cap="flat"/>
+<text x="-1.27" y="-0.762" size="1.778" layer="95">&gt;NAME</text>
+<text x="-1.27" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="7.62" visible="pad" length="short" direction="pas"/>
+<pin name="2" x="-7.62" y="2.54" visible="pad" length="short" direction="pas"/>
+<pin name="3" x="-7.62" y="-2.54" visible="pad" length="short" direction="pas"/>
+<pin name="4" x="-7.62" y="-7.62" visible="pad" length="short" direction="pas"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="613004143121" prefix="K">
+<description>&lt;b&gt; WR-PHD 2.54mm Angled Socket Header, 4 Pins &lt;/b&gt;=&gt;Code : Con_BTB_SHD_2.54_1_THT_613004143121
+&lt;br&gt;&lt;a href="http://katalog.we-online.de/media/images/eican/Con_BTB_SHD_2.54_1_THT_6130xx143121_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="http://katalog.we-online.de/media/thumbs2/eican/thb_Con_BTB_SHD_2.54_1_THT_6130xx143121_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="http://katalog.we-online.de/en/em/613_0xx_143_121"&gt;http://katalog.we-online.de/en/em/613_0xx_143_121&lt;/a&gt;&lt;p&gt;
+Created 2014-05-29, Karrer Zheng&lt;br&gt;
+2014 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="4" x="2.54" y="0"/>
+</gates>
+<devices>
+<device name="" package="613004143121">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="61300411021" prefix="K">
+<description>&lt;b&gt; WR-PHD 2.54mm Angled Pin Header, 4 Pins &lt;/b&gt;=&gt;Con_BTB_PHD_2.54_1_THT_61300411021
+&lt;br&gt;&lt;a href="http://katalog.we-online.de/media/images/eican/Con_BTB_PHD_2.54_1_THT_61303211021_pf2.jpg" title="Enlarge picture"&gt;
+&lt;img src="http://katalog.we-online.de/media/thumbs2/eican/thb_Con_BTB_PHD_2.54_1_THT_61303211021_pf2.jpg" width="320"&gt;&lt;/a&gt;&lt;p&gt;
+Details see: &lt;a href="http://katalog.we-online.de/en/em/613_0xx_110_21"&gt;http://katalog.we-online.de/en/em/613_0xx_110_21&lt;/a&gt;&lt;p&gt;
+Created 2014-05-29, Karrer Zheng&lt;br&gt;
+2014 (C) Würth Elektronik</description>
+<gates>
+<gate name="G$1" symbol="4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="61300411021">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8645,10 +8820,6 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <attribute name="PARTNO" value="490-10517-1-ND"/>
 </part>
 <part name="GND11" library="supply1" deviceset="GND" device=""/>
-<part name="USB_OUT" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device="">
-<attribute name="PARTNO" value="H11634CT-ND"/>
-</part>
-<part name="GND37" library="supply1" deviceset="GND" device=""/>
 <part name="C36" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
 <attribute name="PARTNO" value="1276-1003-1-ND"/>
 </part>
@@ -9160,6 +9331,12 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <part name="PWRIN" library="pinhead" deviceset="PINHD-1X2" device=""/>
 <part name="P+1" library="supply1" deviceset="+5V" device=""/>
 <part name="GND2" library="supply1" deviceset="GND" device=""/>
+<part name="DAISY_OUT" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" deviceset="61300411021" device=""/>
+<part name="P+14" library="supply1" deviceset="+5V" device=""/>
+<part name="GND8" library="supply1" deviceset="GND" device=""/>
+<part name="P+15" library="supply1" deviceset="+5V" device=""/>
+<part name="GND17" library="supply1" deviceset="GND" device=""/>
+<part name="K1" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" deviceset="613004143121" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -9551,6 +9728,7 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <frame x1="0" y1="0" x2="388.62" y2="261.62" columns="8" rows="5" layer="97"/>
 </plain>
 <instances>
+<instance part="K1" gate="G$1" x="33.02" y="45.72"/>
 <instance part="PWRIN" gate="G$1" x="25.4" y="231.14"/>
 <instance part="P+1" gate="1" x="38.1" y="233.68" rot="R270"/>
 <instance part="GND2" gate="1" x="40.64" y="231.14" rot="R90"/>
@@ -9603,10 +9781,6 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="C7" gate="G$1" x="213.36" y="215.9">
 <attribute name="PARTNO" x="213.36" y="215.9" size="1.778" layer="96" display="off"/>
 </instance>
-<instance part="USB_OUT" gate="G$1" x="35.56" y="41.91">
-<attribute name="PARTNO" x="35.56" y="41.91" size="1.778" layer="96" rot="R270" display="off"/>
-</instance>
-<instance part="GND37" gate="1" x="40.64" y="25.4" rot="MR0"/>
 <instance part="C36" gate="G$1" x="175.26" y="165.1">
 <attribute name="PARTNO" x="175.26" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
@@ -9673,6 +9847,11 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <instance part="P+5" gate="G$1" x="238.76" y="111.76" rot="MR90"/>
 <instance part="P+10" gate="G$1" x="238.76" y="129.54" rot="MR90"/>
 <instance part="P+13" gate="G$1" x="238.76" y="147.32" rot="MR90"/>
+<instance part="DAISY_OUT" gate="G$1" x="40.64" y="154.94" rot="R270"/>
+<instance part="P+14" gate="1" x="48.26" y="152.4" rot="R180"/>
+<instance part="GND8" gate="1" x="33.02" y="152.4"/>
+<instance part="P+15" gate="1" x="40.64" y="53.34" rot="R270"/>
+<instance part="GND17" gate="1" x="40.64" y="38.1" rot="R90"/>
 </instances>
 <busses>
 <bus name="USB1:D1_N,D1_P,!OVRCUR1,!PWRON1">
@@ -9743,12 +9922,6 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <segment>
 <pinref part="R5" gate="G$1" pin="2"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-</segment>
-<segment>
-<pinref part="GND37" gate="1" pin="GND"/>
-<wire x1="40.64" y1="27.94" x2="40.64" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="40.64" y1="38.1" x2="35.56" y2="38.1" width="0.1524" layer="91"/>
-<pinref part="USB_OUT" gate="G$1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="C36" gate="G$1" pin="1"/>
@@ -9830,6 +10003,11 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <wire x1="276.86" y1="223.52" x2="274.32" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="GND142" gate="1" pin="GND"/>
 <wire x1="274.32" y1="223.52" x2="274.32" y2="220.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND8" gate="1" pin="GND"/>
+<pinref part="DAISY_OUT" gate="G$1" pin="4"/>
+<wire x1="33.02" y1="154.94" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$44" class="0">
@@ -9954,6 +10132,16 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="IC1" gate="G$1" pin="EN"/>
 <wire x1="132.08" y1="220.98" x2="129.54" y2="220.98" width="0.1524" layer="91"/>
 <wire x1="129.54" y1="220.98" x2="129.54" y2="226.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+15" gate="1" pin="+5V"/>
+<pinref part="K1" gate="G$1" pin="1"/>
+<wire x1="38.1" y1="53.34" x2="25.4" y2="53.34" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="P+14" gate="1" pin="+5V"/>
+<pinref part="DAISY_OUT" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="154.94" x2="48.26" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -10141,22 +10329,23 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <net name="DX0_N" class="1">
 <segment>
 <pinref part="USB_HOST" gate="G$1" pin="D-"/>
-<wire x1="35.56" y1="129.54" x2="45.72" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="129.54" x2="38.1" y2="129.54" width="0.1524" layer="91"/>
 <pinref part="RN1" gate="B" pin="2"/>
+<pinref part="DAISY_OUT" gate="G$1" pin="3"/>
+<wire x1="38.1" y1="129.54" x2="45.72" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="38.1" y1="129.54" x2="38.1" y2="162.56" width="0.1524" layer="91"/>
+<junction x="38.1" y="129.54"/>
 </segment>
 </net>
 <net name="DX0_P" class="1">
 <segment>
 <pinref part="USB_HOST" gate="G$1" pin="D+"/>
 <pinref part="RN1" gate="A" pin="2"/>
-<wire x1="45.72" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="DX1_P" class="1">
-<segment>
-<pinref part="USB_OUT" gate="G$1" pin="D+"/>
-<pinref part="RN2" gate="A" pin="2"/>
-<wire x1="48.26" y1="43.18" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="45.72" y1="127" x2="43.18" y2="127" width="0.1524" layer="91"/>
+<pinref part="DAISY_OUT" gate="G$1" pin="2"/>
+<wire x1="43.18" y1="127" x2="35.56" y2="127" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="127" x2="43.18" y2="162.56" width="0.1524" layer="91"/>
+<junction x="43.18" y="127"/>
 </segment>
 </net>
 <net name="12MHZ" class="0">
@@ -10166,11 +10355,28 @@ Updated by  Dan Xu 2014-07-08&lt;br&gt;
 <pinref part="QG1" gate="G$1" pin="OUT"/>
 </segment>
 </net>
-<net name="N$7" class="1">
+<net name="N$7" class="0">
 <segment>
-<pinref part="USB_OUT" gate="G$1" pin="D-"/>
+<pinref part="RN2" gate="A" pin="2"/>
+<wire x1="48.26" y1="43.18" x2="40.64" y2="43.18" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="43.18" x2="40.64" y2="48.26" width="0.1524" layer="91"/>
+<pinref part="K1" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="48.26" x2="25.4" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
 <pinref part="RN2" gate="B" pin="2"/>
 <wire x1="48.26" y1="45.72" x2="35.56" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="45.72" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
+<pinref part="K1" gate="G$1" pin="3"/>
+<wire x1="35.56" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="K1" gate="G$1" pin="4"/>
+<wire x1="40.64" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

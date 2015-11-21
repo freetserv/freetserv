@@ -8868,7 +8868,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="PARTNO" value="1276-1003-1-ND"/>
 </part>
 <part name="GND56" library="supply1" deviceset="GND" device=""/>
-<part name="IC3" library="Texas Instruments_By_element14_Batch_1" deviceset="TUSB2046BVF" device=""/>
+<part name="HUB" library="Texas Instruments_By_element14_Batch_1" deviceset="TUSB2046BVF" device=""/>
 <part name="C46" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
 <attribute name="PARTNO" value="1276-1003-1-ND"/>
 </part>
@@ -9820,7 +9820,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </instance>
 <instance part="P+3" gate="G$1" x="111.76" y="134.62" rot="R90"/>
 <instance part="GND30" gate="1" x="129.54" y="147.32" rot="R180"/>
-<instance part="IC3" gate="A" x="205.74" y="127"/>
+<instance part="HUB" gate="A" x="205.74" y="127"/>
 <instance part="C46" gate="G$1" x="167.64" y="165.1">
 <attribute name="PARTNO" x="167.64" y="165.1" size="1.778" layer="96" display="off"/>
 </instance>
@@ -9974,16 +9974,16 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
-<pinref part="IC3" gate="A" pin="GND"/>
+<pinref part="HUB" gate="A" pin="GND"/>
 <wire x1="177.8" y1="152.4" x2="180.34" y2="152.4" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="BUSPWR"/>
+<pinref part="HUB" gate="A" pin="BUSPWR"/>
 <pinref part="GND5" gate="1" pin="GND"/>
 <wire x1="180.34" y1="121.92" x2="177.8" y2="121.92" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="TSTPLL/48MCLK"/>
+<pinref part="HUB" gate="A" pin="TSTPLL/48MCLK"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="180.34" y1="106.68" x2="177.8" y2="106.68" width="0.1524" layer="91"/>
 </segment>
@@ -10018,7 +10018,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="USB_HOST" gate="G$1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="TSTMODE"/>
+<pinref part="HUB" gate="A" pin="TSTMODE"/>
 <pinref part="GND20" gate="1" pin="GND"/>
 <wire x1="180.34" y1="111.76" x2="177.8" y2="111.76" width="0.1524" layer="91"/>
 </segment>
@@ -10053,7 +10053,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="Q2" gate="P" pin="1"/>
 <wire x1="152.4" y1="144.78" x2="152.4" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="180.34" y1="144.78" x2="152.4" y2="144.78" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="XTAL1"/>
+<pinref part="HUB" gate="A" pin="XTAL1"/>
 <junction x="152.4" y="144.78"/>
 <wire x1="152.4" y1="144.78" x2="149.86" y2="144.78" width="0.1524" layer="91"/>
 </segment>
@@ -10080,7 +10080,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="167.64" y1="157.48" x2="175.26" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="175.26" y1="157.48" x2="175.26" y2="160.02" width="0.1524" layer="91"/>
 <junction x="167.64" y="157.48"/>
-<pinref part="IC3" gate="A" pin="VCC"/>
+<pinref part="HUB" gate="A" pin="VCC"/>
 <wire x1="175.26" y1="157.48" x2="180.34" y2="157.48" width="0.1524" layer="91"/>
 <junction x="175.26" y="157.48"/>
 </segment>
@@ -10105,7 +10105,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="P+3" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="~EXTMEM"/>
+<pinref part="HUB" gate="A" pin="~EXTMEM"/>
 <pinref part="P+4" gate="G$1" pin="+3V3"/>
 <wire x1="180.34" y1="101.6" x2="177.8" y2="101.6" width="0.1524" layer="91"/>
 </segment>
@@ -10128,23 +10128,23 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="P+12" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="~OVRCUR4"/>
+<pinref part="HUB" gate="A" pin="~OVRCUR4"/>
 <pinref part="P+9" gate="G$1" pin="+3V3"/>
 <wire x1="236.22" y1="93.98" x2="231.14" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+13" gate="G$1" pin="+3V3"/>
-<pinref part="IC3" gate="A" pin="~OVRCUR1"/>
+<pinref part="HUB" gate="A" pin="~OVRCUR1"/>
 <wire x1="236.22" y1="147.32" x2="231.14" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="A" pin="~OVRCUR2"/>
+<pinref part="HUB" gate="A" pin="~OVRCUR2"/>
 <pinref part="P+10" gate="G$1" pin="+3V3"/>
 <wire x1="231.14" y1="129.54" x2="236.22" y2="129.54" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+5" gate="G$1" pin="+3V3"/>
-<pinref part="IC3" gate="A" pin="~OVRCUR3"/>
+<pinref part="HUB" gate="A" pin="~OVRCUR3"/>
 <wire x1="236.22" y1="111.76" x2="231.14" y2="111.76" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -10221,7 +10221,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="N$37" class="0">
 <segment>
-<pinref part="IC3" gate="A" pin="XTAL2"/>
+<pinref part="HUB" gate="A" pin="XTAL2"/>
 <pinref part="R3" gate="G$1" pin="1"/>
 <wire x1="160.02" y1="139.7" x2="180.34" y2="139.7" width="0.1524" layer="91"/>
 </segment>
@@ -10232,7 +10232,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="129.54" y1="137.16" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="124.46" y1="134.62" x2="129.54" y2="134.62" width="0.1524" layer="91"/>
-<pinref part="IC3" gate="A" pin="~RESET"/>
+<pinref part="HUB" gate="A" pin="~RESET"/>
 <wire x1="129.54" y1="134.62" x2="180.34" y2="134.62" width="0.1524" layer="91"/>
 <junction x="129.54" y="134.62"/>
 <wire x1="129.54" y1="134.62" x2="129.54" y2="127" width="0.1524" layer="91"/>
@@ -10242,7 +10242,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="D1_N" class="1">
 <segment>
-<pinref part="IC3" gate="A" pin="DM4"/>
+<pinref part="HUB" gate="A" pin="DM4"/>
 <wire x1="248.92" y1="101.6" x2="246.38" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="104.14" x2="231.14" y2="104.14" width="0.1524" layer="91"/>
 <label x="246.38" y="104.14" size="1.778" layer="95" rot="MR0"/>
@@ -10260,7 +10260,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="D1_P" class="1">
 <segment>
-<pinref part="IC3" gate="A" pin="DP4"/>
+<pinref part="HUB" gate="A" pin="DP4"/>
 <wire x1="248.92" y1="99.06" x2="246.38" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="101.6" x2="231.14" y2="101.6" width="0.1524" layer="91"/>
 <label x="246.38" y="101.6" size="1.778" layer="95" rot="MR0"/>
@@ -10281,7 +10281,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="248.92" y1="154.94" x2="246.38" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="157.48" x2="231.14" y2="157.48" width="0.1524" layer="91"/>
 <label x="246.38" y="157.48" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC3" gate="A" pin="DM1"/>
+<pinref part="HUB" gate="A" pin="DM1"/>
 </segment>
 </net>
 <net name="D2_P" class="1">
@@ -10289,7 +10289,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="248.92" y1="152.4" x2="246.38" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="154.94" x2="231.14" y2="154.94" width="0.1524" layer="91"/>
 <label x="246.38" y="154.94" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC3" gate="A" pin="DP1"/>
+<pinref part="HUB" gate="A" pin="DP1"/>
 </segment>
 </net>
 <net name="D3_N" class="1">
@@ -10297,7 +10297,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="248.92" y1="137.16" x2="246.38" y2="139.7" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="139.7" x2="231.14" y2="139.7" width="0.1524" layer="91"/>
 <label x="246.38" y="139.7" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC3" gate="A" pin="DM2"/>
+<pinref part="HUB" gate="A" pin="DM2"/>
 </segment>
 </net>
 <net name="D3_P" class="1">
@@ -10305,7 +10305,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="248.92" y1="134.62" x2="246.38" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="137.16" x2="231.14" y2="137.16" width="0.1524" layer="91"/>
 <label x="246.38" y="137.16" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC3" gate="A" pin="DP2"/>
+<pinref part="HUB" gate="A" pin="DP2"/>
 </segment>
 </net>
 <net name="D4_N" class="1">
@@ -10313,7 +10313,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="248.92" y1="119.38" x2="246.38" y2="121.92" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="121.92" x2="231.14" y2="121.92" width="0.1524" layer="91"/>
 <label x="246.38" y="121.92" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC3" gate="A" pin="DM3"/>
+<pinref part="HUB" gate="A" pin="DM3"/>
 </segment>
 </net>
 <net name="D4_P" class="1">
@@ -10321,7 +10321,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="248.92" y1="116.84" x2="246.38" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="119.38" x2="231.14" y2="119.38" width="0.1524" layer="91"/>
 <label x="246.38" y="119.38" size="1.778" layer="95" rot="MR0"/>
-<pinref part="IC3" gate="A" pin="DP3"/>
+<pinref part="HUB" gate="A" pin="DP3"/>
 </segment>
 </net>
 <net name="D0_P" class="1">
@@ -10329,7 +10329,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="162.56" y1="124.46" x2="165.1" y2="127" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="127" x2="180.34" y2="127" width="0.1524" layer="91"/>
 <label x="165.1" y="127" size="1.778" layer="95"/>
-<pinref part="IC3" gate="A" pin="DP0"/>
+<pinref part="HUB" gate="A" pin="DP0"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="124.46" x2="76.2" y2="127" width="0.1524" layer="91"/>
@@ -10350,7 +10350,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="162.56" y1="127" x2="165.1" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="165.1" y1="129.54" x2="180.34" y2="129.54" width="0.1524" layer="91"/>
 <label x="165.1" y="129.54" size="1.778" layer="95"/>
-<pinref part="IC3" gate="A" pin="DM0"/>
+<pinref part="HUB" gate="A" pin="DM0"/>
 </segment>
 <segment>
 <wire x1="78.74" y1="127" x2="76.2" y2="129.54" width="0.1524" layer="91"/>

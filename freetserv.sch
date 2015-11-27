@@ -750,7 +750,7 @@ at 30/07/2012 17:45:58</description>
 <text x="-3.7592" y="2.4892" size="1.27" layer="21" ratio="6" rot="SR0">*</text>
 <text x="-4.826" y="3.4798" size="2.0828" layer="25" ratio="10" rot="SR0">&gt;NAME</text>
 <text x="-5.6896" y="-5.2832" size="2.0828" layer="27" ratio="10" rot="SR0">&gt;VALUE</text>
-<circle x="-1.27" y="1.905" radius="0.635" width="0.0254" layer="21"/>
+<circle x="-1.27" y="1.905" radius="0.381" width="0.0254" layer="21"/>
 </package>
 <package name="QFP80P900X900X145-32N">
 <smd name="1" x="-4.3688" y="2.794" dx="0.508" dy="1.778" layer="1" rot="R270"/>
@@ -14093,7 +14093,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <approved hash="104,4,312.42,226.06,IC5,V+,N$39,,,"/>
 <approved hash="104,4,312.42,238.76,IC5,VCC,+3V3,,,"/>
 <approved hash="104,4,312.42,220.98,IC5,V-,N$40,,,"/>
-<approved hash="104,3,248.92,121.92,IC3,VCC,+3V3,,,"/>
+<approved hash="104,3,248.92,121.92,HUB,VCC,+3V3,,,"/>
 <approved hash="104,4,312.42,170.18,IC6,V+,N$21,,,"/>
 <approved hash="104,4,312.42,182.88,IC6,VCC,+3V3,,,"/>
 <approved hash="104,4,312.42,165.1,IC6,V-,N$22,,,"/>

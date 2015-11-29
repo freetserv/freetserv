@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -10046,6 +10046,11 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="DAISY_OUT" gate="G$1" pin="4"/>
 <wire x1="33.02" y1="154.94" x2="33.02" y2="162.56" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND17" gate="1" pin="GND"/>
+<pinref part="DAISY_IN" gate="G$1" pin="4"/>
+<wire x1="38.1" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$44" class="0">
 <segment>
@@ -10408,12 +10413,6 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="35.56" y1="45.72" x2="35.56" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="DAISY_IN" gate="G$1" pin="3"/>
 <wire x1="35.56" y1="43.18" x2="25.4" y2="43.18" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$15" class="0">
-<segment>
-<pinref part="DAISY_IN" gate="G$1" pin="4"/>
-<wire x1="40.64" y1="38.1" x2="25.4" y2="38.1" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>

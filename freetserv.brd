@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.3.0">
+<eagle version="7.4.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -3572,6 +3572,7 @@ design rules under a new name.</description>
 <contactref element="PWRIN" pad="2"/>
 <contactref element="DAISY_OUT" pad="4"/>
 <via x="72.0725" y="72.7075" extent="1-16" drill="0.3048"/>
+<contactref element="DAISY_IN" pad="4"/>
 </signal>
 <signal name="+1V8-1">
 <contactref element="IC4" pad="49"/>
@@ -4461,8 +4462,6 @@ design rules under a new name.</description>
 <wire x1="69.138203125" y1="74.3712" x2="70.8725" y2="74.3712" width="0.1778" layer="1"/>
 <wire x1="70.8725" y1="74.3712" x2="71.1225" y2="74.1212" width="0.1778" layer="1" curve="-90"/>
 <wire x1="71.1225" y1="74.1212" x2="71.1225" y2="73.503" width="0.1778" layer="1"/>
-<wire x1="76.289" y1="69.3865" x2="71.5835" y2="69.3865" width="0" layer="19" extent="1-16"/>
-<wire x1="71.5835" y1="69.3865" x2="71.12" y2="69.85" width="0" layer="19" curve="-90" extent="1-16"/>
 <wire x1="71.12" y1="73.5005" x2="71.1225" y2="73.503" width="0.1778" layer="1" curve="-90"/>
 <wire x1="71.12" y1="73.5005" x2="71.12" y2="70.358" width="0.1778" layer="1"/>
 <wire x1="71.12" y1="70.358" x2="71.501" y2="69.977" width="0.1778" layer="1" curve="90"/>
@@ -7057,9 +7056,6 @@ design rules under a new name.</description>
 <contactref element="DAISY_IN" pad="3"/>
 <wire x1="77.889" y1="69.3865" x2="79.5845" y2="67.691" width="0.1778" layer="1" curve="90"/>
 <wire x1="79.5845" y1="67.691" x2="81.407" y2="67.691" width="0.1778" layer="1"/>
-</signal>
-<signal name="N$15">
-<contactref element="DAISY_IN" pad="4"/>
 </signal>
 <signal name="N$16">
 </signal>

@@ -8728,7 +8728,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="PARTNO" value="445-7589-1-ND"/>
 </part>
 <part name="GND14" library="supply1" deviceset="GND" device=""/>
-<part name="R2" library="resistor" deviceset="R-EU_" device="R0805" value="12K / 1%">
+<part name="R2" library="resistor" deviceset="R-EU_" device="R0805" value="12K/1%">
 <attribute name="PARTNO" value="311-12.0KCRCT-ND"/>
 </part>
 <part name="GND15" library="supply1" deviceset="GND" device=""/>
@@ -8755,7 +8755,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="GND22" library="supply1" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" deviceset="GND" device=""/>
 <part name="GND24" library="supply1" deviceset="GND" device=""/>
-<part name="IC5" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
+<part name="IC5" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="" value="3232">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND26" library="supply1" deviceset="GND" device=""/>
@@ -8888,7 +8888,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="P+8" library="supply1" deviceset="+3V3" device=""/>
 <part name="P+9" library="supply1" deviceset="+3V3" device=""/>
 <part name="+3V6" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC6" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
+<part name="IC6" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="" value="3232">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND12" library="supply1" deviceset="GND" device=""/>
@@ -8912,7 +8912,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="GND27" library="supply1" deviceset="GND" device=""/>
 <part name="GND38" library="supply1" deviceset="GND" device=""/>
 <part name="+3V8" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC7" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
+<part name="IC7" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="" value="3232">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND39" library="supply1" deviceset="GND" device=""/>
@@ -8936,7 +8936,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="GND44" library="supply1" deviceset="GND" device=""/>
 <part name="GND45" library="supply1" deviceset="GND" device=""/>
 <part name="+3V9" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC8" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
+<part name="IC8" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="" value="3232">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
@@ -8978,7 +8978,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="PARTNO" value="445-7589-1-ND"/>
 </part>
 <part name="GND61" library="supply1" deviceset="GND" device=""/>
-<part name="R13" library="resistor" deviceset="R-EU_" device="R0805" value="12K / 1%">
+<part name="R13" library="resistor" deviceset="R-EU_" device="R0805" value="12K/1%">
 <attribute name="PARTNO" value="311-12.0KCRCT-ND"/>
 </part>
 <part name="GND62" library="supply1" deviceset="GND" device=""/>
@@ -9005,7 +9005,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="GND67" library="supply1" deviceset="GND" device=""/>
 <part name="GND68" library="supply1" deviceset="GND" device=""/>
 <part name="GND69" library="supply1" deviceset="GND" device=""/>
-<part name="IC10" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
+<part name="IC10" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="" value="3232">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND70" library="supply1" deviceset="GND" device=""/>
@@ -9061,7 +9061,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </part>
 <part name="GND82" library="supply1" deviceset="GND" device=""/>
 <part name="+3V2" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC11" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
+<part name="IC11" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="" value="3232">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND83" library="supply1" deviceset="GND" device=""/>
@@ -9085,7 +9085,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="GND86" library="supply1" deviceset="GND" device=""/>
 <part name="GND87" library="supply1" deviceset="GND" device=""/>
 <part name="+3V4" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC12" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
+<part name="IC12" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="" value="3232">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND88" library="supply1" deviceset="GND" device=""/>
@@ -9109,7 +9109,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="GND91" library="supply1" deviceset="GND" device=""/>
 <part name="GND92" library="supply1" deviceset="GND" device=""/>
 <part name="+3V5" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC13" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
+<part name="IC13" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="" value="3232">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND93" library="supply1" deviceset="GND" device=""/>
@@ -9146,7 +9146,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <attribute name="PARTNO" value="445-7589-1-ND"/>
 </part>
 <part name="GND100" library="supply1" deviceset="GND" device=""/>
-<part name="R15" library="resistor" deviceset="R-EU_" device="R0805" value="12K / 1%">
+<part name="R15" library="resistor" deviceset="R-EU_" device="R0805" value="12K/1%">
 <attribute name="PARTNO" value="311-12.0KCRCT-ND"/>
 </part>
 <part name="GND101" library="supply1" deviceset="GND" device=""/>
@@ -9173,7 +9173,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="GND106" library="supply1" deviceset="GND" device=""/>
 <part name="GND107" library="supply1" deviceset="GND" device=""/>
 <part name="GND108" library="supply1" deviceset="GND" device=""/>
-<part name="IC15" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
+<part name="IC15" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="" value="3232">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND109" library="supply1" deviceset="GND" device=""/>
@@ -9229,7 +9229,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </part>
 <part name="GND121" library="supply1" deviceset="GND" device=""/>
 <part name="+3V17" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC16" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
+<part name="IC16" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="" value="3232">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND122" library="supply1" deviceset="GND" device=""/>
@@ -9253,7 +9253,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="GND125" library="supply1" deviceset="GND" device=""/>
 <part name="GND126" library="supply1" deviceset="GND" device=""/>
 <part name="+3V19" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC17" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
+<part name="IC17" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="" value="3232">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND127" library="supply1" deviceset="GND" device=""/>
@@ -9277,7 +9277,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="GND130" library="supply1" deviceset="GND" device=""/>
 <part name="GND131" library="supply1" deviceset="GND" device=""/>
 <part name="+3V20" library="supply1" deviceset="+3V3" device=""/>
-<part name="IC18" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="">
+<part name="IC18" library="Texas Instruments_By_element14_Batch_1" deviceset="MAX3232ECPW" device="" value="3232">
 <attribute name="PARTNO" value="296-19263-1-ND"/>
 </part>
 <part name="GND132" library="supply1" deviceset="GND" device=""/>

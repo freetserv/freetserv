@@ -1904,8 +1904,8 @@ Copyright: Würth Elektronik</description>
 <wire x1="-1" y1="-0.625" x2="1" y2="-0.625" width="0.127" layer="51"/>
 <wire x1="-1" y1="0.625" x2="-1" y2="-0.625" width="0.127" layer="51"/>
 <wire x1="1" y1="-0.625" x2="1" y2="0.625" width="0.127" layer="51"/>
-<smd name="2" x="0.8375" y="0" dx="1.143" dy="1.2" layer="1"/>
-<smd name="1" x="-0.8375" y="0" dx="1.143" dy="1.2" layer="1"/>
+<smd name="2" x="1.0407" y="0" dx="1.524" dy="1.2" layer="1"/>
+<smd name="1" x="-1.0153" y="0" dx="1.524" dy="1.2" layer="1"/>
 <text x="-1.5" y="-1.7" size="0.3048" layer="25">&gt;NAME</text>
 <text x="-1.5" y="1.4" size="0.3048" layer="27">&gt;VALUE</text>
 <wire x1="-1.5" y1="0.875" x2="-1.5" y2="-0.875" width="0.127" layer="39"/>
@@ -2603,13 +2603,11 @@ design rules under a new name.</description>
 </element>
 <element name="FB2\" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="15.621" y="61.341" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="490-5988-1-ND" x="15.621" y="61.341" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="17.321" y="62.841" size="0.3048" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="14.221" y="62.841" size="0.3048" layer="28" rot="MR270"/>
 </element>
 <element name="FB1" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="22.479" y="61.341" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="490-5988-1-ND" x="22.479" y="61.341" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="24.179" y="62.841" size="0.3048" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="21.079" y="62.841" size="0.3048" layer="28" rot="MR270"/>
 </element>
 <element name="R2" library="resistor" package="R0805" value="12K/1%" x="12.319" y="55.499" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="311-12.0KCRCT-ND" x="12.319" y="55.499" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2859,13 +2857,11 @@ design rules under a new name.</description>
 </element>
 <element name="FB2\1" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="43.561" y="61.341" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="490-5988-1-ND" x="43.561" y="61.341" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="45.261" y="62.841" size="0.3048" layer="26" rot="MR270"/>
 <attribute name="VALUE" x="42.161" y="62.841" size="0.3048" layer="28" rot="MR270"/>
 </element>
 <element name="FB2" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="50.419" y="61.341" smashed="yes" rot="MR270">
 <attribute name="PARTNO" value="490-5988-1-ND" x="50.419" y="61.341" size="1.778" layer="28" rot="MR270" display="off"/>
 <attribute name="NAME" x="52.119" y="62.841" size="0.3048" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="49.019" y="62.841" size="0.3048" layer="28" rot="MR270"/>
 </element>
 <element name="R13" library="resistor" package="R0805" value="12K/1%" x="40.259" y="55.499" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="311-12.0KCRCT-ND" x="40.259" y="55.499" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3028,15 +3024,13 @@ design rules under a new name.</description>
 <attribute name="PARTNO" value="445-7589-1-ND" x="66.294" y="43.8785" size="1.778" layer="28" rot="MR180" display="off"/>
 <attribute name="VALUE" x="64.516" y="43.2435" size="1.27" layer="28" rot="MR0"/>
 </element>
-<element name="FB2\2" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="71.501" y="61.341" smashed="yes" rot="MR270">
-<attribute name="PARTNO" value="490-5988-1-ND" x="71.501" y="61.341" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="73.201" y="62.841" size="0.3048" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="70.101" y="62.841" size="0.3048" layer="28" rot="MR270"/>
+<element name="FB2\2" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="71.501" y="61.595" smashed="yes" rot="MR270">
+<attribute name="PARTNO" value="490-5988-1-ND" x="71.501" y="61.595" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="VALUE" x="70.101" y="63.095" size="0.3048" layer="28" rot="MR270"/>
 </element>
-<element name="FB3" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="78.359" y="61.341" smashed="yes" rot="MR270">
-<attribute name="PARTNO" value="490-5988-1-ND" x="78.359" y="61.341" size="1.778" layer="28" rot="MR270" display="off"/>
-<attribute name="NAME" x="80.059" y="62.841" size="0.3048" layer="26" rot="MR270"/>
-<attribute name="VALUE" x="76.959" y="62.841" size="0.3048" layer="28" rot="MR270"/>
+<element name="FB3" library="Wurth_Elektronik_Passive_rev15d" package="WE-KI_0805A" value="330" x="78.359" y="61.595" smashed="yes" rot="MR270">
+<attribute name="PARTNO" value="490-5988-1-ND" x="78.359" y="61.595" size="1.778" layer="28" rot="MR270" display="off"/>
+<attribute name="NAME" x="80.059" y="63.095" size="0.3048" layer="26" rot="MR270"/>
 </element>
 <element name="R15" library="resistor" package="R0805" value="12K/1%" x="68.199" y="55.499" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="311-12.0KCRCT-ND" x="68.199" y="55.499" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3757,12 +3751,12 @@ design rules under a new name.</description>
 <contactref element="C13" pad="1"/>
 <wire x1="17.714" y1="58.547" x2="17.714" y2="60.391" width="0.3" layer="16"/>
 <wire x1="17.714" y1="60.391" x2="17.653" y2="60.391" width="0.1778" layer="16"/>
-<wire x1="17.653" y1="60.391" x2="17.653" y2="60.5035" width="0.1778" layer="16"/>
-<wire x1="17.653" y1="60.5035" x2="15.621" y2="60.5035" width="0.3" layer="16"/>
 <wire x1="17.816" y1="55.257" x2="17.816" y2="56.388" width="0.1778" layer="16"/>
 <wire x1="17.816" y1="56.388" x2="17.816" y2="57.241" width="0.3" layer="16"/>
 <wire x1="17.816" y1="57.241" x2="17.714" y2="57.343" width="0.3" layer="16"/>
 <wire x1="17.714" y1="57.343" x2="17.714" y2="58.547" width="0.3" layer="16"/>
+<wire x1="17.653" y1="60.391" x2="15.621" y2="60.391" width="0.4064" layer="16"/>
+<wire x1="15.621" y1="60.391" x2="15.621" y2="60.3003" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$18">
 <contactref element="FTDI1" pad="9"/>
@@ -3772,12 +3766,12 @@ design rules under a new name.</description>
 <wire x1="20.447" y1="58.359" x2="20.386" y2="58.547" width="0.1778" layer="16"/>
 <wire x1="20.386" y1="58.547" x2="20.386" y2="60.518" width="0.3" layer="16"/>
 <wire x1="20.386" y1="60.518" x2="20.447" y2="60.391" width="0.1778" layer="16"/>
-<wire x1="22.479" y1="60.5035" x2="20.447" y2="60.5035" width="0.3" layer="16"/>
-<wire x1="20.447" y1="60.5035" x2="20.447" y2="60.391" width="0.1778" layer="16"/>
 <wire x1="20.316" y1="55.257" x2="20.316" y2="56.388" width="0.1778" layer="16"/>
 <wire x1="20.316" y1="56.388" x2="20.316" y2="57.273" width="0.3" layer="16"/>
 <wire x1="20.316" y1="57.273" x2="20.386" y2="57.343" width="0.3" layer="16"/>
 <wire x1="20.386" y1="57.343" x2="20.386" y2="58.547" width="0.3" layer="16"/>
+<wire x1="20.447" y1="60.391" x2="22.479" y2="60.391" width="0.4064" layer="16"/>
+<wire x1="22.479" y1="60.391" x2="22.479" y2="60.3003" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$27">
 <contactref element="C67" pad="2"/>
@@ -4233,16 +4227,16 @@ design rules under a new name.</description>
 <wire x1="86.614" y1="51.689" x2="86.614" y2="45.72" width="0.5" layer="16"/>
 <wire x1="86.614" y1="45.72" x2="86.614" y2="42.291" width="0.5" layer="16"/>
 <wire x1="86.614" y1="42.291" x2="85.471" y2="41.148" width="0.5" layer="16"/>
-<wire x1="15.621" y1="62.1785" x2="15.621" y2="64.516" width="0.5" layer="16"/>
+<wire x1="15.621" y1="62.3563" x2="15.621" y2="64.516" width="0.5" layer="16"/>
 <wire x1="15.621" y1="64.516" x2="15.748" y2="64.643" width="0.65" layer="16"/>
-<wire x1="22.479" y1="62.1785" x2="22.479" y2="64.516" width="0.5" layer="16"/>
+<wire x1="22.479" y1="62.3563" x2="22.479" y2="64.516" width="0.5" layer="16"/>
 <wire x1="22.479" y1="64.516" x2="22.606" y2="64.643" width="0.65" layer="16"/>
-<wire x1="43.561" y1="62.1785" x2="43.561" y2="64.643" width="0.5" layer="16"/>
-<wire x1="50.419" y1="62.1785" x2="50.419" y2="64.643" width="0.5" layer="16"/>
+<wire x1="43.561" y1="62.3563" x2="43.561" y2="64.643" width="0.5" layer="16"/>
+<wire x1="50.419" y1="62.3563" x2="50.419" y2="64.643" width="0.5" layer="16"/>
 <wire x1="50.419" y1="64.643" x2="50.292" y2="64.643" width="0.65" layer="16"/>
-<wire x1="71.501" y1="62.1785" x2="71.501" y2="64.643" width="0.5" layer="16"/>
+<wire x1="71.501" y1="62.6103" x2="71.501" y2="64.643" width="0.5" layer="16"/>
 <wire x1="71.501" y1="64.643" x2="71.247" y2="64.643" width="0.65" layer="16"/>
-<wire x1="78.359" y1="62.1785" x2="78.359" y2="64.516" width="0.5" layer="16"/>
+<wire x1="78.359" y1="62.6103" x2="78.359" y2="64.516" width="0.5" layer="16"/>
 <wire x1="78.359" y1="64.516" x2="78.359" y2="64.643" width="0.5" layer="16"/>
 <wire x1="78.359" y1="64.643" x2="78.232" y2="64.643" width="0.65" layer="16"/>
 <wire x1="30.734" y1="64.643" x2="30.734" y2="51.689" width="0.5" layer="16"/>
@@ -5676,12 +5670,12 @@ design rules under a new name.</description>
 <contactref element="C502" pad="1"/>
 <wire x1="45.654" y1="58.547" x2="45.654" y2="60.391" width="0.3" layer="16"/>
 <wire x1="45.654" y1="60.391" x2="45.593" y2="60.391" width="0.1778" layer="16"/>
-<wire x1="45.593" y1="60.391" x2="45.593" y2="60.5035" width="0.1778" layer="16"/>
-<wire x1="45.593" y1="60.5035" x2="43.561" y2="60.5035" width="0.3" layer="16"/>
 <wire x1="45.756" y1="55.257" x2="45.756" y2="56.388" width="0.1778" layer="16"/>
 <wire x1="45.756" y1="56.388" x2="45.756" y2="57.114" width="0.3" layer="16"/>
 <wire x1="45.756" y1="57.114" x2="45.654" y2="57.216" width="0.3" layer="16"/>
 <wire x1="45.654" y1="57.216" x2="45.654" y2="58.547" width="0.3" layer="16"/>
+<wire x1="45.593" y1="60.391" x2="43.561" y2="60.391" width="0.4064" layer="16"/>
+<wire x1="43.561" y1="60.391" x2="43.561" y2="60.3003" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$1355">
 <contactref element="FTDI2" pad="9"/>
@@ -5691,12 +5685,12 @@ design rules under a new name.</description>
 <wire x1="48.387" y1="58.359" x2="48.326" y2="58.547" width="0.1778" layer="16"/>
 <wire x1="48.326" y1="58.547" x2="48.326" y2="60.518" width="0.3" layer="16"/>
 <wire x1="48.326" y1="60.518" x2="48.387" y2="60.391" width="0.1778" layer="16"/>
-<wire x1="50.419" y1="60.5035" x2="48.387" y2="60.5035" width="0.3" layer="16"/>
-<wire x1="48.387" y1="60.5035" x2="48.387" y2="60.391" width="0.1778" layer="16"/>
 <wire x1="48.256" y1="55.257" x2="48.256" y2="56.388" width="0.1778" layer="16"/>
 <wire x1="48.256" y1="56.388" x2="48.256" y2="57.146" width="0.3" layer="16"/>
 <wire x1="48.256" y1="57.146" x2="48.326" y2="57.216" width="0.3" layer="16"/>
 <wire x1="48.326" y1="57.216" x2="48.326" y2="58.547" width="0.3" layer="16"/>
+<wire x1="48.387" y1="60.391" x2="50.419" y2="60.391" width="0.4064" layer="16"/>
+<wire x1="50.419" y1="60.391" x2="50.419" y2="60.3003" width="0.4064" layer="16"/>
 </signal>
 <signal name="TXD1I1">
 <contactref element="IC10" pad="11"/>
@@ -6327,12 +6321,12 @@ design rules under a new name.</description>
 <contactref element="C879" pad="1"/>
 <wire x1="73.594" y1="58.547" x2="73.594" y2="60.391" width="0.3" layer="16"/>
 <wire x1="73.594" y1="60.391" x2="73.533" y2="60.391" width="0.1778" layer="16"/>
-<wire x1="73.533" y1="60.391" x2="73.533" y2="60.5035" width="0.1778" layer="16"/>
-<wire x1="73.533" y1="60.5035" x2="71.501" y2="60.5035" width="0.3" layer="16"/>
 <wire x1="73.696" y1="55.257" x2="73.696" y2="56.388" width="0.1778" layer="16"/>
 <wire x1="73.696" y1="56.388" x2="73.696" y2="57.241" width="0.3" layer="16"/>
 <wire x1="73.696" y1="57.241" x2="73.594" y2="57.343" width="0.3" layer="16"/>
 <wire x1="73.594" y1="57.343" x2="73.594" y2="58.547" width="0.3" layer="16"/>
+<wire x1="73.533" y1="60.391" x2="71.501" y2="60.391" width="0.4064" layer="16"/>
+<wire x1="71.501" y1="60.391" x2="71.501" y2="60.5543" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$70">
 <contactref element="FTDI3" pad="9"/>
@@ -6342,12 +6336,12 @@ design rules under a new name.</description>
 <wire x1="76.327" y1="58.359" x2="76.266" y2="58.547" width="0.1778" layer="16"/>
 <wire x1="76.266" y1="58.547" x2="76.266" y2="60.518" width="0.3" layer="16"/>
 <wire x1="76.266" y1="60.518" x2="76.327" y2="60.391" width="0.1778" layer="16"/>
-<wire x1="78.359" y1="60.5035" x2="76.327" y2="60.5035" width="0.3" layer="16"/>
-<wire x1="76.327" y1="60.5035" x2="76.327" y2="60.391" width="0.1778" layer="16"/>
 <wire x1="76.196" y1="55.257" x2="76.196" y2="56.388" width="0.1778" layer="16"/>
 <wire x1="76.196" y1="56.388" x2="76.196" y2="56.892" width="0.3" layer="16"/>
 <wire x1="76.196" y1="56.892" x2="76.266" y2="56.962" width="0.3" layer="16"/>
 <wire x1="76.266" y1="56.962" x2="76.266" y2="58.547" width="0.3" layer="16"/>
+<wire x1="78.359" y1="60.5543" x2="76.327" y2="60.5543" width="0.4064" layer="16"/>
+<wire x1="76.327" y1="60.5543" x2="76.327" y2="60.391" width="0.4064" layer="16"/>
 </signal>
 <signal name="N$71">
 <contactref element="C89" pad="2"/>

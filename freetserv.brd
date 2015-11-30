@@ -32,9 +32,9 @@
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="yes" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="yes" active="yes"/>
@@ -160,8 +160,6 @@
 <text x="31.623" y="63.881" size="1.778" layer="21" rot="R90">HOST</text>
 <text x="19.304" y="77.47" size="1.778" layer="21">GND</text>
 <text x="19.431" y="79.883" size="1.778" layer="21">5V</text>
-<text x="3.683" y="49.403" size="1.778" layer="21" rot="R90">DAISY_OUT</text>
-<text x="89.662" y="49.403" size="1.778" layer="21" rot="R90">DAISY_IN</text>
 <text x="54.229" y="77.724" size="1.778" layer="21">freetserv.github.io</text>
 <text x="54.229" y="74.803" size="1.778" layer="21">version 1.0</text>
 </plain>
@@ -2587,11 +2585,13 @@ design rules under a new name.</description>
 <element name="C14" library="resistor" package="C0805" value="4.7uF" x="20.447" y="61.341" rot="MR90">
 <attribute name="PARTNO" value="1276-2972-1-ND" x="20.447" y="61.341" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
-<element name="C2" library="resistor" package="C0805" value="10uF" x="15.494" y="69.215">
+<element name="C2" library="resistor" package="C0805" value="10uF" x="15.494" y="69.215" smashed="yes">
 <attribute name="PARTNO" value="490-10517-1-ND" x="15.494" y="69.215" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="14.097" y="69.85" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C3" library="resistor" package="C0805" value="10uF" x="15.494" y="67.056">
+<element name="C3" library="resistor" package="C0805" value="10uF" x="15.494" y="67.056" smashed="yes">
 <attribute name="PARTNO" value="490-10517-1-ND" x="15.494" y="67.056" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="13.589" y="64.516" size="1.27" layer="27"/>
 </element>
 <element name="C8" library="resistor" package="C0805" value="3.3uF" x="10.414" y="43.8785" rot="MR180">
 <attribute name="PARTNO" value="445-7589-1-ND" x="10.414" y="43.8785" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2605,7 +2605,7 @@ design rules under a new name.</description>
 <element name="R2" library="resistor" package="R0805" value="12K / 1%" x="12.319" y="55.499" rot="MR180">
 <attribute name="PARTNO" value="311-12.0KCRCT-ND" x="12.319" y="55.499" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="IC4" library="ftdichip-6" package="LQFP64" value="FT4232HL" x="20.066" y="49.403" rot="MR180">
+<element name="FTDI1" library="ftdichip-6" package="LQFP64" value="FT4232HL" x="20.066" y="49.403" rot="MR180">
 <attribute name="PARTNO" value="768-1026-1-ND" x="20.066" y="49.403" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="USB_HOST" library="ftdi_ft231xq-r" package="USB_MICROB_PACKAGE" value="USB_MICROB" x="29.845" y="77.724" rot="R180">
@@ -2628,18 +2628,20 @@ design rules under a new name.</description>
 <element name="C17" library="resistor" package="C0805" value="0.1uF" x="22.479" y="33.147" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="22.479" y="33.147" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C18" library="resistor" package="C0805" value="0.1uF" x="21.336" y="38.862" rot="R270">
+<element name="C18" library="resistor" package="C0805" value="0.1uF" x="21.336" y="38.862" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="21.336" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="18.796" y="40.132" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C19" library="resistor" package="C0805" value="0.1uF" x="26.543" y="33.147" rot="MR180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="26.543" y="33.147" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="Q2" library="crystal" package="CSM-7X-DU" value="6MHz" x="46.482" y="79.629">
+<element name="Q2" library="crystal" package="CSM-7X-DU" value="6MHz" x="46.482" y="79.629" smashed="yes">
 <attribute name="MF" value="" x="46.482" y="79.629" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="unknown" x="46.482" y="79.629" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="unknown" x="46.482" y="79.629" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="" x="46.482" y="79.629" size="1.778" layer="27" display="off"/>
 <attribute name="PARTNO" value="535-10208-1-ND" x="46.482" y="79.629" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="48.6322" y="77.0956" size="1.27" layer="27"/>
 </element>
 <element name="C20" library="resistor" package="C0805" value="18pF" x="41.656" y="76.581" rot="MR180">
 <attribute name="PARTNO" value="709-1171-1-ND" x="41.656" y="76.581" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2653,14 +2655,17 @@ design rules under a new name.</description>
 <element name="U$1" library="stewart_ss73100_046f_dwg" package="SS73100-046F" value="SS73100-046F_DWG" x="45.72" y="5.969">
 <attribute name="PARTNO" value="380-1225-ND" x="45.72" y="5.969" size="1.778" layer="27" display="off"/>
 </element>
-<element name="IC1" library="microchip" package="MSOP8" value="MCP16311-E/MS" x="16.764" y="72.39" rot="R270">
+<element name="IC1" library="microchip" package="MSOP8" value="MCP16311" x="16.764" y="72.39" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="MCP16311-E/MS-ND" x="16.764" y="72.39" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="12.05" y="74.134" size="1.016" layer="27"/>
 </element>
-<element name="C4" library="resistor" package="C0805" value="0.1uF" x="21.209" y="72.39" rot="R270">
+<element name="C4" library="resistor" package="C0805" value="0.1uF" x="21.209" y="72.39" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="21.209" y="72.39" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="20.066" y="74.168" size="1.27" layer="27"/>
 </element>
-<element name="L3" library="inductor-taiyoyuden" package="NR60XX" value="15uH" x="25.4" y="70.104" rot="R270">
+<element name="L3" library="inductor-taiyoyuden" package="NR60XX" value="15uH" x="25.4" y="70.104" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="587-2624-1-ND" x="25.4" y="70.104" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="24.051" y="64.465" size="1.27" layer="27"/>
 </element>
 <element name="R4" library="resistor" package="R0805" value="31.6k" x="20.193" y="72.39" rot="MR90">
 <attribute name="PARTNO" value="311-31.6KCRCT-ND" x="20.193" y="72.39" size="1.778" layer="28" rot="MR90" display="off"/>
@@ -2671,29 +2676,36 @@ design rules under a new name.</description>
 <element name="C5" library="resistor" package="C0805" value="1uF" x="15.875" y="70.5485" rot="MR270">
 <attribute name="PARTNO" value="311-1365-1-ND" x="15.875" y="70.5485" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="C6" library="resistor" package="C0805" value="10uF" x="20.066" y="69.215" rot="R180">
+<element name="C6" library="resistor" package="C0805" value="10uF" x="20.066" y="69.215" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="490-10517-1-ND" x="20.066" y="69.215" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="21.971" y="68.453" size="1.27" layer="27"/>
 </element>
-<element name="C7" library="resistor" package="C0805" value="10uF" x="20.066" y="67.056" rot="R180">
+<element name="C7" library="resistor" package="C0805" value="10uF" x="20.066" y="67.056" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="490-10517-1-ND" x="20.066" y="67.056" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="23.114" y="65.786" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C36" library="resistor" package="C0805" value="0.1uF" x="46.7995" y="76.581" rot="MR180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="46.7995" y="76.581" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="R6" library="resistor" package="R0805" value="1.5K" x="38.735" y="75.438" rot="R180">
+<element name="R6" library="resistor" package="R0805" value="1.5K" x="38.735" y="75.438" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="311-1.5KARCT-ND" x="38.735" y="75.438" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="41.275" y="77.724" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C37" library="resistor" package="C0805" value="0.1uF" x="36.449" y="69.088">
+<element name="C37" library="resistor" package="C0805" value="0.1uF" x="36.449" y="69.088" smashed="yes">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="36.449" y="69.088" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="38.481" y="72.009" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R7" library="resistor" package="R0805" value="22K" x="36.449" y="66.929" rot="R180">
+<element name="R7" library="resistor" package="R0805" value="22K" x="36.449" y="66.929" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="311-22KARCT-ND" x="36.449" y="66.929" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="38.481" y="65.786" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C38" library="resistor" package="C0805" value="0.1uF" x="21.0185" y="52.197" rot="R180">
+<element name="C38" library="resistor" package="C0805" value="0.1uF" x="21.0185" y="52.197" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="21.0185" y="52.197" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="22.2885" y="54.737" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C39" library="resistor" package="C0805" value="0.1uF" x="20.8915" y="46.736" rot="R180">
+<element name="C39" library="resistor" package="C0805" value="0.1uF" x="20.8915" y="46.736" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="20.8915" y="46.736" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="22.1615" y="49.276" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C40" library="resistor" package="C0805" value="0.1uF" x="11.4935" y="52.197" rot="MR270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="11.4935" y="52.197" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2704,8 +2716,9 @@ design rules under a new name.</description>
 <element name="C42" library="resistor" package="C0805" value="0.1uF" x="28.5115" y="50.927" rot="MR270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="28.5115" y="50.927" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="C43" library="resistor" package="C0805" value="0.1uF" x="21.463" y="42.9895">
+<element name="C43" library="resistor" package="C0805" value="0.1uF" x="21.463" y="42.9895" smashed="yes">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="21.463" y="42.9895" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="20.193" y="40.4495" size="1.27" layer="27"/>
 </element>
 <element name="C44" library="resistor" package="C0805" value="0.1uF" x="10.414" y="49.149" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="10.414" y="49.149" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2713,12 +2726,13 @@ design rules under a new name.</description>
 <element name="C45" library="resistor" package="C0805" value="0.1uF" x="10.414" y="45.9105" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="10.414" y="45.9105" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="HUB" library="Texas Instruments_By_element14_Batch_1" package="QFP80P900X900X145-32N" value="TUSB2046BVF" x="45.212" y="69.723">
+<element name="HUB" library="Texas Instruments_By_element14_Batch_1" package="QFP80P900X900X145-32N" value="TUSB2046BVF" x="45.212" y="69.723" smashed="yes">
 <attribute name="SUPPLIER" value="TEXAS INSTRUMENTS" x="45.212" y="69.723" size="1.778" layer="27" display="off"/>
 <attribute name="PACKAGE" value="LQFP-32" x="45.212" y="69.723" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="TUSB2046BVF" x="45.212" y="69.723" size="1.778" layer="27" display="off"/>
 <attribute name="OC_NEWARK" value="77C1805" x="45.212" y="69.723" size="1.778" layer="27" display="off"/>
 <attribute name="OC_FARNELL" value="1470507" x="45.212" y="69.723" size="1.778" layer="27" display="off"/>
+<attribute name="NAME" x="42.3926" y="68.072" size="2.0828" layer="25" ratio="10" rot="SR0"/>
 </element>
 <element name="C46" library="resistor" package="C0805" value="0.1uF" x="44.8945" y="71.5645" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="44.8945" y="71.5645" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2740,11 +2754,14 @@ design rules under a new name.</description>
 <element name="C23" library="resistor" package="C0805" value="0.1uF" x="22.479" y="25.019" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="28.321" y="12.827" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C24" library="resistor" package="C0805" value="0.1uF" x="23.368" y="32.1945" rot="R270">
+<element name="C24" library="resistor" package="C0805" value="0.1uF" x="23.368" y="32.1945" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="5.08" y="43.8785" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="20.828" y="33.4645" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="C25" library="resistor" package="C0805" value="0.1uF" x="26.543" y="25.019" rot="MR180">
+<element name="C25" library="resistor" package="C0805" value="0.1uF" x="26.543" y="25.019" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="9.017" y="49.403" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="25.273" y="23.749" size="1.27" layer="26" rot="MR180"/>
+<attribute name="VALUE" x="25.273" y="27.559" size="1.27" layer="28" rot="MR180"/>
 </element>
 <element name="IC7" library="Texas Instruments_By_element14_Batch_1" package="SOP65P640X120-16N" value="MAX3232ECPW" x="12.573" y="37.211" rot="MR180">
 <attribute name="SUPPLIER" value="Texas Instruments" x="12.573" y="37.211" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2763,8 +2780,9 @@ design rules under a new name.</description>
 <element name="C28" library="resistor" package="C0805" value="0.1uF" x="10.668" y="33.147" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="16.51" y="20.955" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C29" library="resistor" package="C0805" value="0.1uF" x="9.525" y="38.862" rot="R270">
+<element name="C29" library="resistor" package="C0805" value="0.1uF" x="9.525" y="38.862" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="-8.763" y="50.546" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="6.985" y="40.132" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C30" library="resistor" package="C0805" value="0.1uF" x="14.732" y="33.147" rot="MR180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="-2.794" y="57.531" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2786,8 +2804,9 @@ design rules under a new name.</description>
 <element name="C33" library="resistor" package="C0805" value="0.1uF" x="10.668" y="25.019" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="16.51" y="12.827" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C34" library="resistor" package="C0805" value="0.1uF" x="11.557" y="32.1945" rot="R270">
+<element name="C34" library="resistor" package="C0805" value="0.1uF" x="11.557" y="32.1945" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="-6.731" y="43.8785" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="9.017" y="33.4645" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C35" library="resistor" package="C0805" value="0.1uF" x="14.732" y="25.019" rot="MR180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="-2.794" y="49.403" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2816,7 +2835,7 @@ design rules under a new name.</description>
 <element name="R13" library="resistor" package="R0805" value="12K / 1%" x="40.259" y="55.499" rot="MR180">
 <attribute name="PARTNO" value="311-12.0KCRCT-ND" x="40.259" y="55.499" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="IC9" library="ftdichip-6" package="LQFP64" value="FT4232HL" x="48.006" y="49.403" rot="MR180">
+<element name="FTDI2" library="ftdichip-6" package="LQFP64" value="FT4232HL" x="48.006" y="49.403" rot="MR180">
 <attribute name="PARTNO" value="768-1026-1-ND" x="48.006" y="49.403" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
 <element name="IC10" library="Texas Instruments_By_element14_Batch_1" package="SOP65P640X120-16N" value="MAX3232ECPW" x="52.324" y="37.211" rot="MR180">
@@ -2836,17 +2855,20 @@ design rules under a new name.</description>
 <element name="C56" library="resistor" package="C0805" value="0.1uF" x="50.419" y="33.147" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="50.419" y="33.147" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C57" library="resistor" package="C0805" value="0.1uF" x="49.276" y="38.862" rot="R270">
+<element name="C57" library="resistor" package="C0805" value="0.1uF" x="49.276" y="38.862" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="49.276" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="46.736" y="40.132" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C58" library="resistor" package="C0805" value="0.1uF" x="54.483" y="33.147" rot="MR180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="54.483" y="33.147" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C59" library="resistor" package="C0805" value="0.1uF" x="48.9585" y="52.197" rot="R180">
+<element name="C59" library="resistor" package="C0805" value="0.1uF" x="48.9585" y="52.197" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="48.9585" y="52.197" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="50.2285" y="54.737" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C60" library="resistor" package="C0805" value="0.1uF" x="48.8315" y="46.736" rot="R180">
+<element name="C60" library="resistor" package="C0805" value="0.1uF" x="48.8315" y="46.736" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="48.8315" y="46.736" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="50.1015" y="49.276" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C61" library="resistor" package="C0805" value="0.1uF" x="39.4335" y="52.197" rot="MR270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="39.4335" y="52.197" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -2857,8 +2879,9 @@ design rules under a new name.</description>
 <element name="C63" library="resistor" package="C0805" value="0.1uF" x="56.4515" y="50.927" rot="MR270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="56.4515" y="50.927" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="C64" library="resistor" package="C0805" value="0.1uF" x="49.403" y="42.9895">
+<element name="C64" library="resistor" package="C0805" value="0.1uF" x="49.403" y="42.9895" smashed="yes">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="49.403" y="42.9895" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="48.133" y="40.4495" size="1.27" layer="27"/>
 </element>
 <element name="C65" library="resistor" package="C0805" value="0.1uF" x="38.354" y="49.149" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="38.354" y="49.149" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -2883,8 +2906,9 @@ design rules under a new name.</description>
 <element name="C69" library="resistor" package="C0805" value="0.1uF" x="50.419" y="25.019" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="56.261" y="12.827" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C70" library="resistor" package="C0805" value="0.1uF" x="51.308" y="32.1945" rot="R270">
+<element name="C70" library="resistor" package="C0805" value="0.1uF" x="51.308" y="32.1945" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="33.02" y="43.8785" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="48.768" y="33.4645" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C71" library="resistor" package="C0805" value="0.1uF" x="54.483" y="25.019" rot="MR180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="36.957" y="49.403" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2906,8 +2930,9 @@ design rules under a new name.</description>
 <element name="C74" library="resistor" package="C0805" value="0.1uF" x="38.608" y="33.147" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="44.45" y="20.955" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C75" library="resistor" package="C0805" value="0.1uF" x="37.465" y="38.862" rot="R270">
+<element name="C75" library="resistor" package="C0805" value="0.1uF" x="37.465" y="38.862" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="19.177" y="50.546" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="34.925" y="40.132" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C76" library="resistor" package="C0805" value="0.1uF" x="42.672" y="33.147" rot="MR180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="25.146" y="57.531" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2929,8 +2954,9 @@ design rules under a new name.</description>
 <element name="C79" library="resistor" package="C0805" value="0.1uF" x="38.608" y="25.019" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="44.45" y="12.827" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C80" library="resistor" package="C0805" value="0.1uF" x="39.497" y="32.1945" rot="R270">
+<element name="C80" library="resistor" package="C0805" value="0.1uF" x="39.497" y="32.1945" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="21.209" y="43.8785" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="36.957" y="33.4645" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C81" library="resistor" package="C0805" value="0.1uF" x="42.672" y="25.019" rot="MR180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="25.146" y="49.403" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2959,8 +2985,10 @@ design rules under a new name.</description>
 <element name="R15" library="resistor" package="R0805" value="12K / 1%" x="68.199" y="55.499" rot="MR180">
 <attribute name="PARTNO" value="311-12.0KCRCT-ND" x="68.199" y="55.499" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="IC14" library="ftdichip-6" package="LQFP64" value="FT4232HL" x="75.946" y="49.403" rot="MR180">
+<element name="FTDI3" library="ftdichip-6" package="LQFP64" value="FT4232HL" x="75.946" y="49.403" smashed="yes" rot="MR180">
 <attribute name="PARTNO" value="768-1026-1-ND" x="75.946" y="49.403" size="1.778" layer="28" rot="MR180" display="off"/>
+<attribute name="NAME" x="73.39" y="49.403" size="1.016" layer="26" font="vector" rot="MR90"/>
+<attribute name="VALUE" x="72.136" y="47.498" size="0.8128" layer="28" font="vector" rot="MR180"/>
 </element>
 <element name="IC15" library="Texas Instruments_By_element14_Batch_1" package="SOP65P640X120-16N" value="MAX3232ECPW" x="80.264" y="37.211" rot="MR180">
 <attribute name="PACKAGE" value="TSSOP-16" x="80.264" y="37.211" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -2979,17 +3007,20 @@ design rules under a new name.</description>
 <element name="C91" library="resistor" package="C0805" value="0.1uF" x="78.359" y="33.147" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="78.359" y="33.147" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C92" library="resistor" package="C0805" value="0.1uF" x="77.216" y="38.862" rot="R270">
+<element name="C92" library="resistor" package="C0805" value="0.1uF" x="77.216" y="38.862" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="77.216" y="38.862" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="74.676" y="40.132" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C93" library="resistor" package="C0805" value="0.1uF" x="82.423" y="33.147" rot="MR180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="82.423" y="33.147" size="1.778" layer="28" rot="MR180" display="off"/>
 </element>
-<element name="C94" library="resistor" package="C0805" value="0.1uF" x="76.8985" y="52.197" rot="R180">
+<element name="C94" library="resistor" package="C0805" value="0.1uF" x="76.8985" y="52.197" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="76.8985" y="52.197" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="78.1685" y="54.737" size="1.27" layer="27" rot="R180"/>
 </element>
-<element name="C95" library="resistor" package="C0805" value="0.1uF" x="76.7715" y="46.736" rot="R180">
+<element name="C95" library="resistor" package="C0805" value="0.1uF" x="76.7715" y="46.736" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="76.7715" y="46.736" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="78.0415" y="49.276" size="1.27" layer="27" rot="R180"/>
 </element>
 <element name="C96" library="resistor" package="C0805" value="0.1uF" x="67.3735" y="52.197" rot="MR270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="67.3735" y="52.197" size="1.778" layer="28" rot="MR270" display="off"/>
@@ -3000,8 +3031,9 @@ design rules under a new name.</description>
 <element name="C98" library="resistor" package="C0805" value="0.1uF" x="84.3915" y="50.927" rot="MR270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="84.3915" y="50.927" size="1.778" layer="28" rot="MR270" display="off"/>
 </element>
-<element name="C99" library="resistor" package="C0805" value="0.1uF" x="77.343" y="42.9895">
+<element name="C99" library="resistor" package="C0805" value="0.1uF" x="77.343" y="42.9895" smashed="yes">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="77.343" y="42.9895" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="76.073" y="40.4495" size="1.27" layer="27"/>
 </element>
 <element name="C100" library="resistor" package="C0805" value="0.1uF" x="66.294" y="49.149" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="66.294" y="49.149" size="1.778" layer="28" rot="MR0" display="off"/>
@@ -3026,8 +3058,9 @@ design rules under a new name.</description>
 <element name="C104" library="resistor" package="C0805" value="0.1uF" x="78.359" y="25.019" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="84.201" y="12.827" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C105" library="resistor" package="C0805" value="0.1uF" x="79.248" y="32.1945" rot="R270">
+<element name="C105" library="resistor" package="C0805" value="0.1uF" x="79.248" y="32.1945" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="60.96" y="43.8785" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="76.708" y="33.4645" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C106" library="resistor" package="C0805" value="0.1uF" x="82.423" y="25.019" rot="MR180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="64.897" y="49.403" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3049,8 +3082,9 @@ design rules under a new name.</description>
 <element name="C109" library="resistor" package="C0805" value="0.1uF" x="66.548" y="33.147" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="72.39" y="20.955" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C110" library="resistor" package="C0805" value="0.1uF" x="65.405" y="38.862" rot="R270">
+<element name="C110" library="resistor" package="C0805" value="0.1uF" x="65.405" y="38.862" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="47.117" y="50.546" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="62.865" y="40.132" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C111" library="resistor" package="C0805" value="0.1uF" x="70.612" y="33.147" rot="MR180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="53.086" y="57.531" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3072,8 +3106,9 @@ design rules under a new name.</description>
 <element name="C114" library="resistor" package="C0805" value="0.1uF" x="66.548" y="25.019" rot="MR0">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="72.39" y="12.827" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
-<element name="C115" library="resistor" package="C0805" value="0.1uF" x="67.437" y="32.1945" rot="R270">
+<element name="C115" library="resistor" package="C0805" value="0.1uF" x="67.437" y="32.1945" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="49.149" y="43.8785" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="64.897" y="33.4645" size="1.27" layer="27" rot="R270"/>
 </element>
 <element name="C116" library="resistor" package="C0805" value="0.1uF" x="70.612" y="25.019" rot="MR180">
 <attribute name="PARTNO" value="1276-1003-1-ND" x="53.086" y="49.403" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3083,11 +3118,13 @@ design rules under a new name.</description>
 <element name="RN2" library="resistor-net" package="EXBV4V" value="27" x="77.089" y="69.7865" rot="R270">
 <attribute name="PARTNO" value="Y2270CT-ND" x="77.089" y="69.7865" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D1" library="texas1" package="SOT23-6" value="SN65220" x="36.449" y="71.9455" rot="R270">
+<element name="D1" library="texas1" package="SOT23-6" value="SN65220" x="36.449" y="71.9455" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="296-9694-1-ND" x="36.449" y="71.9455" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="36.957" y="70.0405" size="1.27" layer="27" rot="R90"/>
 </element>
-<element name="D2" library="texas1" package="SOT23-6" value="SN65220" x="72.0725" y="74.803" rot="R180">
+<element name="D2" library="texas1" package="SOT23-6" value="SN65220" x="72.0725" y="74.803" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="296-9694-1-ND" x="72.0725" y="74.803" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="73.7235" y="74.168" size="1.27" layer="27"/>
 </element>
 <element name="QG1" library="crystal" package="XO53" value="FOX924B-12.000" x="66.167" y="60.198" rot="MR180">
 <attribute name="PARTNO" value="631-1068-1-ND" x="66.167" y="60.198" size="1.778" layer="28" rot="MR180" display="off"/>
@@ -3098,24 +3135,28 @@ design rules under a new name.</description>
 <element name="PWRIN" library="pinhead" package="1X02" value="" x="14.859" y="79.756" rot="R270">
 <attribute name="PARTNO" value="A1921-ND" x="14.859" y="79.756" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="DAISY_OUT" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" package="61300411021" value="61300411021" x="5.207" y="68.834" rot="R90">
+<element name="DAISY_OUT" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" package="61300411021" value="61300411021" x="5.207" y="68.834" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="732-5337-ND" x="5.207" y="68.834" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="0.6584" y="61.3131" size="1.27" layer="25"/>
 </element>
-<element name="DAISY_IN" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" package="613004143121" value="613004143121" x="81.407" y="72.771" rot="R270">
+<element name="DAISY_IN" library="Wurth_Elektronik_Electromechanic_Board_to_Board_Connectors_rev15c" package="613004143121" value="613004143121" x="81.407" y="72.771" smashed="yes" rot="R270">
 <attribute name="PARTNO" value="732-2863-ND" x="81.407" y="72.771" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="82.526" y="61.055" size="1.27" layer="25"/>
 </element>
-<element name="R1" library="resistor" package="R0805" value="27" x="31.369" y="72.771" rot="R90">
+<element name="R1" library="resistor" package="R0805" value="27" x="31.369" y="72.771" smashed="yes" rot="R90">
 <attribute name="PARTNO" value="311-27ARCT-ND" x="31.369" y="72.771" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="32.385" y="72.898" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="R8" library="resistor" package="R0805" value="27" x="30.48" y="75.5015" rot="R180">
+<element name="R8" library="resistor" package="R0805" value="27" x="30.48" y="75.5015" smashed="yes" rot="R180">
 <attribute name="PARTNO" value="311-27ARCT-ND" x="30.48" y="75.5015" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="32.3215" y="76.708" size="1.27" layer="27" rot="R270"/>
 </element>
 </elements>
 <signals>
 <signal name="GND" airwireshidden="yes">
 <contactref element="C8" pad="1"/>
 <contactref element="R2" pad="1"/>
-<contactref element="IC4" pad="51"/>
+<contactref element="FTDI1" pad="51"/>
 <contactref element="C14" pad="2"/>
 <contactref element="C12" pad="2"/>
 <contactref element="C13" pad="2"/>
@@ -3186,15 +3227,15 @@ design rules under a new name.</description>
 <contactref element="C34" pad="1"/>
 <contactref element="C33" pad="1"/>
 <contactref element="C35" pad="1"/>
-<contactref element="IC4" pad="13"/>
-<contactref element="IC4" pad="10"/>
-<contactref element="IC4" pad="1"/>
-<contactref element="IC4" pad="5"/>
-<contactref element="IC4" pad="11"/>
-<contactref element="IC4" pad="15"/>
-<contactref element="IC4" pad="25"/>
-<contactref element="IC4" pad="35"/>
-<contactref element="IC4" pad="47"/>
+<contactref element="FTDI1" pad="13"/>
+<contactref element="FTDI1" pad="10"/>
+<contactref element="FTDI1" pad="1"/>
+<contactref element="FTDI1" pad="5"/>
+<contactref element="FTDI1" pad="11"/>
+<contactref element="FTDI1" pad="15"/>
+<contactref element="FTDI1" pad="25"/>
+<contactref element="FTDI1" pad="35"/>
+<contactref element="FTDI1" pad="47"/>
 <contactref element="HUB" pad="31"/>
 <via x="12.6365" y="46.653" extent="1-16" drill="0.3048"/>
 <wire x1="20.447" y1="62.291" x2="20.447" y2="63.246" width="0.65" layer="16"/>
@@ -3291,7 +3332,7 @@ design rules under a new name.</description>
 <wire x1="11.7475" y1="33.147" x2="11.557" y2="33.1445" width="0.65" layer="1"/>
 <contactref element="C629" pad="1"/>
 <contactref element="R13" pad="1"/>
-<contactref element="IC9" pad="51"/>
+<contactref element="FTDI2" pad="51"/>
 <contactref element="C53" pad="2"/>
 <contactref element="C519" pad="2"/>
 <contactref element="C502" pad="2"/>
@@ -3320,15 +3361,15 @@ design rules under a new name.</description>
 <contactref element="C80" pad="1"/>
 <contactref element="C79" pad="1"/>
 <contactref element="C81" pad="1"/>
-<contactref element="IC9" pad="13"/>
-<contactref element="IC9" pad="10"/>
-<contactref element="IC9" pad="1"/>
-<contactref element="IC9" pad="5"/>
-<contactref element="IC9" pad="11"/>
-<contactref element="IC9" pad="15"/>
-<contactref element="IC9" pad="25"/>
-<contactref element="IC9" pad="35"/>
-<contactref element="IC9" pad="47"/>
+<contactref element="FTDI2" pad="13"/>
+<contactref element="FTDI2" pad="10"/>
+<contactref element="FTDI2" pad="1"/>
+<contactref element="FTDI2" pad="5"/>
+<contactref element="FTDI2" pad="11"/>
+<contactref element="FTDI2" pad="15"/>
+<contactref element="FTDI2" pad="25"/>
+<contactref element="FTDI2" pad="35"/>
+<contactref element="FTDI2" pad="47"/>
 <via x="40.5765" y="46.653" extent="1-16" drill="0.3048"/>
 <wire x1="48.387" y1="62.291" x2="48.387" y2="63.246" width="0.65" layer="16"/>
 <wire x1="45.593" y1="62.291" x2="45.593" y2="63.246" width="0.65" layer="16"/>
@@ -3416,7 +3457,7 @@ design rules under a new name.</description>
 <wire x1="39.6875" y1="33.147" x2="39.497" y2="33.1445" width="0.65" layer="1"/>
 <contactref element="C829" pad="1"/>
 <contactref element="R15" pad="1"/>
-<contactref element="IC14" pad="51"/>
+<contactref element="FTDI3" pad="51"/>
 <contactref element="C889" pad="2"/>
 <contactref element="C869" pad="2"/>
 <contactref element="C879" pad="2"/>
@@ -3445,15 +3486,15 @@ design rules under a new name.</description>
 <contactref element="C115" pad="1"/>
 <contactref element="C114" pad="1"/>
 <contactref element="C116" pad="1"/>
-<contactref element="IC14" pad="13"/>
-<contactref element="IC14" pad="10"/>
-<contactref element="IC14" pad="1"/>
-<contactref element="IC14" pad="5"/>
-<contactref element="IC14" pad="11"/>
-<contactref element="IC14" pad="15"/>
-<contactref element="IC14" pad="25"/>
-<contactref element="IC14" pad="35"/>
-<contactref element="IC14" pad="47"/>
+<contactref element="FTDI3" pad="13"/>
+<contactref element="FTDI3" pad="10"/>
+<contactref element="FTDI3" pad="1"/>
+<contactref element="FTDI3" pad="5"/>
+<contactref element="FTDI3" pad="11"/>
+<contactref element="FTDI3" pad="15"/>
+<contactref element="FTDI3" pad="25"/>
+<contactref element="FTDI3" pad="35"/>
+<contactref element="FTDI3" pad="47"/>
 <via x="68.5165" y="46.653" extent="1-16" drill="0.3048"/>
 <wire x1="76.327" y1="62.291" x2="76.327" y2="63.246" width="0.65" layer="16"/>
 <wire x1="73.533" y1="62.291" x2="73.533" y2="63.246" width="0.65" layer="16"/>
@@ -3575,11 +3616,11 @@ design rules under a new name.</description>
 <contactref element="DAISY_IN" pad="4"/>
 </signal>
 <signal name="+1V8-1">
-<contactref element="IC4" pad="49"/>
+<contactref element="FTDI1" pad="49"/>
 <contactref element="C8" pad="2"/>
-<contactref element="IC4" pad="64"/>
-<contactref element="IC4" pad="12"/>
-<contactref element="IC4" pad="37"/>
+<contactref element="FTDI1" pad="64"/>
+<contactref element="FTDI1" pad="12"/>
+<contactref element="FTDI1" pad="37"/>
 <contactref element="C38" pad="1"/>
 <contactref element="C39" pad="1"/>
 <contactref element="C40" pad="1"/>
@@ -3627,7 +3668,7 @@ design rules under a new name.</description>
 <wire x1="14.212" y1="45.339" x2="14.224" y2="45.2755" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$14">
-<contactref element="IC4" pad="6"/>
+<contactref element="FTDI1" pad="6"/>
 <contactref element="R2" pad="2"/>
 <wire x1="13.269" y1="55.499" x2="13.269" y2="54.422" width="0.1778" layer="16"/>
 <wire x1="13.269" y1="54.422" x2="13.589" y2="54.102" width="0.1778" layer="16"/>
@@ -3644,7 +3685,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$17">
 <contactref element="FB2\" pad="2"/>
-<contactref element="IC4" pad="4"/>
+<contactref element="FTDI1" pad="4"/>
 <contactref element="C11" pad="1"/>
 <contactref element="C13" pad="1"/>
 <wire x1="17.714" y1="58.547" x2="17.714" y2="60.391" width="0.3" layer="16"/>
@@ -3657,7 +3698,7 @@ design rules under a new name.</description>
 <wire x1="17.714" y1="57.343" x2="17.714" y2="58.547" width="0.3" layer="16"/>
 </signal>
 <signal name="N$18">
-<contactref element="IC4" pad="9"/>
+<contactref element="FTDI1" pad="9"/>
 <contactref element="FB1" pad="2"/>
 <contactref element="C12" pad="1"/>
 <contactref element="C14" pad="1"/>
@@ -3743,7 +3784,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TXD1I">
 <contactref element="IC5" pad="11"/>
-<contactref element="IC4" pad="16"/>
+<contactref element="FTDI1" pad="16"/>
 <wire x1="27.305" y1="38.1762" x2="28.448" y2="38.1762" width="0.1778" layer="16"/>
 <via x="28.448" y="38.1762" extent="1-16" drill="0.3048"/>
 <wire x1="28.448" y1="38.1762" x2="27.813" y2="38.8112" width="0.1778" layer="1"/>
@@ -3757,7 +3798,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RXD1I">
 <contactref element="IC5" pad="12"/>
-<contactref element="IC4" pad="17"/>
+<contactref element="FTDI1" pad="17"/>
 <wire x1="27.305" y1="37.5412" x2="28.956" y2="37.5412" width="0.1778" layer="16"/>
 <via x="28.956" y="37.5412" extent="1-16" drill="0.3048"/>
 <wire x1="28.956" y1="37.5412" x2="28.2448" y2="37.5412" width="0.1778" layer="1"/>
@@ -3864,16 +3905,16 @@ design rules under a new name.</description>
 <contactref element="C30" pad="2"/>
 <contactref element="IC8" pad="16"/>
 <contactref element="C35" pad="2"/>
-<contactref element="IC4" pad="50"/>
-<contactref element="IC4" pad="20"/>
+<contactref element="FTDI1" pad="50"/>
+<contactref element="FTDI1" pad="20"/>
 <contactref element="C43" pad="1"/>
 <contactref element="C44" pad="1"/>
 <contactref element="C41" pad="1"/>
-<contactref element="IC4" pad="31"/>
+<contactref element="FTDI1" pad="31"/>
 <contactref element="C45" pad="1"/>
 <contactref element="C42" pad="1"/>
-<contactref element="IC4" pad="56"/>
-<contactref element="IC4" pad="42"/>
+<contactref element="FTDI1" pad="56"/>
+<contactref element="FTDI1" pad="42"/>
 <contactref element="FB1" pad="1"/>
 <contactref element="FB2\" pad="1"/>
 <wire x1="14.212" y1="46.153" x2="13.0925" y2="46.153" width="0.1778" layer="16"/>
@@ -3942,16 +3983,16 @@ design rules under a new name.</description>
 <contactref element="C111" pad="2"/>
 <contactref element="IC18" pad="16"/>
 <contactref element="C116" pad="2"/>
-<contactref element="IC14" pad="50"/>
-<contactref element="IC14" pad="20"/>
+<contactref element="FTDI3" pad="50"/>
+<contactref element="FTDI3" pad="20"/>
 <contactref element="C99" pad="1"/>
 <contactref element="C100" pad="1"/>
 <contactref element="C97" pad="1"/>
-<contactref element="IC14" pad="31"/>
+<contactref element="FTDI3" pad="31"/>
 <contactref element="C101" pad="1"/>
 <contactref element="C98" pad="1"/>
-<contactref element="IC14" pad="56"/>
-<contactref element="IC14" pad="42"/>
+<contactref element="FTDI3" pad="56"/>
+<contactref element="FTDI3" pad="42"/>
 <contactref element="FB3" pad="1"/>
 <contactref element="FB2\2" pad="1"/>
 <wire x1="70.092" y1="46.153" x2="68.9725" y2="46.153" width="0.1778" layer="16"/>
@@ -4020,16 +4061,16 @@ design rules under a new name.</description>
 <contactref element="C76" pad="2"/>
 <contactref element="IC13" pad="16"/>
 <contactref element="C81" pad="2"/>
-<contactref element="IC9" pad="50"/>
-<contactref element="IC9" pad="20"/>
+<contactref element="FTDI2" pad="50"/>
+<contactref element="FTDI2" pad="20"/>
 <contactref element="C64" pad="1"/>
 <contactref element="C65" pad="1"/>
 <contactref element="C62" pad="1"/>
-<contactref element="IC9" pad="31"/>
+<contactref element="FTDI2" pad="31"/>
 <contactref element="C66" pad="1"/>
 <contactref element="C63" pad="1"/>
-<contactref element="IC9" pad="56"/>
-<contactref element="IC9" pad="42"/>
+<contactref element="FTDI2" pad="56"/>
+<contactref element="FTDI2" pad="42"/>
 <contactref element="FB2" pad="1"/>
 <contactref element="FB2\1" pad="1"/>
 <wire x1="42.152" y1="46.153" x2="41.0325" y2="46.153" width="0.1778" layer="16"/>
@@ -4304,7 +4345,7 @@ design rules under a new name.</description>
 <wire x1="16.449" y1="73.34" x2="18.034" y2="73.34" width="0.254" layer="16"/>
 </signal>
 <signal name="RTS1I">
-<contactref element="IC4" pad="18"/>
+<contactref element="FTDI1" pad="18"/>
 <contactref element="IC5" pad="10"/>
 <wire x1="27.305" y1="38.8366" x2="28.956" y2="38.8366" width="0.1778" layer="16"/>
 <via x="28.956" y="38.8366" extent="1-16" drill="0.3048"/>
@@ -4320,7 +4361,7 @@ design rules under a new name.</description>
 <wire x1="24.4475" y1="52.653" x2="24.1935" y2="52.399" width="0.1778" layer="16"/>
 </signal>
 <signal name="CTS1I">
-<contactref element="IC4" pad="19"/>
+<contactref element="FTDI1" pad="19"/>
 <contactref element="IC5" pad="9"/>
 <wire x1="27.305" y1="39.497" x2="28.448" y2="39.497" width="0.1778" layer="16"/>
 <via x="28.448" y="39.497" extent="1-16" drill="0.3048"/>
@@ -4416,15 +4457,15 @@ design rules under a new name.</description>
 <contactref element="R7" pad="1"/>
 <contactref element="C37" pad="2"/>
 <contactref element="HUB" pad="4"/>
-<contactref element="IC4" pad="14"/>
+<contactref element="FTDI1" pad="14"/>
 <wire x1="22.816" y1="55.257" x2="22.816" y2="53.9115" width="0.1778" layer="16"/>
 <via x="22.816" y="53.9115" extent="1-16" drill="0.3048"/>
 <wire x1="22.816" y1="53.9115" x2="22.816" y2="54.312" width="0.1778" layer="1"/>
 <wire x1="22.816" y1="54.312" x2="23.241" y2="54.737" width="0.1778" layer="1"/>
-<contactref element="IC14" pad="14"/>
+<contactref element="FTDI3" pad="14"/>
 <wire x1="78.696" y1="55.257" x2="78.696" y2="53.9115" width="0.1778" layer="16"/>
 <via x="78.696" y="53.9115" extent="1-16" drill="0.3048"/>
-<contactref element="IC9" pad="14"/>
+<contactref element="FTDI2" pad="14"/>
 <wire x1="50.756" y1="55.257" x2="50.756" y2="53.9115" width="0.1778" layer="16"/>
 <via x="50.756" y="53.9115" extent="1-16" drill="0.3048"/>
 <wire x1="23.241" y1="54.737" x2="50.756" y2="54.737" width="0.1778" layer="1"/>
@@ -4592,7 +4633,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="D2_N" class="1">
 <contactref element="HUB" pad="11"/>
-<contactref element="IC4" pad="7"/>
+<contactref element="FTDI1" pad="7"/>
 <wire x1="18.925978125" y1="57.807321875" x2="18.8595" y2="57.646828125" width="0.1778" layer="1" curve="45"/>
 <wire x1="18.8595" y1="57.646828125" x2="18.8595" y2="56.769" width="0.1778" layer="1"/>
 <wire x1="18.925978125" y1="57.807321875" x2="18.9992" y2="57.984096875" width="0.1778" layer="1" curve="44.999284"/>
@@ -4616,7 +4657,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="D2_P" class="1">
 <contactref element="HUB" pad="12"/>
-<contactref element="IC4" pad="8"/>
+<contactref element="FTDI1" pad="8"/>
 <wire x1="19.816" y1="55.257" x2="19.816" y2="56.470946875" width="0.1778" layer="16"/>
 <wire x1="19.816" y1="56.470946875" x2="19.742778125" y2="56.647721875" width="0.1778" layer="16" curve="44.999494"/>
 <wire x1="19.742778125" y1="56.647721875" x2="19.567721875" y2="56.822778125" width="0.1778" layer="16"/>
@@ -4642,7 +4683,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="D3_N" class="1">
 <contactref element="HUB" pad="15"/>
-<contactref element="IC9" pad="7"/>
+<contactref element="FTDI2" pad="7"/>
 <wire x1="47.256" y1="55.257" x2="47.256" y2="56.208946875" width="0.1778" layer="16"/>
 <wire x1="47.256" y1="56.208946875" x2="47.182778125" y2="56.385721875" width="0.1778" layer="16" curve="44.999494"/>
 <wire x1="47.182778125" y1="56.385721875" x2="46.7995" y2="56.769" width="0.1778" layer="16"/>
@@ -4662,7 +4703,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="D3_P" class="1">
 <contactref element="HUB" pad="16"/>
-<contactref element="IC9" pad="8"/>
+<contactref element="FTDI2" pad="8"/>
 <wire x1="47.756" y1="55.257" x2="47.756" y2="56.36739375" width="0.1778" layer="16"/>
 <wire x1="47.756" y1="56.36739375" x2="47.609553125" y2="56.720946875" width="0.1778" layer="16" curve="45"/>
 <wire x1="47.609553125" y1="56.720946875" x2="47.580946875" y2="56.749553125" width="0.1778" layer="16"/>
@@ -4684,7 +4725,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="D4_N" class="1">
 <contactref element="HUB" pad="19"/>
-<contactref element="IC14" pad="7"/>
+<contactref element="FTDI3" pad="7"/>
 <wire x1="75.196" y1="55.257" x2="75.196" y2="56.22965625" width="0.1778" layer="16"/>
 <wire x1="75.196" y1="56.22965625" x2="75.137421875" y2="56.371078125" width="0.1778" layer="16" curve="45"/>
 <wire x1="75.137421875" y1="56.371078125" x2="74.7395" y2="56.769" width="0.1778" layer="16"/>
@@ -4710,7 +4751,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="D4_P" class="1">
 <contactref element="HUB" pad="20"/>
-<contactref element="IC14" pad="8"/>
+<contactref element="FTDI3" pad="8"/>
 <wire x1="75.696" y1="55.257" x2="75.696" y2="56.36739375" width="0.1778" layer="16"/>
 <wire x1="75.696" y1="56.36739375" x2="75.549553125" y2="56.720946875" width="0.1778" layer="16" curve="45"/>
 <wire x1="75.549553125" y1="56.720946875" x2="75.520946875" y2="56.749553125" width="0.1778" layer="16"/>
@@ -4767,7 +4808,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TXD2I">
 <contactref element="IC6" pad="11"/>
-<contactref element="IC4" pad="26"/>
+<contactref element="FTDI1" pad="26"/>
 <wire x1="27.305" y1="30.0482" x2="28.448" y2="30.0482" width="0.1778" layer="16"/>
 <via x="28.448" y="30.0482" extent="1-16" drill="0.3048"/>
 <wire x1="28.448" y1="30.0482" x2="27.813" y2="30.6832" width="0.1778" layer="1"/>
@@ -4785,7 +4826,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RXD2I">
 <contactref element="IC6" pad="12"/>
-<contactref element="IC4" pad="27"/>
+<contactref element="FTDI1" pad="27"/>
 <wire x1="27.305" y1="29.4132" x2="28.956" y2="29.4132" width="0.1778" layer="16"/>
 <via x="28.956" y="29.4132" extent="1-16" drill="0.3048"/>
 <wire x1="28.956" y1="29.4132" x2="28.2448" y2="29.4132" width="0.1778" layer="1"/>
@@ -4836,7 +4877,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RTS2I">
 <contactref element="IC6" pad="10"/>
-<contactref element="IC4" pad="28"/>
+<contactref element="FTDI1" pad="28"/>
 <wire x1="27.305" y1="30.7086" x2="28.956" y2="30.7086" width="0.1778" layer="16"/>
 <via x="28.956" y="30.7086" extent="1-16" drill="0.3048"/>
 <wire x1="28.956" y1="30.7086" x2="29.083" y2="30.8356" width="0.1778" layer="1"/>
@@ -4852,7 +4893,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="CTS2I">
 <contactref element="IC6" pad="9"/>
-<contactref element="IC4" pad="29"/>
+<contactref element="FTDI1" pad="29"/>
 <wire x1="27.305" y1="31.369" x2="28.448" y2="31.369" width="0.1778" layer="16"/>
 <via x="28.448" y="31.369" extent="1-16" drill="0.3048"/>
 <wire x1="28.448" y1="31.369" x2="28.194" y2="31.623" width="0.1778" layer="1"/>
@@ -4950,7 +4991,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TXD3I">
 <contactref element="IC7" pad="11"/>
-<contactref element="IC4" pad="38"/>
+<contactref element="FTDI1" pad="38"/>
 <wire x1="15.494" y1="38.1762" x2="16.637" y2="38.1762" width="0.1778" layer="16"/>
 <via x="16.637" y="38.1762" extent="1-16" drill="0.3048"/>
 <wire x1="16.637" y1="38.1762" x2="17.4117" y2="38.1762" width="0.1778" layer="1"/>
@@ -4967,7 +5008,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RXD3I">
 <contactref element="IC7" pad="12"/>
-<contactref element="IC4" pad="39"/>
+<contactref element="FTDI1" pad="39"/>
 <wire x1="15.494" y1="37.5412" x2="17.145" y2="37.5412" width="0.1778" layer="16"/>
 <via x="17.145" y="37.5412" extent="1-16" drill="0.3048"/>
 <wire x1="17.145" y1="37.5412" x2="17.3482" y2="37.5412" width="0.1778" layer="1"/>
@@ -5024,7 +5065,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RTS3I">
 <contactref element="IC7" pad="10"/>
-<contactref element="IC4" pad="40"/>
+<contactref element="FTDI1" pad="40"/>
 <wire x1="15.494" y1="38.8366" x2="17.145" y2="38.8366" width="0.1778" layer="16"/>
 <via x="17.145" y="38.8366" extent="1-16" drill="0.3048"/>
 <wire x1="17.399" y1="39.0906" x2="17.399" y2="42.7355" width="0.1778" layer="1"/>
@@ -5037,7 +5078,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="CTS3I">
 <contactref element="IC7" pad="9"/>
-<contactref element="IC4" pad="41"/>
+<contactref element="FTDI1" pad="41"/>
 <wire x1="15.494" y1="39.497" x2="16.637" y2="39.497" width="0.1778" layer="16"/>
 <via x="16.637" y="39.497" extent="1-16" drill="0.3048"/>
 <wire x1="16.637" y1="39.497" x2="17.018" y2="39.878" width="0.1778" layer="1"/>
@@ -5151,7 +5192,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TXD4I">
 <contactref element="IC8" pad="11"/>
-<contactref element="IC4" pad="48"/>
+<contactref element="FTDI1" pad="48"/>
 <wire x1="15.494" y1="30.0482" x2="16.637" y2="30.0482" width="0.1778" layer="16"/>
 <via x="16.637" y="30.0482" extent="1-16" drill="0.3048"/>
 <wire x1="16.637" y1="30.0482" x2="16.002" y2="30.6832" width="0.1778" layer="1"/>
@@ -5167,7 +5208,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RXD4I">
 <contactref element="IC8" pad="12"/>
-<contactref element="IC4" pad="52"/>
+<contactref element="FTDI1" pad="52"/>
 <wire x1="15.494" y1="29.4132" x2="17.145" y2="29.4132" width="0.1778" layer="16"/>
 <via x="17.145" y="29.4132" extent="1-16" drill="0.3048"/>
 <wire x1="17.145" y1="29.4132" x2="16.4338" y2="29.4132" width="0.1778" layer="1"/>
@@ -5223,7 +5264,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RTS4I">
 <contactref element="IC8" pad="10"/>
-<contactref element="IC4" pad="53"/>
+<contactref element="FTDI1" pad="53"/>
 <wire x1="15.494" y1="30.7086" x2="17.145" y2="30.7086" width="0.1778" layer="16"/>
 <via x="17.145" y="30.7086" extent="1-16" drill="0.3048"/>
 <wire x1="17.145" y1="30.7086" x2="17.272" y2="30.8356" width="0.1778" layer="1"/>
@@ -5242,7 +5283,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="CTS4I">
 <contactref element="IC8" pad="9"/>
-<contactref element="IC4" pad="54"/>
+<contactref element="FTDI1" pad="54"/>
 <wire x1="15.494" y1="31.369" x2="16.637" y2="31.369" width="0.1778" layer="16"/>
 <via x="16.637" y="31.369" extent="1-16" drill="0.3048"/>
 <wire x1="16.637" y1="31.369" x2="16.383" y2="31.623" width="0.1778" layer="1"/>
@@ -5318,7 +5359,7 @@ design rules under a new name.</description>
 <wire x1="37.658" y1="34.102" x2="37.658" y2="33.147" width="0.2" layer="16"/>
 </signal>
 <signal name="N$5">
-<contactref element="IC9" pad="6"/>
+<contactref element="FTDI2" pad="6"/>
 <contactref element="R13" pad="2"/>
 <wire x1="41.209" y1="55.499" x2="41.209" y2="54.422" width="0.1778" layer="16"/>
 <wire x1="41.209" y1="54.422" x2="41.529" y2="54.102" width="0.1778" layer="16"/>
@@ -5346,7 +5387,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TXD2I1">
 <contactref element="IC11" pad="11"/>
-<contactref element="IC9" pad="26"/>
+<contactref element="FTDI2" pad="26"/>
 <wire x1="55.245" y1="30.0482" x2="56.388" y2="30.0482" width="0.1778" layer="16"/>
 <via x="56.388" y="30.0482" extent="1-16" drill="0.3048"/>
 <wire x1="56.388" y1="30.0482" x2="55.753" y2="30.6832" width="0.1778" layer="1"/>
@@ -5364,7 +5405,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RXD2I1">
 <contactref element="IC11" pad="12"/>
-<contactref element="IC9" pad="27"/>
+<contactref element="FTDI2" pad="27"/>
 <wire x1="55.245" y1="29.4132" x2="56.896" y2="29.4132" width="0.1778" layer="16"/>
 <via x="56.896" y="29.4132" extent="1-16" drill="0.3048"/>
 <wire x1="56.896" y1="29.4132" x2="56.1848" y2="29.4132" width="0.1778" layer="1"/>
@@ -5385,7 +5426,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="CTS2I1">
 <contactref element="IC11" pad="9"/>
-<contactref element="IC9" pad="29"/>
+<contactref element="FTDI2" pad="29"/>
 <wire x1="55.245" y1="31.369" x2="56.388" y2="31.369" width="0.1778" layer="16"/>
 <via x="56.388" y="31.369" extent="1-16" drill="0.3048"/>
 <wire x1="56.388" y1="31.369" x2="56.134" y2="31.623" width="0.1778" layer="1"/>
@@ -5510,11 +5551,11 @@ design rules under a new name.</description>
 <wire x1="35.306" y1="39.812" x2="36.1975" y2="39.812" width="0.2" layer="16"/>
 </signal>
 <signal name="+1V8-2">
-<contactref element="IC9" pad="49"/>
+<contactref element="FTDI2" pad="49"/>
 <contactref element="C629" pad="2"/>
-<contactref element="IC9" pad="64"/>
-<contactref element="IC9" pad="12"/>
-<contactref element="IC9" pad="37"/>
+<contactref element="FTDI2" pad="64"/>
+<contactref element="FTDI2" pad="12"/>
+<contactref element="FTDI2" pad="37"/>
 <contactref element="C59" pad="1"/>
 <contactref element="C60" pad="1"/>
 <contactref element="C61" pad="1"/>
@@ -5563,7 +5604,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$555">
 <contactref element="FB2\1" pad="2"/>
-<contactref element="IC9" pad="4"/>
+<contactref element="FTDI2" pad="4"/>
 <contactref element="C489" pad="1"/>
 <contactref element="C502" pad="1"/>
 <wire x1="45.654" y1="58.547" x2="45.654" y2="60.391" width="0.3" layer="16"/>
@@ -5576,7 +5617,7 @@ design rules under a new name.</description>
 <wire x1="45.654" y1="57.216" x2="45.654" y2="58.547" width="0.3" layer="16"/>
 </signal>
 <signal name="N$1355">
-<contactref element="IC9" pad="9"/>
+<contactref element="FTDI2" pad="9"/>
 <contactref element="FB2" pad="2"/>
 <contactref element="C519" pad="1"/>
 <contactref element="C53" pad="1"/>
@@ -5592,7 +5633,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TXD1I1">
 <contactref element="IC10" pad="11"/>
-<contactref element="IC9" pad="16"/>
+<contactref element="FTDI2" pad="16"/>
 <wire x1="55.245" y1="38.1762" x2="56.388" y2="38.1762" width="0.1778" layer="16"/>
 <via x="56.388" y="38.1762" extent="1-16" drill="0.3048"/>
 <wire x1="56.388" y1="38.1762" x2="55.753" y2="38.8112" width="0.1778" layer="1"/>
@@ -5606,7 +5647,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RXD1I1">
 <contactref element="IC10" pad="12"/>
-<contactref element="IC9" pad="17"/>
+<contactref element="FTDI2" pad="17"/>
 <wire x1="55.245" y1="37.5412" x2="56.896" y2="37.5412" width="0.1778" layer="16"/>
 <via x="56.896" y="37.5412" extent="1-16" drill="0.3048"/>
 <wire x1="56.896" y1="37.5412" x2="56.1848" y2="37.5412" width="0.1778" layer="1"/>
@@ -5640,7 +5681,7 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="P8.6"/>
 </signal>
 <signal name="RTS1I1">
-<contactref element="IC9" pad="18"/>
+<contactref element="FTDI2" pad="18"/>
 <contactref element="IC10" pad="10"/>
 <wire x1="55.245" y1="38.8366" x2="56.896" y2="38.8366" width="0.1778" layer="16"/>
 <via x="56.896" y="38.8366" extent="1-16" drill="0.3048"/>
@@ -5656,7 +5697,7 @@ design rules under a new name.</description>
 <wire x1="52.3875" y1="52.653" x2="52.1335" y2="52.399" width="0.1778" layer="16"/>
 </signal>
 <signal name="CTS1I1">
-<contactref element="IC9" pad="19"/>
+<contactref element="FTDI2" pad="19"/>
 <contactref element="IC10" pad="9"/>
 <wire x1="55.245" y1="39.497" x2="56.388" y2="39.497" width="0.1778" layer="16"/>
 <via x="56.388" y="39.497" extent="1-16" drill="0.3048"/>
@@ -5745,7 +5786,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RTS2I1">
 <contactref element="IC11" pad="10"/>
-<contactref element="IC9" pad="28"/>
+<contactref element="FTDI2" pad="28"/>
 <wire x1="55.245" y1="30.7086" x2="56.896" y2="30.7086" width="0.1778" layer="16"/>
 <via x="56.896" y="30.7086" extent="1-16" drill="0.3048"/>
 <wire x1="56.896" y1="30.7086" x2="57.023" y2="30.8356" width="0.1778" layer="1"/>
@@ -5808,7 +5849,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TXD3I1">
 <contactref element="IC12" pad="11"/>
-<contactref element="IC9" pad="38"/>
+<contactref element="FTDI2" pad="38"/>
 <wire x1="43.434" y1="38.1762" x2="44.577" y2="38.1762" width="0.1778" layer="16"/>
 <via x="44.577" y="38.1762" extent="1-16" drill="0.3048"/>
 <wire x1="44.577" y1="38.1762" x2="45.3517" y2="38.1762" width="0.1778" layer="1"/>
@@ -5825,7 +5866,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RXD3I1">
 <contactref element="IC12" pad="12"/>
-<contactref element="IC9" pad="39"/>
+<contactref element="FTDI2" pad="39"/>
 <wire x1="43.434" y1="37.5412" x2="45.085" y2="37.5412" width="0.1778" layer="16"/>
 <via x="45.085" y="37.5412" extent="1-16" drill="0.3048"/>
 <wire x1="45.085" y1="37.5412" x2="45.2882" y2="37.5412" width="0.1778" layer="1"/>
@@ -5871,7 +5912,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RTS3I1">
 <contactref element="IC12" pad="10"/>
-<contactref element="IC9" pad="40"/>
+<contactref element="FTDI2" pad="40"/>
 <wire x1="43.434" y1="38.8366" x2="45.085" y2="38.8366" width="0.1778" layer="16"/>
 <via x="45.085" y="38.8366" extent="1-16" drill="0.3048"/>
 <wire x1="45.339" y1="39.0906" x2="45.339" y2="42.7355" width="0.1778" layer="1"/>
@@ -5884,7 +5925,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="CTS3I1">
 <contactref element="IC12" pad="9"/>
-<contactref element="IC9" pad="41"/>
+<contactref element="FTDI2" pad="41"/>
 <wire x1="43.434" y1="39.497" x2="44.577" y2="39.497" width="0.1778" layer="16"/>
 <via x="44.577" y="39.497" extent="1-16" drill="0.3048"/>
 <wire x1="44.577" y1="39.497" x2="44.958" y2="39.878" width="0.1778" layer="1"/>
@@ -5989,7 +6030,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TXD4I1">
 <contactref element="IC13" pad="11"/>
-<contactref element="IC9" pad="48"/>
+<contactref element="FTDI2" pad="48"/>
 <wire x1="43.434" y1="30.0482" x2="44.577" y2="30.0482" width="0.1778" layer="16"/>
 <via x="44.577" y="30.0482" extent="1-16" drill="0.3048"/>
 <wire x1="44.577" y1="30.0482" x2="43.942" y2="30.6832" width="0.1778" layer="1"/>
@@ -6005,7 +6046,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RXD4I1">
 <contactref element="IC13" pad="12"/>
-<contactref element="IC9" pad="52"/>
+<contactref element="FTDI2" pad="52"/>
 <wire x1="43.434" y1="29.4132" x2="45.085" y2="29.4132" width="0.1778" layer="16"/>
 <via x="45.085" y="29.4132" extent="1-16" drill="0.3048"/>
 <wire x1="45.085" y1="29.4132" x2="44.3738" y2="29.4132" width="0.1778" layer="1"/>
@@ -6061,7 +6102,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RTS4I1">
 <contactref element="IC13" pad="10"/>
-<contactref element="IC9" pad="53"/>
+<contactref element="FTDI2" pad="53"/>
 <wire x1="43.434" y1="30.7086" x2="45.085" y2="30.7086" width="0.1778" layer="16"/>
 <via x="45.085" y="30.7086" extent="1-16" drill="0.3048"/>
 <wire x1="45.085" y1="30.7086" x2="45.212" y2="30.8356" width="0.1778" layer="1"/>
@@ -6080,7 +6121,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="CTS4I1">
 <contactref element="IC13" pad="9"/>
-<contactref element="IC9" pad="54"/>
+<contactref element="FTDI2" pad="54"/>
 <wire x1="43.434" y1="31.369" x2="44.577" y2="31.369" width="0.1778" layer="16"/>
 <via x="44.577" y="31.369" extent="1-16" drill="0.3048"/>
 <wire x1="44.577" y1="31.369" x2="44.323" y2="31.623" width="0.1778" layer="1"/>
@@ -6145,11 +6186,11 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="P5.3"/>
 </signal>
 <signal name="+1V8-3">
-<contactref element="IC14" pad="49"/>
+<contactref element="FTDI3" pad="49"/>
 <contactref element="C829" pad="2"/>
-<contactref element="IC14" pad="64"/>
-<contactref element="IC14" pad="12"/>
-<contactref element="IC14" pad="37"/>
+<contactref element="FTDI3" pad="64"/>
+<contactref element="FTDI3" pad="12"/>
+<contactref element="FTDI3" pad="37"/>
 <contactref element="C94" pad="1"/>
 <contactref element="C95" pad="1"/>
 <contactref element="C96" pad="1"/>
@@ -6197,7 +6238,7 @@ design rules under a new name.</description>
 <wire x1="70.092" y1="45.339" x2="70.104" y2="45.2755" width="0.1778" layer="16"/>
 </signal>
 <signal name="N$64">
-<contactref element="IC14" pad="6"/>
+<contactref element="FTDI3" pad="6"/>
 <contactref element="R15" pad="2"/>
 <wire x1="69.149" y1="55.499" x2="69.149" y2="54.422" width="0.1778" layer="16"/>
 <wire x1="69.149" y1="54.422" x2="69.469" y2="54.102" width="0.1778" layer="16"/>
@@ -6214,7 +6255,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="N$69">
 <contactref element="FB2\2" pad="2"/>
-<contactref element="IC14" pad="4"/>
+<contactref element="FTDI3" pad="4"/>
 <contactref element="C859" pad="1"/>
 <contactref element="C879" pad="1"/>
 <wire x1="73.594" y1="58.547" x2="73.594" y2="60.391" width="0.3" layer="16"/>
@@ -6227,7 +6268,7 @@ design rules under a new name.</description>
 <wire x1="73.594" y1="57.343" x2="73.594" y2="58.547" width="0.3" layer="16"/>
 </signal>
 <signal name="N$70">
-<contactref element="IC14" pad="9"/>
+<contactref element="FTDI3" pad="9"/>
 <contactref element="FB3" pad="2"/>
 <contactref element="C869" pad="1"/>
 <contactref element="C889" pad="1"/>
@@ -6278,7 +6319,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TXD1I2">
 <contactref element="IC15" pad="11"/>
-<contactref element="IC14" pad="16"/>
+<contactref element="FTDI3" pad="16"/>
 <wire x1="83.185" y1="38.1762" x2="84.328" y2="38.1762" width="0.1778" layer="16"/>
 <via x="84.328" y="38.1762" extent="1-16" drill="0.3048"/>
 <wire x1="84.328" y1="38.1762" x2="83.693" y2="38.8112" width="0.1778" layer="1"/>
@@ -6292,7 +6333,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RXD1I2">
 <contactref element="IC15" pad="12"/>
-<contactref element="IC14" pad="17"/>
+<contactref element="FTDI3" pad="17"/>
 <wire x1="83.185" y1="37.5412" x2="84.836" y2="37.5412" width="0.1778" layer="16"/>
 <via x="84.836" y="37.5412" extent="1-16" drill="0.3048"/>
 <wire x1="84.836" y1="37.5412" x2="84.1248" y2="37.5412" width="0.1778" layer="1"/>
@@ -6346,7 +6387,7 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="P12.6"/>
 </signal>
 <signal name="RTS1I2">
-<contactref element="IC14" pad="18"/>
+<contactref element="FTDI3" pad="18"/>
 <contactref element="IC15" pad="10"/>
 <wire x1="83.185" y1="38.8366" x2="84.836" y2="38.8366" width="0.1778" layer="16"/>
 <via x="84.836" y="38.8366" extent="1-16" drill="0.3048"/>
@@ -6362,7 +6403,7 @@ design rules under a new name.</description>
 <wire x1="80.3275" y1="52.653" x2="80.0735" y2="52.399" width="0.1778" layer="16"/>
 </signal>
 <signal name="CTS1I2">
-<contactref element="IC14" pad="19"/>
+<contactref element="FTDI3" pad="19"/>
 <contactref element="IC15" pad="9"/>
 <wire x1="83.185" y1="39.497" x2="84.328" y2="39.497" width="0.1778" layer="16"/>
 <via x="84.328" y="39.497" extent="1-16" drill="0.3048"/>
@@ -6474,7 +6515,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TXD2I2">
 <contactref element="IC16" pad="11"/>
-<contactref element="IC14" pad="26"/>
+<contactref element="FTDI3" pad="26"/>
 <wire x1="83.185" y1="30.0482" x2="84.328" y2="30.0482" width="0.1778" layer="16"/>
 <via x="84.328" y="30.0482" extent="1-16" drill="0.3048"/>
 <wire x1="84.328" y1="30.0482" x2="83.693" y2="30.6832" width="0.1778" layer="1"/>
@@ -6492,7 +6533,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RXD2I2">
 <contactref element="IC16" pad="12"/>
-<contactref element="IC14" pad="27"/>
+<contactref element="FTDI3" pad="27"/>
 <wire x1="83.185" y1="29.4132" x2="84.836" y2="29.4132" width="0.1778" layer="16"/>
 <via x="84.836" y="29.4132" extent="1-16" drill="0.3048"/>
 <wire x1="84.836" y1="29.4132" x2="84.1248" y2="29.4132" width="0.1778" layer="1"/>
@@ -6543,7 +6584,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RTS2I2">
 <contactref element="IC16" pad="10"/>
-<contactref element="IC14" pad="28"/>
+<contactref element="FTDI3" pad="28"/>
 <wire x1="83.185" y1="30.7086" x2="84.836" y2="30.7086" width="0.1778" layer="16"/>
 <via x="84.836" y="30.7086" extent="1-16" drill="0.3048"/>
 <wire x1="84.836" y1="30.7086" x2="84.963" y2="30.8356" width="0.1778" layer="1"/>
@@ -6559,7 +6600,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="CTS2I2">
 <contactref element="IC16" pad="9"/>
-<contactref element="IC14" pad="29"/>
+<contactref element="FTDI3" pad="29"/>
 <wire x1="83.185" y1="31.369" x2="84.328" y2="31.369" width="0.1778" layer="16"/>
 <via x="84.328" y="31.369" extent="1-16" drill="0.3048"/>
 <wire x1="84.328" y1="31.369" x2="84.074" y2="31.623" width="0.1778" layer="1"/>
@@ -6657,7 +6698,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TXD3I2">
 <contactref element="IC17" pad="11"/>
-<contactref element="IC14" pad="38"/>
+<contactref element="FTDI3" pad="38"/>
 <wire x1="71.374" y1="38.1762" x2="72.517" y2="38.1762" width="0.1778" layer="16"/>
 <via x="72.517" y="38.1762" extent="1-16" drill="0.3048"/>
 <wire x1="72.517" y1="38.1762" x2="73.2917" y2="38.1762" width="0.1778" layer="1"/>
@@ -6674,7 +6715,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RXD3I2">
 <contactref element="IC17" pad="12"/>
-<contactref element="IC14" pad="39"/>
+<contactref element="FTDI3" pad="39"/>
 <wire x1="71.374" y1="37.5412" x2="73.025" y2="37.5412" width="0.1778" layer="16"/>
 <via x="73.025" y="37.5412" extent="1-16" drill="0.3048"/>
 <wire x1="73.025" y1="37.5412" x2="73.2282" y2="37.5412" width="0.1778" layer="1"/>
@@ -6731,7 +6772,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RTS3I2">
 <contactref element="IC17" pad="10"/>
-<contactref element="IC14" pad="40"/>
+<contactref element="FTDI3" pad="40"/>
 <wire x1="71.374" y1="38.8366" x2="73.025" y2="38.8366" width="0.1778" layer="16"/>
 <via x="73.025" y="38.8366" extent="1-16" drill="0.3048"/>
 <wire x1="73.279" y1="39.0906" x2="73.279" y2="42.7355" width="0.1778" layer="1"/>
@@ -6744,7 +6785,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="CTS3I2">
 <contactref element="IC17" pad="9"/>
-<contactref element="IC14" pad="41"/>
+<contactref element="FTDI3" pad="41"/>
 <wire x1="71.374" y1="39.497" x2="72.517" y2="39.497" width="0.1778" layer="16"/>
 <via x="72.517" y="39.497" extent="1-16" drill="0.3048"/>
 <wire x1="72.517" y1="39.497" x2="72.898" y2="39.878" width="0.1778" layer="1"/>
@@ -6858,7 +6899,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="TXD4I2">
 <contactref element="IC18" pad="11"/>
-<contactref element="IC14" pad="48"/>
+<contactref element="FTDI3" pad="48"/>
 <wire x1="71.374" y1="30.0482" x2="72.517" y2="30.0482" width="0.1778" layer="16"/>
 <via x="72.517" y="30.0482" extent="1-16" drill="0.3048"/>
 <wire x1="72.517" y1="30.0482" x2="71.882" y2="30.6832" width="0.1778" layer="1"/>
@@ -6874,7 +6915,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RXD4I2">
 <contactref element="IC18" pad="12"/>
-<contactref element="IC14" pad="52"/>
+<contactref element="FTDI3" pad="52"/>
 <wire x1="71.374" y1="29.4132" x2="73.025" y2="29.4132" width="0.1778" layer="16"/>
 <via x="73.025" y="29.4132" extent="1-16" drill="0.3048"/>
 <wire x1="73.025" y1="29.4132" x2="72.3138" y2="29.4132" width="0.1778" layer="1"/>
@@ -6930,7 +6971,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="RTS4I2">
 <contactref element="IC18" pad="10"/>
-<contactref element="IC14" pad="53"/>
+<contactref element="FTDI3" pad="53"/>
 <wire x1="71.374" y1="30.7086" x2="73.025" y2="30.7086" width="0.1778" layer="16"/>
 <via x="73.025" y="30.7086" extent="1-16" drill="0.3048"/>
 <wire x1="73.025" y1="30.7086" x2="73.152" y2="30.8356" width="0.1778" layer="1"/>
@@ -6949,7 +6990,7 @@ design rules under a new name.</description>
 </signal>
 <signal name="CTS4I2">
 <contactref element="IC18" pad="9"/>
-<contactref element="IC14" pad="54"/>
+<contactref element="FTDI3" pad="54"/>
 <wire x1="71.374" y1="31.369" x2="72.517" y2="31.369" width="0.1778" layer="16"/>
 <via x="72.517" y="31.369" extent="1-16" drill="0.3048"/>
 <wire x1="72.517" y1="31.369" x2="72.263" y2="31.623" width="0.1778" layer="1"/>
@@ -7014,9 +7055,9 @@ design rules under a new name.</description>
 <contactref element="U$1" pad="P9.3"/>
 </signal>
 <signal name="12MHZ">
-<contactref element="IC4" pad="2"/>
-<contactref element="IC9" pad="2"/>
-<contactref element="IC14" pad="2"/>
+<contactref element="FTDI1" pad="2"/>
+<contactref element="FTDI2" pad="2"/>
+<contactref element="FTDI3" pad="2"/>
 <contactref element="QG1" pad="3"/>
 <wire x1="67.467" y1="59.098" x2="67.467" y2="57.561" width="0.1778" layer="16"/>
 <wire x1="67.467" y1="57.561" x2="66.675" y2="56.769" width="0.1778" layer="16"/>

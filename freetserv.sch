@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.4.0">
+<eagle version="7.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -8711,7 +8711,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </class>
 </classes>
 <parts>
-<part name="IC4" library="ftdichip-6" deviceset="FT4232H" device="L">
+<part name="FTDI1" library="ftdichip-6" deviceset="FT4232H" device="L">
 <attribute name="PARTNO" value="768-1026-1-ND"/>
 </part>
 <part name="USB_HOST" library="ftdi_ft231xq-r" deviceset="USB_MICROB" device="">
@@ -8794,7 +8794,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="U$1" library="stewart_ss73100_046f_dwg" deviceset="SS73100-046F_DWG" device="">
 <attribute name="PARTNO" value="380-1225-ND"/>
 </part>
-<part name="IC1" library="microchip" deviceset="MCP16311" device="-E/MS">
+<part name="IC1" library="microchip" deviceset="MCP16311" device="-E/MS" value="MCP16311">
 <attribute name="PARTNO" value="MCP16311-E/MS-ND"/>
 </part>
 <part name="C4" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">
@@ -8971,7 +8971,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="U$4" library="frames" deviceset="DOCFIELD_NEW" device=""/>
 <part name="U$5" library="frames" deviceset="DOCFIELD_NEW" device=""/>
 <part name="U$9" library="frames" deviceset="DOCFIELD_NEW" device=""/>
-<part name="IC9" library="ftdichip-6" deviceset="FT4232H" device="L">
+<part name="FTDI2" library="ftdichip-6" deviceset="FT4232H" device="L">
 <attribute name="PARTNO" value="768-1026-1-ND"/>
 </part>
 <part name="C629" library="resistor" deviceset="C-EU" device="C0805" value="3.3uF">
@@ -9139,7 +9139,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="+3V16" library="supply1" deviceset="+3V3" device=""/>
 <part name="GND99" library="supply1" deviceset="GND" device=""/>
 <part name="U$7" library="frames" deviceset="DOCFIELD_NEW" device=""/>
-<part name="IC14" library="ftdichip-6" deviceset="FT4232H" device="L">
+<part name="FTDI3" library="ftdichip-6" deviceset="FT4232H" device="L">
 <attribute name="PARTNO" value="768-1026-1-ND"/>
 </part>
 <part name="C829" library="resistor" deviceset="C-EU" device="C0805" value="3.3uF">
@@ -10447,15 +10447,15 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <frame x1="0" y1="0" x2="388.62" y2="261.62" columns="8" rows="5" layer="97"/>
 </plain>
 <instances>
-<instance part="IC4" gate="CORE" x="116.84" y="109.22" smashed="yes">
+<instance part="FTDI1" gate="CORE" x="116.84" y="109.22" smashed="yes">
 <attribute name="PARTNO" x="116.84" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="106.68" y="116.84" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="106.68" y="114.3" size="1.4224" layer="96"/>
 </instance>
-<instance part="IC4" gate="A" x="220.98" y="220.98"/>
-<instance part="IC4" gate="B" x="220.98" y="165.1"/>
-<instance part="IC4" gate="C" x="220.98" y="109.22"/>
-<instance part="IC4" gate="D" x="220.98" y="53.34"/>
+<instance part="FTDI1" gate="A" x="220.98" y="220.98"/>
+<instance part="FTDI1" gate="B" x="220.98" y="165.1"/>
+<instance part="FTDI1" gate="C" x="220.98" y="109.22"/>
+<instance part="FTDI1" gate="D" x="220.98" y="53.34"/>
 <instance part="C8" gate="G$1" x="76.2" y="137.16" rot="R90">
 <attribute name="PARTNO" x="76.2" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -10733,15 +10733,15 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="GND15" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="CORE" pin="GND@8"/>
+<pinref part="FTDI1" gate="CORE" pin="GND@8"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="127" y1="73.66" x2="127" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="CORE" pin="GND@1"/>
+<pinref part="FTDI1" gate="CORE" pin="GND@1"/>
 <wire x1="127" y1="76.2" x2="127" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="78.74" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 <junction x="127" y="76.2"/>
-<pinref part="IC4" gate="CORE" pin="GND@2"/>
+<pinref part="FTDI1" gate="CORE" pin="GND@2"/>
 <wire x1="111.76" y1="76.2" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="76.2" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
@@ -10750,19 +10750,19 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="124.46" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="78.74" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 <junction x="111.76" y="76.2"/>
-<pinref part="IC4" gate="CORE" pin="GND@3"/>
+<pinref part="FTDI1" gate="CORE" pin="GND@3"/>
 <wire x1="114.3" y1="76.2" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
 <junction x="114.3" y="76.2"/>
-<pinref part="IC4" gate="CORE" pin="GND@4"/>
+<pinref part="FTDI1" gate="CORE" pin="GND@4"/>
 <wire x1="116.84" y1="78.74" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
 <junction x="116.84" y="76.2"/>
-<pinref part="IC4" gate="CORE" pin="GND@5"/>
+<pinref part="FTDI1" gate="CORE" pin="GND@5"/>
 <wire x1="119.38" y1="76.2" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
 <junction x="119.38" y="76.2"/>
-<pinref part="IC4" gate="CORE" pin="GND@6"/>
+<pinref part="FTDI1" gate="CORE" pin="GND@6"/>
 <wire x1="121.92" y1="78.74" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
 <junction x="121.92" y="76.2"/>
-<pinref part="IC4" gate="CORE" pin="GND@7"/>
+<pinref part="FTDI1" gate="CORE" pin="GND@7"/>
 <wire x1="124.46" y1="76.2" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
 <junction x="124.46" y="76.2"/>
 </segment>
@@ -10923,25 +10923,25 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <junction x="360.68" y="48.26"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="CORE" pin="TEST"/>
+<pinref part="FTDI1" gate="CORE" pin="TEST"/>
 <pinref part="GND60" gate="1" pin="GND"/>
 <wire x1="83.82" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="CORE" pin="AGND"/>
+<pinref part="FTDI1" gate="CORE" pin="AGND"/>
 <pinref part="GND19" gate="1" pin="GND"/>
 <wire x1="101.6" y1="78.74" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+1V8-1" class="0">
 <segment>
-<pinref part="IC4" gate="CORE" pin="VREGOUT"/>
+<pinref part="FTDI1" gate="CORE" pin="VREGOUT"/>
 <wire x1="86.36" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="137.16" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C8" gate="G$1" pin="2"/>
 <junction x="83.82" y="137.16"/>
-<pinref part="IC4" gate="CORE" pin="VCORE@3"/>
+<pinref part="FTDI1" gate="CORE" pin="VCORE@3"/>
 <wire x1="83.82" y1="147.32" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="154.94" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="154.94" x2="104.14" y2="157.48" width="0.1524" layer="91"/>
@@ -10949,10 +10949,10 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="101.6" y1="157.48" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="157.48" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="162.56" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="CORE" pin="VCORE@1"/>
+<pinref part="FTDI1" gate="CORE" pin="VCORE@1"/>
 <wire x1="99.06" y1="154.94" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
 <junction x="99.06" y="157.48"/>
-<pinref part="IC4" gate="CORE" pin="VCORE@2"/>
+<pinref part="FTDI1" gate="CORE" pin="VCORE@2"/>
 <wire x1="101.6" y1="157.48" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
 <junction x="101.6" y="157.48"/>
 <pinref part="C38" gate="G$1" pin="1"/>
@@ -10968,14 +10968,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="IC4" gate="CORE" pin="REF"/>
+<pinref part="FTDI1" gate="CORE" pin="REF"/>
 <pinref part="R2" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
 <pinref part="FB2\" gate="G$1" pin="2"/>
-<pinref part="IC4" gate="CORE" pin="VPHY"/>
+<pinref part="FTDI1" gate="CORE" pin="VPHY"/>
 <pinref part="C11" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="175.26" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="167.64" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
@@ -10989,7 +10989,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="IC4" gate="CORE" pin="VPLL"/>
+<pinref part="FTDI1" gate="CORE" pin="VPLL"/>
 <pinref part="FB1" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="154.94" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="C12" gate="G$1" pin="1"/>
@@ -11040,7 +11040,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="213.36" x2="251.46" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="213.36" x2="251.46" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="231.14" x2="233.68" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="DB0/TXD"/>
+<pinref part="FTDI1" gate="A" pin="DB0/TXD"/>
 <label x="254" y="213.36" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -11049,7 +11049,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="IC5" gate="A" pin="ROUT1"/>
 <wire x1="276.86" y1="205.74" x2="248.92" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="205.74" x2="248.92" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="A" pin="DB1/RXD"/>
+<pinref part="FTDI1" gate="A" pin="DB1/RXD"/>
 <wire x1="248.92" y1="228.6" x2="233.68" y2="228.6" width="0.1524" layer="91"/>
 <label x="254" y="205.74" size="1.4224" layer="95"/>
 </segment>
@@ -11070,7 +11070,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="!RESET" class="0">
 <segment>
-<pinref part="IC4" gate="CORE" pin="RESET#"/>
+<pinref part="FTDI1" gate="CORE" pin="RESET#"/>
 <wire x1="86.36" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
 <label x="68.58" y="121.92" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11123,14 +11123,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <junction x="314.96" y="71.12"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="CORE" pin="VREGIN"/>
+<pinref part="FTDI1" gate="CORE" pin="VREGIN"/>
 <wire x1="71.12" y1="132.08" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="CORE" pin="VCCIO@4"/>
+<pinref part="FTDI1" gate="CORE" pin="VCCIO@4"/>
 <wire x1="137.16" y1="198.12" x2="137.16" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="CORE" pin="VCCIO@1"/>
+<pinref part="FTDI1" gate="CORE" pin="VCCIO@1"/>
 <wire x1="137.16" y1="190.5" x2="137.16" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="182.88" x2="137.16" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="175.26" x2="137.16" y2="167.64" width="0.1524" layer="91"/>
@@ -11138,11 +11138,11 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="137.16" y1="160.02" x2="137.16" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="154.94" x2="132.08" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="154.94" x2="129.54" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="CORE" pin="VCCIO@2"/>
+<pinref part="FTDI1" gate="CORE" pin="VCCIO@2"/>
 <junction x="127" y="154.94"/>
 <wire x1="129.54" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="127" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="CORE" pin="VCCIO@3"/>
+<pinref part="FTDI1" gate="CORE" pin="VCCIO@3"/>
 <junction x="129.54" y="154.94"/>
 <junction x="132.08" y="154.94"/>
 <pinref part="C45" gate="G$1" pin="1"/>
@@ -11175,7 +11175,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="RTS1I" class="0">
 <segment>
-<pinref part="IC4" gate="A" pin="DB2/RTS"/>
+<pinref part="FTDI1" gate="A" pin="DB2/RTS"/>
 <wire x1="233.68" y1="226.06" x2="246.38" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="226.06" x2="246.38" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="IC5" gate="A" pin="DIN2"/>
@@ -11185,7 +11185,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="CTS1I" class="0">
 <segment>
-<pinref part="IC4" gate="A" pin="DB3/CTS"/>
+<pinref part="FTDI1" gate="A" pin="DB3/CTS"/>
 <pinref part="IC5" gate="A" pin="ROUT2"/>
 <wire x1="276.86" y1="203.2" x2="243.84" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="203.2" x2="243.84" y2="223.52" width="0.1524" layer="91"/>
@@ -11228,7 +11228,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="60.96" y1="101.6" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
 <label x="63.5" y="104.14" size="1.778" layer="95"/>
-<pinref part="IC4" gate="CORE" pin="USBDM"/>
+<pinref part="FTDI1" gate="CORE" pin="USBDM"/>
 </segment>
 </net>
 <net name="D2_P" class="1">
@@ -11236,7 +11236,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="60.96" y1="99.06" x2="63.5" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
 <label x="63.5" y="101.6" size="1.778" layer="95"/>
-<pinref part="IC4" gate="CORE" pin="USBDP"/>
+<pinref part="FTDI1" gate="CORE" pin="USBDP"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -11277,7 +11277,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="157.48" x2="251.46" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="157.48" x2="251.46" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="175.26" x2="233.68" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="B" pin="DB0/TXD"/>
+<pinref part="FTDI1" gate="B" pin="DB0/TXD"/>
 <label x="254" y="157.48" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -11287,7 +11287,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="149.86" x2="248.92" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="149.86" x2="248.92" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="172.72" x2="233.68" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="B" pin="DB1/RXD"/>
+<pinref part="FTDI1" gate="B" pin="DB1/RXD"/>
 <label x="254" y="149.86" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -11321,7 +11321,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="246.38" y1="170.18" x2="246.38" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="IC6" gate="A" pin="DIN2"/>
 <wire x1="246.38" y1="154.94" x2="276.86" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="B" pin="DB2/RTS"/>
+<pinref part="FTDI1" gate="B" pin="DB2/RTS"/>
 <label x="254" y="154.94" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -11331,7 +11331,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="147.32" x2="243.84" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="167.64" x2="233.68" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="B" pin="DB3/CTS"/>
+<pinref part="FTDI1" gate="B" pin="DB3/CTS"/>
 <label x="254" y="147.32" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -11403,7 +11403,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="101.6" x2="251.46" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="101.6" x2="251.46" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="119.38" x2="233.68" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="C" pin="DB0/TXD"/>
+<pinref part="FTDI1" gate="C" pin="DB0/TXD"/>
 <label x="254" y="101.6" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -11413,7 +11413,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="93.98" x2="248.92" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="93.98" x2="248.92" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="116.84" x2="233.68" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="C" pin="DB1/RXD"/>
+<pinref part="FTDI1" gate="C" pin="DB1/RXD"/>
 <label x="254" y="93.98" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -11447,7 +11447,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="246.38" y1="114.3" x2="246.38" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC7" gate="A" pin="DIN2"/>
 <wire x1="246.38" y1="99.06" x2="276.86" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="C" pin="DB2/RTS"/>
+<pinref part="FTDI1" gate="C" pin="DB2/RTS"/>
 <label x="254" y="99.06" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -11457,7 +11457,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="91.44" x2="243.84" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="91.44" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="111.76" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="C" pin="DB3/CTS"/>
+<pinref part="FTDI1" gate="C" pin="DB3/CTS"/>
 <label x="254" y="91.44" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -11529,7 +11529,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="45.72" x2="251.46" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="45.72" x2="251.46" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="63.5" x2="233.68" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="D" pin="DB0/TXD"/>
+<pinref part="FTDI1" gate="D" pin="DB0/TXD"/>
 <label x="254" y="45.72" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -11539,7 +11539,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="38.1" x2="248.92" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="38.1" x2="248.92" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="60.96" x2="233.68" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="D" pin="DB1/RXD"/>
+<pinref part="FTDI1" gate="D" pin="DB1/RXD"/>
 <label x="254" y="38.1" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -11573,7 +11573,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="246.38" y1="58.42" x2="246.38" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="IC8" gate="A" pin="DIN2"/>
 <wire x1="246.38" y1="43.18" x2="276.86" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="D" pin="DB2/RTS"/>
+<pinref part="FTDI1" gate="D" pin="DB2/RTS"/>
 <label x="254" y="43.18" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -11583,7 +11583,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="35.56" x2="243.84" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="35.56" x2="243.84" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="55.88" x2="233.68" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="IC4" gate="D" pin="DB3/CTS"/>
+<pinref part="FTDI1" gate="D" pin="DB3/CTS"/>
 <label x="254" y="35.56" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -11619,7 +11619,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="12MHZ" class="0">
 <segment>
-<pinref part="IC4" gate="CORE" pin="XTIN"/>
+<pinref part="FTDI1" gate="CORE" pin="XTIN"/>
 <wire x1="142.24" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 <label x="149.86" y="91.44" size="1.778" layer="95" xref="yes"/>
 </segment>
@@ -11656,15 +11656,15 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <frame x1="0" y1="0" x2="388.62" y2="261.62" columns="8" rows="5" layer="97"/>
 </plain>
 <instances>
-<instance part="IC9" gate="CORE" x="116.84" y="109.22" smashed="yes">
+<instance part="FTDI2" gate="CORE" x="116.84" y="109.22" smashed="yes">
 <attribute name="PARTNO" x="116.84" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="106.68" y="116.84" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="106.68" y="114.3" size="1.4224" layer="96"/>
 </instance>
-<instance part="IC9" gate="A" x="220.98" y="220.98"/>
-<instance part="IC9" gate="B" x="220.98" y="165.1"/>
-<instance part="IC9" gate="C" x="220.98" y="109.22"/>
-<instance part="IC9" gate="D" x="220.98" y="53.34"/>
+<instance part="FTDI2" gate="A" x="220.98" y="220.98"/>
+<instance part="FTDI2" gate="B" x="220.98" y="165.1"/>
+<instance part="FTDI2" gate="C" x="220.98" y="109.22"/>
+<instance part="FTDI2" gate="D" x="220.98" y="53.34"/>
 <instance part="C629" gate="G$1" x="76.2" y="137.16" rot="R90">
 <attribute name="PARTNO" x="76.2" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -11940,15 +11940,15 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="GND62" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC9" gate="CORE" pin="GND@8"/>
+<pinref part="FTDI2" gate="CORE" pin="GND@8"/>
 <pinref part="GND63" gate="1" pin="GND"/>
 <wire x1="127" y1="73.66" x2="127" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="CORE" pin="GND@1"/>
+<pinref part="FTDI2" gate="CORE" pin="GND@1"/>
 <wire x1="127" y1="76.2" x2="127" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="78.74" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 <junction x="127" y="76.2"/>
-<pinref part="IC9" gate="CORE" pin="GND@2"/>
+<pinref part="FTDI2" gate="CORE" pin="GND@2"/>
 <wire x1="111.76" y1="76.2" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="76.2" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
@@ -11957,19 +11957,19 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="124.46" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="78.74" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 <junction x="111.76" y="76.2"/>
-<pinref part="IC9" gate="CORE" pin="GND@3"/>
+<pinref part="FTDI2" gate="CORE" pin="GND@3"/>
 <wire x1="114.3" y1="76.2" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
 <junction x="114.3" y="76.2"/>
-<pinref part="IC9" gate="CORE" pin="GND@4"/>
+<pinref part="FTDI2" gate="CORE" pin="GND@4"/>
 <wire x1="116.84" y1="78.74" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
 <junction x="116.84" y="76.2"/>
-<pinref part="IC9" gate="CORE" pin="GND@5"/>
+<pinref part="FTDI2" gate="CORE" pin="GND@5"/>
 <wire x1="119.38" y1="76.2" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
 <junction x="119.38" y="76.2"/>
-<pinref part="IC9" gate="CORE" pin="GND@6"/>
+<pinref part="FTDI2" gate="CORE" pin="GND@6"/>
 <wire x1="121.92" y1="78.74" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
 <junction x="121.92" y="76.2"/>
-<pinref part="IC9" gate="CORE" pin="GND@7"/>
+<pinref part="FTDI2" gate="CORE" pin="GND@7"/>
 <wire x1="124.46" y1="76.2" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
 <junction x="124.46" y="76.2"/>
 </segment>
@@ -12130,19 +12130,19 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="U$1" gate="G$5" pin="5"/>
 </segment>
 <segment>
-<pinref part="IC9" gate="CORE" pin="TEST"/>
+<pinref part="FTDI2" gate="CORE" pin="TEST"/>
 <pinref part="GND98" gate="1" pin="GND"/>
 <wire x1="83.82" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC9" gate="CORE" pin="AGND"/>
+<pinref part="FTDI2" gate="CORE" pin="AGND"/>
 <pinref part="GND99" gate="1" pin="GND"/>
 <wire x1="101.6" y1="78.74" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
 <segment>
-<pinref part="IC9" gate="CORE" pin="RESET#"/>
+<pinref part="FTDI2" gate="CORE" pin="RESET#"/>
 <wire x1="86.36" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
 <label x="68.58" y="121.92" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -12185,14 +12185,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <junction x="314.96" y="71.12"/>
 </segment>
 <segment>
-<pinref part="IC9" gate="CORE" pin="VREGIN"/>
+<pinref part="FTDI2" gate="CORE" pin="VREGIN"/>
 <wire x1="71.12" y1="132.08" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="+3V15" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC9" gate="CORE" pin="VCCIO@4"/>
+<pinref part="FTDI2" gate="CORE" pin="VCCIO@4"/>
 <wire x1="137.16" y1="198.12" x2="137.16" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="CORE" pin="VCCIO@1"/>
+<pinref part="FTDI2" gate="CORE" pin="VCCIO@1"/>
 <wire x1="137.16" y1="190.5" x2="137.16" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="182.88" x2="137.16" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="175.26" x2="137.16" y2="167.64" width="0.1524" layer="91"/>
@@ -12200,11 +12200,11 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="137.16" y1="160.02" x2="137.16" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="154.94" x2="132.08" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="154.94" x2="129.54" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="CORE" pin="VCCIO@2"/>
+<pinref part="FTDI2" gate="CORE" pin="VCCIO@2"/>
 <junction x="127" y="154.94"/>
 <wire x1="129.54" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="127" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="CORE" pin="VCCIO@3"/>
+<pinref part="FTDI2" gate="CORE" pin="VCCIO@3"/>
 <junction x="129.54" y="154.94"/>
 <junction x="132.08" y="154.94"/>
 <pinref part="C66" gate="G$1" pin="1"/>
@@ -12237,13 +12237,13 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="+1V8-2" class="0">
 <segment>
-<pinref part="IC9" gate="CORE" pin="VREGOUT"/>
+<pinref part="FTDI2" gate="CORE" pin="VREGOUT"/>
 <wire x1="86.36" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="137.16" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C629" gate="G$1" pin="2"/>
 <junction x="83.82" y="137.16"/>
-<pinref part="IC9" gate="CORE" pin="VCORE@3"/>
+<pinref part="FTDI2" gate="CORE" pin="VCORE@3"/>
 <wire x1="83.82" y1="147.32" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="154.94" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="154.94" x2="104.14" y2="157.48" width="0.1524" layer="91"/>
@@ -12251,10 +12251,10 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="101.6" y1="157.48" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="157.48" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="162.56" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="CORE" pin="VCORE@1"/>
+<pinref part="FTDI2" gate="CORE" pin="VCORE@1"/>
 <wire x1="99.06" y1="154.94" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
 <junction x="99.06" y="157.48"/>
-<pinref part="IC9" gate="CORE" pin="VCORE@2"/>
+<pinref part="FTDI2" gate="CORE" pin="VCORE@2"/>
 <wire x1="101.6" y1="157.48" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
 <junction x="101.6" y="157.48"/>
 <pinref part="C59" gate="G$1" pin="1"/>
@@ -12270,14 +12270,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="IC9" gate="CORE" pin="REF"/>
+<pinref part="FTDI2" gate="CORE" pin="REF"/>
 <pinref part="R13" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$555" class="0">
 <segment>
 <pinref part="FB2\1" gate="G$1" pin="2"/>
-<pinref part="IC9" gate="CORE" pin="VPHY"/>
+<pinref part="FTDI2" gate="CORE" pin="VPHY"/>
 <pinref part="C489" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="175.26" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="167.64" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
@@ -12291,7 +12291,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="N$1355" class="0">
 <segment>
-<pinref part="IC9" gate="CORE" pin="VPLL"/>
+<pinref part="FTDI2" gate="CORE" pin="VPLL"/>
 <pinref part="FB2" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="154.94" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="C519" gate="G$1" pin="1"/>
@@ -12494,13 +12494,13 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="213.36" x2="251.46" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="213.36" x2="251.46" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="231.14" x2="233.68" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="A" pin="DB0/TXD"/>
+<pinref part="FTDI2" gate="A" pin="DB0/TXD"/>
 <label x="254" y="213.36" size="1.4224" layer="95"/>
 </segment>
 </net>
 <net name="RTS1I1" class="0">
 <segment>
-<pinref part="IC9" gate="A" pin="DB2/RTS"/>
+<pinref part="FTDI2" gate="A" pin="DB2/RTS"/>
 <wire x1="233.68" y1="226.06" x2="246.38" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="226.06" x2="246.38" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="IC10" gate="A" pin="DIN2"/>
@@ -12513,14 +12513,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="IC10" gate="A" pin="ROUT1"/>
 <wire x1="276.86" y1="205.74" x2="248.92" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="205.74" x2="248.92" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="A" pin="DB1/RXD"/>
+<pinref part="FTDI2" gate="A" pin="DB1/RXD"/>
 <wire x1="248.92" y1="228.6" x2="233.68" y2="228.6" width="0.1524" layer="91"/>
 <label x="254" y="205.74" size="1.4224" layer="95"/>
 </segment>
 </net>
 <net name="CTS1I1" class="0">
 <segment>
-<pinref part="IC9" gate="A" pin="DB3/CTS"/>
+<pinref part="FTDI2" gate="A" pin="DB3/CTS"/>
 <pinref part="IC10" gate="A" pin="ROUT2"/>
 <wire x1="276.86" y1="203.2" x2="243.84" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="203.2" x2="243.84" y2="223.52" width="0.1524" layer="91"/>
@@ -12534,7 +12534,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="157.48" x2="251.46" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="157.48" x2="251.46" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="175.26" x2="233.68" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="B" pin="DB0/TXD"/>
+<pinref part="FTDI2" gate="B" pin="DB0/TXD"/>
 <label x="254" y="157.48" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -12544,7 +12544,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="246.38" y1="170.18" x2="246.38" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="IC11" gate="A" pin="DIN2"/>
 <wire x1="246.38" y1="154.94" x2="276.86" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="B" pin="DB2/RTS"/>
+<pinref part="FTDI2" gate="B" pin="DB2/RTS"/>
 <label x="254" y="154.94" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -12554,7 +12554,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="149.86" x2="248.92" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="149.86" x2="248.92" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="172.72" x2="233.68" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="B" pin="DB1/RXD"/>
+<pinref part="FTDI2" gate="B" pin="DB1/RXD"/>
 <label x="254" y="149.86" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -12564,7 +12564,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="147.32" x2="243.84" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="167.64" x2="233.68" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="B" pin="DB3/CTS"/>
+<pinref part="FTDI2" gate="B" pin="DB3/CTS"/>
 <label x="254" y="147.32" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -12574,7 +12574,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="101.6" x2="251.46" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="101.6" x2="251.46" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="119.38" x2="233.68" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="C" pin="DB0/TXD"/>
+<pinref part="FTDI2" gate="C" pin="DB0/TXD"/>
 <label x="254" y="101.6" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -12584,7 +12584,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="246.38" y1="114.3" x2="246.38" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC12" gate="A" pin="DIN2"/>
 <wire x1="246.38" y1="99.06" x2="276.86" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="C" pin="DB2/RTS"/>
+<pinref part="FTDI2" gate="C" pin="DB2/RTS"/>
 <label x="254" y="99.06" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -12594,7 +12594,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="93.98" x2="248.92" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="93.98" x2="248.92" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="116.84" x2="233.68" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="C" pin="DB1/RXD"/>
+<pinref part="FTDI2" gate="C" pin="DB1/RXD"/>
 <label x="254" y="93.98" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -12604,7 +12604,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="91.44" x2="243.84" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="91.44" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="111.76" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="C" pin="DB3/CTS"/>
+<pinref part="FTDI2" gate="C" pin="DB3/CTS"/>
 <label x="254" y="91.44" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -12614,7 +12614,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="45.72" x2="251.46" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="45.72" x2="251.46" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="63.5" x2="233.68" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="D" pin="DB0/TXD"/>
+<pinref part="FTDI2" gate="D" pin="DB0/TXD"/>
 <label x="254" y="45.72" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -12624,7 +12624,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="246.38" y1="58.42" x2="246.38" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="IC13" gate="A" pin="DIN2"/>
 <wire x1="246.38" y1="43.18" x2="276.86" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="D" pin="DB2/RTS"/>
+<pinref part="FTDI2" gate="D" pin="DB2/RTS"/>
 <label x="254" y="43.18" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -12634,7 +12634,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="38.1" x2="248.92" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="38.1" x2="248.92" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="60.96" x2="233.68" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="D" pin="DB1/RXD"/>
+<pinref part="FTDI2" gate="D" pin="DB1/RXD"/>
 <label x="254" y="38.1" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -12644,7 +12644,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="35.56" x2="243.84" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="35.56" x2="243.84" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="55.88" x2="233.68" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="IC9" gate="D" pin="DB3/CTS"/>
+<pinref part="FTDI2" gate="D" pin="DB3/CTS"/>
 <label x="254" y="35.56" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -12813,7 +12813,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="60.96" y1="101.6" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
 <label x="63.5" y="104.14" size="1.778" layer="95"/>
-<pinref part="IC9" gate="CORE" pin="USBDM"/>
+<pinref part="FTDI2" gate="CORE" pin="USBDM"/>
 </segment>
 </net>
 <net name="D3_P" class="1">
@@ -12821,14 +12821,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="60.96" y1="99.06" x2="63.5" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
 <label x="63.5" y="101.6" size="1.778" layer="95"/>
-<pinref part="IC9" gate="CORE" pin="USBDP"/>
+<pinref part="FTDI2" gate="CORE" pin="USBDP"/>
 </segment>
 </net>
 <net name="12MHZ" class="0">
 <segment>
 <wire x1="142.24" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 <label x="149.86" y="91.44" size="1.778" layer="95" xref="yes"/>
-<pinref part="IC9" gate="CORE" pin="XTIN"/>
+<pinref part="FTDI2" gate="CORE" pin="XTIN"/>
 </segment>
 </net>
 </nets>
@@ -12863,15 +12863,15 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <frame x1="0" y1="0" x2="388.62" y2="261.62" columns="8" rows="5" layer="97"/>
 </plain>
 <instances>
-<instance part="IC14" gate="CORE" x="116.84" y="109.22" smashed="yes">
+<instance part="FTDI3" gate="CORE" x="116.84" y="109.22" smashed="yes">
 <attribute name="PARTNO" x="116.84" y="109.22" size="1.778" layer="96" display="off"/>
 <attribute name="NAME" x="106.68" y="116.84" size="1.4224" layer="95"/>
 <attribute name="VALUE" x="106.68" y="114.3" size="1.4224" layer="96"/>
 </instance>
-<instance part="IC14" gate="A" x="220.98" y="220.98"/>
-<instance part="IC14" gate="B" x="220.98" y="165.1"/>
-<instance part="IC14" gate="C" x="220.98" y="109.22"/>
-<instance part="IC14" gate="D" x="220.98" y="53.34"/>
+<instance part="FTDI3" gate="A" x="220.98" y="220.98"/>
+<instance part="FTDI3" gate="B" x="220.98" y="165.1"/>
+<instance part="FTDI3" gate="C" x="220.98" y="109.22"/>
+<instance part="FTDI3" gate="D" x="220.98" y="53.34"/>
 <instance part="C829" gate="G$1" x="76.2" y="137.16" rot="R90">
 <attribute name="PARTNO" x="76.2" y="137.16" size="1.778" layer="96" rot="R90" display="off"/>
 </instance>
@@ -13147,15 +13147,15 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="GND101" gate="1" pin="GND"/>
 </segment>
 <segment>
-<pinref part="IC14" gate="CORE" pin="GND@8"/>
+<pinref part="FTDI3" gate="CORE" pin="GND@8"/>
 <pinref part="GND102" gate="1" pin="GND"/>
 <wire x1="127" y1="73.66" x2="127" y2="76.2" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="CORE" pin="GND@1"/>
+<pinref part="FTDI3" gate="CORE" pin="GND@1"/>
 <wire x1="127" y1="76.2" x2="127" y2="78.74" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="78.74" x2="109.22" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="109.22" y1="76.2" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 <junction x="127" y="76.2"/>
-<pinref part="IC14" gate="CORE" pin="GND@2"/>
+<pinref part="FTDI3" gate="CORE" pin="GND@2"/>
 <wire x1="111.76" y1="76.2" x2="114.3" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="114.3" y1="76.2" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="116.84" y1="76.2" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
@@ -13164,19 +13164,19 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="124.46" y1="76.2" x2="127" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="111.76" y1="78.74" x2="111.76" y2="76.2" width="0.1524" layer="91"/>
 <junction x="111.76" y="76.2"/>
-<pinref part="IC14" gate="CORE" pin="GND@3"/>
+<pinref part="FTDI3" gate="CORE" pin="GND@3"/>
 <wire x1="114.3" y1="76.2" x2="114.3" y2="78.74" width="0.1524" layer="91"/>
 <junction x="114.3" y="76.2"/>
-<pinref part="IC14" gate="CORE" pin="GND@4"/>
+<pinref part="FTDI3" gate="CORE" pin="GND@4"/>
 <wire x1="116.84" y1="78.74" x2="116.84" y2="76.2" width="0.1524" layer="91"/>
 <junction x="116.84" y="76.2"/>
-<pinref part="IC14" gate="CORE" pin="GND@5"/>
+<pinref part="FTDI3" gate="CORE" pin="GND@5"/>
 <wire x1="119.38" y1="76.2" x2="119.38" y2="78.74" width="0.1524" layer="91"/>
 <junction x="119.38" y="76.2"/>
-<pinref part="IC14" gate="CORE" pin="GND@6"/>
+<pinref part="FTDI3" gate="CORE" pin="GND@6"/>
 <wire x1="121.92" y1="78.74" x2="121.92" y2="76.2" width="0.1524" layer="91"/>
 <junction x="121.92" y="76.2"/>
-<pinref part="IC14" gate="CORE" pin="GND@7"/>
+<pinref part="FTDI3" gate="CORE" pin="GND@7"/>
 <wire x1="124.46" y1="76.2" x2="124.46" y2="78.74" width="0.1524" layer="91"/>
 <junction x="124.46" y="76.2"/>
 </segment>
@@ -13337,19 +13337,19 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="U$1" gate="G$9" pin="5"/>
 </segment>
 <segment>
-<pinref part="IC14" gate="CORE" pin="TEST"/>
+<pinref part="FTDI3" gate="CORE" pin="TEST"/>
 <pinref part="GND137" gate="1" pin="GND"/>
 <wire x1="83.82" y1="93.98" x2="86.36" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="IC14" gate="CORE" pin="AGND"/>
+<pinref part="FTDI3" gate="CORE" pin="AGND"/>
 <pinref part="GND138" gate="1" pin="GND"/>
 <wire x1="101.6" y1="78.74" x2="101.6" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="!RESET" class="0">
 <segment>
-<pinref part="IC14" gate="CORE" pin="RESET#"/>
+<pinref part="FTDI3" gate="CORE" pin="RESET#"/>
 <wire x1="86.36" y1="121.92" x2="68.58" y2="121.92" width="0.1524" layer="91"/>
 <label x="68.58" y="121.92" size="1.4224" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -13392,14 +13392,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <junction x="314.96" y="71.12"/>
 </segment>
 <segment>
-<pinref part="IC14" gate="CORE" pin="VREGIN"/>
+<pinref part="FTDI3" gate="CORE" pin="VREGIN"/>
 <wire x1="71.12" y1="132.08" x2="86.36" y2="132.08" width="0.1524" layer="91"/>
 <pinref part="+3V23" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC14" gate="CORE" pin="VCCIO@4"/>
+<pinref part="FTDI3" gate="CORE" pin="VCCIO@4"/>
 <wire x1="137.16" y1="198.12" x2="137.16" y2="190.5" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="CORE" pin="VCCIO@1"/>
+<pinref part="FTDI3" gate="CORE" pin="VCCIO@1"/>
 <wire x1="137.16" y1="190.5" x2="137.16" y2="182.88" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="182.88" x2="137.16" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="175.26" x2="137.16" y2="167.64" width="0.1524" layer="91"/>
@@ -13407,11 +13407,11 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="137.16" y1="160.02" x2="137.16" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="137.16" y1="154.94" x2="132.08" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="132.08" y1="154.94" x2="129.54" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="CORE" pin="VCCIO@2"/>
+<pinref part="FTDI3" gate="CORE" pin="VCCIO@2"/>
 <junction x="127" y="154.94"/>
 <wire x1="129.54" y1="154.94" x2="127" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="127" y1="154.94" x2="124.46" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="CORE" pin="VCCIO@3"/>
+<pinref part="FTDI3" gate="CORE" pin="VCCIO@3"/>
 <junction x="129.54" y="154.94"/>
 <junction x="132.08" y="154.94"/>
 <pinref part="C101" gate="G$1" pin="1"/>
@@ -13444,13 +13444,13 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="+1V8-3" class="0">
 <segment>
-<pinref part="IC14" gate="CORE" pin="VREGOUT"/>
+<pinref part="FTDI3" gate="CORE" pin="VREGOUT"/>
 <wire x1="86.36" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="137.16" x2="83.82" y2="137.16" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="137.16" x2="83.82" y2="147.32" width="0.1524" layer="91"/>
 <pinref part="C829" gate="G$1" pin="2"/>
 <junction x="83.82" y="137.16"/>
-<pinref part="IC14" gate="CORE" pin="VCORE@3"/>
+<pinref part="FTDI3" gate="CORE" pin="VCORE@3"/>
 <wire x1="83.82" y1="147.32" x2="83.82" y2="154.94" width="0.1524" layer="91"/>
 <wire x1="83.82" y1="154.94" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="104.14" y1="154.94" x2="104.14" y2="157.48" width="0.1524" layer="91"/>
@@ -13458,10 +13458,10 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="101.6" y1="157.48" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="157.48" x2="99.06" y2="162.56" width="0.1524" layer="91"/>
 <wire x1="99.06" y1="162.56" x2="83.82" y2="162.56" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="CORE" pin="VCORE@1"/>
+<pinref part="FTDI3" gate="CORE" pin="VCORE@1"/>
 <wire x1="99.06" y1="154.94" x2="99.06" y2="157.48" width="0.1524" layer="91"/>
 <junction x="99.06" y="157.48"/>
-<pinref part="IC14" gate="CORE" pin="VCORE@2"/>
+<pinref part="FTDI3" gate="CORE" pin="VCORE@2"/>
 <wire x1="101.6" y1="157.48" x2="101.6" y2="154.94" width="0.1524" layer="91"/>
 <junction x="101.6" y="157.48"/>
 <pinref part="C94" gate="G$1" pin="1"/>
@@ -13477,14 +13477,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="N$64" class="0">
 <segment>
-<pinref part="IC14" gate="CORE" pin="REF"/>
+<pinref part="FTDI3" gate="CORE" pin="REF"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="N$69" class="0">
 <segment>
 <pinref part="FB2\2" gate="G$1" pin="2"/>
-<pinref part="IC14" gate="CORE" pin="VPHY"/>
+<pinref part="FTDI3" gate="CORE" pin="VPHY"/>
 <pinref part="C859" gate="G$1" pin="1"/>
 <wire x1="116.84" y1="175.26" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="119.38" y1="167.64" x2="116.84" y2="167.64" width="0.1524" layer="91"/>
@@ -13498,7 +13498,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="N$70" class="0">
 <segment>
-<pinref part="IC14" gate="CORE" pin="VPLL"/>
+<pinref part="FTDI3" gate="CORE" pin="VPLL"/>
 <pinref part="FB3" gate="G$1" pin="2"/>
 <wire x1="111.76" y1="154.94" x2="111.76" y2="167.64" width="0.1524" layer="91"/>
 <pinref part="C869" gate="G$1" pin="1"/>
@@ -13701,7 +13701,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="213.36" x2="251.46" y2="213.36" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="213.36" x2="251.46" y2="231.14" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="231.14" x2="233.68" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="A" pin="DB0/TXD"/>
+<pinref part="FTDI3" gate="A" pin="DB0/TXD"/>
 <label x="254" y="213.36" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -13710,14 +13710,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <pinref part="IC15" gate="A" pin="ROUT1"/>
 <wire x1="276.86" y1="205.74" x2="248.92" y2="205.74" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="205.74" x2="248.92" y2="228.6" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="A" pin="DB1/RXD"/>
+<pinref part="FTDI3" gate="A" pin="DB1/RXD"/>
 <wire x1="248.92" y1="228.6" x2="233.68" y2="228.6" width="0.1524" layer="91"/>
 <label x="254" y="205.74" size="1.4224" layer="95"/>
 </segment>
 </net>
 <net name="RTS1I2" class="0">
 <segment>
-<pinref part="IC14" gate="A" pin="DB2/RTS"/>
+<pinref part="FTDI3" gate="A" pin="DB2/RTS"/>
 <wire x1="233.68" y1="226.06" x2="246.38" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="246.38" y1="226.06" x2="246.38" y2="210.82" width="0.1524" layer="91"/>
 <pinref part="IC15" gate="A" pin="DIN2"/>
@@ -13727,7 +13727,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </net>
 <net name="CTS1I2" class="0">
 <segment>
-<pinref part="IC14" gate="A" pin="DB3/CTS"/>
+<pinref part="FTDI3" gate="A" pin="DB3/CTS"/>
 <pinref part="IC15" gate="A" pin="ROUT2"/>
 <wire x1="276.86" y1="203.2" x2="243.84" y2="203.2" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="203.2" x2="243.84" y2="223.52" width="0.1524" layer="91"/>
@@ -13741,7 +13741,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="157.48" x2="251.46" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="157.48" x2="251.46" y2="175.26" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="175.26" x2="233.68" y2="175.26" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="B" pin="DB0/TXD"/>
+<pinref part="FTDI3" gate="B" pin="DB0/TXD"/>
 <label x="254" y="157.48" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -13751,7 +13751,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="149.86" x2="248.92" y2="149.86" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="149.86" x2="248.92" y2="172.72" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="172.72" x2="233.68" y2="172.72" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="B" pin="DB1/RXD"/>
+<pinref part="FTDI3" gate="B" pin="DB1/RXD"/>
 <label x="254" y="149.86" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -13761,7 +13761,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="246.38" y1="170.18" x2="246.38" y2="154.94" width="0.1524" layer="91"/>
 <pinref part="IC16" gate="A" pin="DIN2"/>
 <wire x1="246.38" y1="154.94" x2="276.86" y2="154.94" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="B" pin="DB2/RTS"/>
+<pinref part="FTDI3" gate="B" pin="DB2/RTS"/>
 <label x="254" y="154.94" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -13771,7 +13771,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="147.32" x2="243.84" y2="147.32" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="147.32" x2="243.84" y2="167.64" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="167.64" x2="233.68" y2="167.64" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="B" pin="DB3/CTS"/>
+<pinref part="FTDI3" gate="B" pin="DB3/CTS"/>
 <label x="254" y="147.32" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -13781,7 +13781,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="101.6" x2="251.46" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="101.6" x2="251.46" y2="119.38" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="119.38" x2="233.68" y2="119.38" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="C" pin="DB0/TXD"/>
+<pinref part="FTDI3" gate="C" pin="DB0/TXD"/>
 <label x="254" y="101.6" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -13791,7 +13791,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="246.38" y1="114.3" x2="246.38" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="IC17" gate="A" pin="DIN2"/>
 <wire x1="246.38" y1="99.06" x2="276.86" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="C" pin="DB2/RTS"/>
+<pinref part="FTDI3" gate="C" pin="DB2/RTS"/>
 <label x="254" y="99.06" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -13801,7 +13801,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="93.98" x2="248.92" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="93.98" x2="248.92" y2="116.84" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="116.84" x2="233.68" y2="116.84" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="C" pin="DB1/RXD"/>
+<pinref part="FTDI3" gate="C" pin="DB1/RXD"/>
 <label x="254" y="93.98" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -13811,7 +13811,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="91.44" x2="243.84" y2="91.44" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="91.44" x2="243.84" y2="111.76" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="111.76" x2="233.68" y2="111.76" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="C" pin="DB3/CTS"/>
+<pinref part="FTDI3" gate="C" pin="DB3/CTS"/>
 <label x="254" y="91.44" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -13821,7 +13821,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="45.72" x2="251.46" y2="45.72" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="45.72" x2="251.46" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="251.46" y1="63.5" x2="233.68" y2="63.5" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="D" pin="DB0/TXD"/>
+<pinref part="FTDI3" gate="D" pin="DB0/TXD"/>
 <label x="254" y="45.72" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -13831,7 +13831,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="246.38" y1="58.42" x2="246.38" y2="43.18" width="0.1524" layer="91"/>
 <pinref part="IC18" gate="A" pin="DIN2"/>
 <wire x1="246.38" y1="43.18" x2="276.86" y2="43.18" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="D" pin="DB2/RTS"/>
+<pinref part="FTDI3" gate="D" pin="DB2/RTS"/>
 <label x="254" y="43.18" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -13841,7 +13841,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="38.1" x2="248.92" y2="38.1" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="38.1" x2="248.92" y2="60.96" width="0.1524" layer="91"/>
 <wire x1="248.92" y1="60.96" x2="233.68" y2="60.96" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="D" pin="DB1/RXD"/>
+<pinref part="FTDI3" gate="D" pin="DB1/RXD"/>
 <label x="254" y="38.1" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -13851,7 +13851,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="276.86" y1="35.56" x2="243.84" y2="35.56" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="35.56" x2="243.84" y2="55.88" width="0.1524" layer="91"/>
 <wire x1="243.84" y1="55.88" x2="233.68" y2="55.88" width="0.1524" layer="91"/>
-<pinref part="IC14" gate="D" pin="DB3/CTS"/>
+<pinref part="FTDI3" gate="D" pin="DB3/CTS"/>
 <label x="254" y="35.56" size="1.4224" layer="95"/>
 </segment>
 </net>
@@ -14020,7 +14020,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="60.96" y1="101.6" x2="63.5" y2="104.14" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="104.14" x2="86.36" y2="104.14" width="0.1524" layer="91"/>
 <label x="63.5" y="104.14" size="1.778" layer="95"/>
-<pinref part="IC14" gate="CORE" pin="USBDM"/>
+<pinref part="FTDI3" gate="CORE" pin="USBDM"/>
 </segment>
 </net>
 <net name="D4_P" class="1">
@@ -14028,14 +14028,14 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="60.96" y1="99.06" x2="63.5" y2="101.6" width="0.1524" layer="91"/>
 <wire x1="63.5" y1="101.6" x2="86.36" y2="101.6" width="0.1524" layer="91"/>
 <label x="63.5" y="101.6" size="1.778" layer="95"/>
-<pinref part="IC14" gate="CORE" pin="USBDP"/>
+<pinref part="FTDI3" gate="CORE" pin="USBDP"/>
 </segment>
 </net>
 <net name="12MHZ" class="0">
 <segment>
 <wire x1="142.24" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 <label x="149.86" y="91.44" size="1.778" layer="95" xref="yes"/>
-<pinref part="IC14" gate="CORE" pin="XTIN"/>
+<pinref part="FTDI3" gate="CORE" pin="XTIN"/>
 </segment>
 </net>
 </nets>

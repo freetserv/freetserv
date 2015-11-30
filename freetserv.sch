@@ -9320,8 +9320,8 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </part>
 <part name="GND3" library="supply1" deviceset="GND" device=""/>
 <part name="GND139" library="supply1" deviceset="GND" device=""/>
-<part name="QG1" library="crystal" deviceset="XO-" device="XO53" value="FOX924B-12.000">
-<attribute name="PARTNO" value="631-1068-1-ND"/>
+<part name="QG1" library="crystal" deviceset="XO-" device="XO53" value="ASFL1-12.000">
+<attribute name="PARTNO" value="535-9253-1-ND"/>
 </part>
 <part name="P+11" library="supply1" deviceset="+3V3" device=""/>
 <part name="C47" library="resistor" deviceset="C-EU" device="C0805" value="0.1uF">

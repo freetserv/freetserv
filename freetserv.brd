@@ -161,7 +161,7 @@
 <text x="19.304" y="77.47" size="1.778" layer="21">GND</text>
 <text x="19.431" y="79.883" size="1.778" layer="21">5V</text>
 <text x="54.229" y="77.724" size="1.778" layer="21">freetserv.github.io</text>
-<text x="54.229" y="74.803" size="1.778" layer="21">version 1.0</text>
+<text x="54.229" y="74.803" size="1.778" layer="21">version 1.1</text>
 </plain>
 <libraries>
 <library name="resistor">

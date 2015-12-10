@@ -1,0 +1,11 @@
+[Unit]
+Description=watchdog-led-blinker
+
+[Service]
+Restart=always
+RestartSec=5
+StartLimitInterval=0
+ExecStart=/usr/local/bin/watchdog.sh
+
+[Install]
+WantedBy=multi-user.target

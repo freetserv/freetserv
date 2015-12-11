@@ -1,0 +1,5 @@
+#!/bin/sh
+set -e
+mount -o remount,rw /
+adduser --disabled-password --gecos '' "$@"
+mount -o remount,ro /

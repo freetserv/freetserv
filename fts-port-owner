@@ -1,0 +1,29 @@
+#!/bin/sh
+# vim:ts=2:sw=2:et
+# syntax: fts-port-owner <port> <unix user>
+# where <port> is between 1 and 48
+
+PORT=$1
+NEWUSER=$2
+
+if [ ! -e /dev/freetserv/port${PORT} ]
+then
+  echo "Port \"${PORT}\" not found (looked for /dev/freetserv/port${PORT})." >/dev/stderr
+  exit 1
+fi
+
+if ! getent passwd "${NEWUSER}" >/dev/null 2>&1
+then
+  echo "User \"${NEWUSER}\" not found (using getent passwd \"${NEWUSER}\"" >/dev/stderr
+  exit 1
+fi
+
+OLDUSER=$(sed -n "s/.*\"freetserv\/port${PORT}\".*OWNER=\"\([^\"]*\)\"$/\1/p" /etc/udev/rules.d/freetserv.rules)
+
+mount -o remount,rw /
+sed -i "s/\(.*\"freetserv\/port${PORT}\".*OWNER=\"\)[^\"]*/\1${NEWUSER}/" /etc/udev/rules.d/freetserv.rules
+mount -o remount,ro /
+
+udevadm test $(udevadm info -q path /dev/freetserv/port${PORT}) >/dev/null 2>&1
+
+echo "Changed owner for port ${PORT} from ${OLDUSER} to ${NEWUSER}"

@@ -1,2 +1,4 @@
 *.b#?
 *.s#?
+.*.lck
+case_schaeffer_ag/*.bak

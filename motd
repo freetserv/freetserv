@@ -10,7 +10,7 @@ fts-port-owner 1 ${NEWUSER} # Configure a serial port (range 1-48)
                             # (by default, ports are owned by “nobody”)
 
 Then, configure an SSH public key for the user to log in:
-install -d -m 700 -o ${NEWUSER} -g users ~${NEWUSER}/.ssh
-install -m 600 -o ${NEWUSER} -g users /dev/stdin ~${NEWUSER}/.ssh/authorized_keys
+install -d -m 700 -o ${NEWUSER} -g users /home/${NEWUSER}/.ssh
+install -m 600 -o ${NEWUSER} -g users /dev/stdin /home/${NEWUSER}/.ssh/authorized_keys
 <copy&paste public key, terminate using Ctrl-D>
 

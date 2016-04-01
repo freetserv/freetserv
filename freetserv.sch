@@ -8696,6 +8696,124 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 </deviceset>
 </devicesets>
 </library>
+<library name="con-molex">
+<description>&lt;b&gt;Molex Connectors&lt;/b&gt;&lt;p&gt;
+&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
+<packages>
+<package name="0446200001">
+<description>&lt;b&gt;RJ-45 MODULAR JACK ASSEMBLY WITH RJ-11 KEEPOUT FEATURE&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/73207.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<hole x="6.35" y="0" drill="3.2512"/>
+<hole x="-6.35" y="0" drill="3.2512"/>
+<pad name="8" x="3.556" y="2.54" drill="0.889" diameter="1.4224"/>
+<pad name="7" x="2.54" y="4.318" drill="0.889" diameter="1.4224"/>
+<pad name="6" x="1.524" y="2.54" drill="0.889" diameter="1.4224"/>
+<pad name="5" x="0.508" y="4.318" drill="0.889" diameter="1.4224"/>
+<pad name="4" x="-0.508" y="2.54" drill="0.889" diameter="1.4224"/>
+<pad name="3" x="-1.524" y="4.318" drill="0.889" diameter="1.4224"/>
+<pad name="2" x="-2.54" y="2.54" drill="0.889" diameter="1.4224"/>
+<pad name="1" x="-3.556" y="4.318" drill="0.889" diameter="1.4224"/>
+<wire x1="-7.775" y1="-4.975" x2="7.775" y2="-4.975" width="0.2032" layer="21"/>
+<wire x1="-7.775" y1="-4.975" x2="-7.775" y2="10.011" width="0.2032" layer="21"/>
+<wire x1="7.775" y1="-4.975" x2="7.775" y2="10.011" width="0.2032" layer="21"/>
+<wire x1="-7.775" y1="10.011" x2="7.775" y2="10.011" width="0.2032" layer="21"/>
+<text x="-7.62" y="10.795" size="1.27" layer="25">&gt;NAME</text>
+<text x="-6.35" y="7.62" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+</packages>
+<symbols>
+<symbol name="JACK8">
+<wire x1="1.524" y1="10.668" x2="0" y2="10.668" width="0.254" layer="94"/>
+<wire x1="0" y1="10.668" x2="0" y2="9.652" width="0.254" layer="94"/>
+<wire x1="0" y1="9.652" x2="1.524" y2="9.652" width="0.254" layer="94"/>
+<wire x1="1.524" y1="8.128" x2="0" y2="8.128" width="0.254" layer="94"/>
+<wire x1="0" y1="8.128" x2="0" y2="7.112" width="0.254" layer="94"/>
+<wire x1="0" y1="7.112" x2="1.524" y2="7.112" width="0.254" layer="94"/>
+<wire x1="1.524" y1="5.588" x2="0" y2="5.588" width="0.254" layer="94"/>
+<wire x1="0" y1="5.588" x2="0" y2="4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="4.572" x2="1.524" y2="4.572" width="0.254" layer="94"/>
+<wire x1="1.524" y1="3.048" x2="0" y2="3.048" width="0.254" layer="94"/>
+<wire x1="0" y1="3.048" x2="0" y2="2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="2.032" x2="1.524" y2="2.032" width="0.254" layer="94"/>
+<wire x1="1.524" y1="0.508" x2="0" y2="0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="0.508" x2="0" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="0" y1="-0.508" x2="1.524" y2="-0.508" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-2.032" x2="0" y2="-2.032" width="0.254" layer="94"/>
+<wire x1="0" y1="-2.032" x2="0" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="0" y1="-3.048" x2="1.524" y2="-3.048" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-4.572" x2="0" y2="-4.572" width="0.254" layer="94"/>
+<wire x1="0" y1="-4.572" x2="0" y2="-5.588" width="0.254" layer="94"/>
+<wire x1="0" y1="-5.588" x2="1.524" y2="-5.588" width="0.254" layer="94"/>
+<wire x1="1.524" y1="-7.112" x2="0" y2="-7.112" width="0.254" layer="94"/>
+<wire x1="0" y1="-7.112" x2="0" y2="-8.128" width="0.254" layer="94"/>
+<wire x1="0" y1="-8.128" x2="1.524" y2="-8.128" width="0.254" layer="94"/>
+<wire x1="4.826" y1="4.064" x2="4.826" y2="3.048" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="3.048" x2="4.826" y2="2.54" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="2.54" x2="4.826" y2="2.032" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="2.032" x2="4.826" y2="1.524" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="1.524" x2="4.826" y2="1.016" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="1.016" x2="4.826" y2="0.508" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="0.508" x2="4.826" y2="0" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="0" x2="4.826" y2="-0.508" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="-0.508" x2="4.826" y2="-1.524" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="-1.524" x2="7.366" y2="-1.524" width="0.1998" layer="94"/>
+<wire x1="7.366" y1="-1.524" x2="7.366" y2="-0.254" width="0.1998" layer="94"/>
+<wire x1="7.366" y1="-0.254" x2="8.89" y2="-0.254" width="0.1998" layer="94"/>
+<wire x1="8.89" y1="-0.254" x2="8.89" y2="2.794" width="0.1998" layer="94"/>
+<wire x1="8.89" y1="2.794" x2="7.366" y2="2.794" width="0.1998" layer="94"/>
+<wire x1="7.366" y1="2.794" x2="7.366" y2="4.064" width="0.1998" layer="94"/>
+<wire x1="7.366" y1="4.064" x2="4.826" y2="4.064" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="3.048" x2="5.588" y2="3.048" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="2.54" x2="5.588" y2="2.54" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="2.032" x2="5.588" y2="2.032" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="1.524" x2="5.588" y2="1.524" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="1.016" x2="5.588" y2="1.016" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="0.508" x2="5.588" y2="0.508" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="0" x2="5.588" y2="0" width="0.1998" layer="94"/>
+<wire x1="4.826" y1="-0.508" x2="5.588" y2="-0.508" width="0.1998" layer="94"/>
+<text x="3.81" y="10.668" size="1.778" layer="95">&gt;NAME</text>
+<text x="3.81" y="-10.922" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-2.54" y="10.16" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="-2.54" y="7.62" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="3" x="-2.54" y="5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="4" x="-2.54" y="2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="5" x="-2.54" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="6" x="-2.54" y="-2.54" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="7" x="-2.54" y="-5.08" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="8" x="-2.54" y="-7.62" visible="pad" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="0446200001" prefix="X">
+<description>&lt;b&gt;RJ-45 MODULAR JACK ASSEMBLY WITH RJ-11 KEEPOUT FEATURE&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="http://www.farnell.com/datasheets/73207.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<gates>
+<gate name="P" symbol="JACK8" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0446200001">
+<connects>
+<connect gate="P" pin="1" pad="8"/>
+<connect gate="P" pin="2" pad="7"/>
+<connect gate="P" pin="3" pad="6"/>
+<connect gate="P" pin="4" pad="5"/>
+<connect gate="P" pin="5" pad="4"/>
+<connect gate="P" pin="6" pad="3"/>
+<connect gate="P" pin="7" pad="2"/>
+<connect gate="P" pin="8" pad="1"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MF" value="" constant="no"/>
+<attribute name="MPN" value="" constant="no"/>
+<attribute name="OC_FARNELL" value="unknown" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -9354,6 +9472,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <part name="R8" library="resistor" deviceset="R-EU_" device="R0805" value="27">
 <attribute name="PARTNO" value="311-27ARCT-ND"/>
 </part>
+<part name="X1" library="con-molex" deviceset="0446200001" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -13125,6 +13244,7 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <instance part="U$1" gate="G$10" x="368.3" y="106.68"/>
 <instance part="U$1" gate="G$11" x="368.3" y="162.56"/>
 <instance part="U$1" gate="G$12" x="368.3" y="218.44"/>
+<instance part="X1" gate="P" x="193.04" y="223.52" rot="R180"/>
 </instances>
 <busses>
 <bus name="USB4:D4_N,D4_P,!OVRCUR4,!PWRON4">
@@ -13864,6 +13984,11 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="363.22" y1="226.06" x2="342.9" y2="226.06" width="0.1524" layer="91"/>
 <pinref part="U$1" gate="G$12" pin="1"/>
 </segment>
+<segment>
+<pinref part="X1" gate="P" pin="8"/>
+<wire x1="195.58" y1="231.14" x2="198.12" y2="231.14" width="0.1524" layer="91"/>
+<label x="198.12" y="231.14" size="1.27" layer="95"/>
+</segment>
 </net>
 <net name="TXD1E2" class="0">
 <segment>
@@ -13874,6 +13999,11 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <label x="358.14" y="220.98" size="1.4224" layer="95" rot="MR0"/>
 <pinref part="U$1" gate="G$12" pin="3"/>
 </segment>
+<segment>
+<pinref part="X1" gate="P" pin="6"/>
+<wire x1="195.58" y1="226.06" x2="198.12" y2="226.06" width="0.1524" layer="91"/>
+<label x="198.12" y="226.06" size="1.27" layer="95"/>
+</segment>
 </net>
 <net name="RXD1E2" class="0">
 <segment>
@@ -13883,6 +14013,11 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="347.98" y1="213.36" x2="363.22" y2="213.36" width="0.1524" layer="91"/>
 <label x="358.14" y="213.36" size="1.4224" layer="95" rot="MR0"/>
 <pinref part="U$1" gate="G$12" pin="6"/>
+</segment>
+<segment>
+<pinref part="X1" gate="P" pin="3"/>
+<wire x1="195.58" y1="218.44" x2="198.12" y2="218.44" width="0.1524" layer="91"/>
+<label x="198.12" y="218.44" size="1.27" layer="95"/>
 </segment>
 </net>
 <net name="CTS1E2" class="0">
@@ -14036,6 +14171,18 @@ Created 2014-05-29, Karrer Zheng&lt;br&gt;
 <wire x1="142.24" y1="91.44" x2="149.86" y2="91.44" width="0.1524" layer="91"/>
 <label x="149.86" y="91.44" size="1.778" layer="95" xref="yes"/>
 <pinref part="FTDI3" gate="CORE" pin="XTIN"/>
+</segment>
+</net>
+<net name="ETXN" class="0">
+<segment>
+<pinref part="U$1" gate="G$12" pin="2"/>
+<wire x1="363.22" y1="223.52" x2="358.14" y2="223.52" width="0.1524" layer="91"/>
+<label x="353.06" y="223.52" size="1.27" layer="95"/>
+</segment>
+<segment>
+<pinref part="X1" gate="P" pin="7"/>
+<wire x1="195.58" y1="228.6" x2="198.12" y2="228.6" width="0.1524" layer="91"/>
+<label x="198.12" y="228.6" size="1.27" layer="95"/>
 </segment>
 </net>
 </nets>
